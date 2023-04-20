@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ECAP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FloorKW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">grond,Verdieping</Value>
+    </Setting>
+    <Setting Name="SectionKW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">doorsnede</Value>
+    </Setting>
+    <Setting Name="ElevationKW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gevel</Value>
+    </Setting>
+    <Setting Name="catchEcapPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\</Value>
+    </Setting>
+    <Setting Name="LevelLayername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MAATVOERING</Value>
+    </Setting>
+    <Setting Name="WallKW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUITENWAND</Value>
+    </Setting>
+    <Setting Name="catchIcapPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

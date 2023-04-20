@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Cap Info</Name>
+		<Assembly>ICAP.dll</Assembly>
+		<AddInId>014DE8A4-6344-499F-A6D2-B9D096BF4901</AddInId>
+		<FullClassName>ICAP.Startup</FullClassName>
+		<VendorId>Cap info</VendorId>
+		<VendorDescription>Visit : www.capinfo.com</VendorDescription>
+		<Text>Import CAP</Text>
+		<Description>Description for Importcap Tool</Description>
+	</AddIn>
+</RevitAddIns>

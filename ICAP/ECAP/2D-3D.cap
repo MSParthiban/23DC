@@ -1,0 +1,1812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Export>
+    <CAP>
+        <Wall>
+            <StartPoint>(6.561558482, -2.540468903, 0.000000000)</StartPoint>
+            <EndPoint>(6.561558482, 56.620182516, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.596151845, 6.876088028, 0.000000000)</StartPoint>
+            <EndPoint>(61.596151845, 10.992055982, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.032030923, 55.964014537, 0.000000000)</StartPoint>
+            <EndPoint>(24.032030923, 61.107965623, 0.000000000)</EndPoint>
+            <Height>12.4671916010499</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.561558482, -2.540468903, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, -2.540468903, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.672450871, -3.032594887, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, 12.963048540, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+       
+        <Wall>
+            <StartPoint>(43.204074241, 6.876088028, 0.000000000)</StartPoint>
+            <EndPoint>(61.596151845, 6.876088028, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(43.204074241, 6.876088028, 0.000000000)</StartPoint>
+            <EndPoint>(43.204074241, 15.668738946, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.596151845, 12.632475929, 0.000000000)</StartPoint>
+            <EndPoint>(61.596151845, 55.039972113, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.032030923, 61.107965623, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, 61.107965623, 0.000000000)</EndPoint>
+            <Height>16.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.672450871, 61.107965623, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, 54.711888124, 0.000000000)</EndPoint>
+            <Height>16.0000000000000</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+		
+        <Wall>
+            <StartPoint>(25.549419375, 13.742248015, 0.000000000)</StartPoint>
+            <EndPoint>(25.549419375, 15.914206356, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.738188976377953</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(35.468799088, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(37.640757428, 13.742248015, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.738188976377953</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(37.640757428, 13.742248015, 0.000000000)</StartPoint>
+            <EndPoint>(43.204074241, 13.742248015, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.738188976377953</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.025559697, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(27.025559697, 13.742248015, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.738188976377953</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.025559697, 13.742248015, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 13.742248015, 0.000000000)</EndPoint>
+            <Height>18.0000000000000</Height>
+            <Width>0.738188976377953</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+		
+            <StartPoint>(6.889642472, 80.416173571, 0.000000000)</StartPoint>
+            <EndPoint>(61.269563732, 80.416173571, 0.000000000)</EndPoint>
+            <Height>0.984251968504116</Height>
+            <Width>0.0656167979002624</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+		<Wall>
+            <StartPoint>(10.660290039, 61.189986620, 0.000000000)</StartPoint>
+            <EndPoint>(6.479537485, 61.189986620, 0.000000000)</EndPoint>
+            <Height>16.0000000000000</Height>
+            <Width>0.820209973753281</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.549419375, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(44.024284214, 15.914206356, 0.000000000)</EndPoint>
+            <Height>16.0000000000000</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(51.836763912, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(51.836763912, 24.609027660, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.660290039, 61.189986620, 0.000000000)</StartPoint>
+            <EndPoint>(10.660290039, 56.292098526, 0.000000000)</EndPoint>
+            <Height>12.9593175853018</Height>
+            <Width>0.820209973753281</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(59.654496609, 61.231188514, 0.000000000)</StartPoint>
+            <EndPoint>(58.479353945, 57.652730256, 0.000000000)</EndPoint>
+            <Height>28.0000000000000</Height>
+            <Width>0.820209973753281</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(59.654496609, 61.231188514, 0.000000000)</StartPoint>
+            <EndPoint>(61.678172843, 61.231188514, 0.000000000)</EndPoint>
+            <Height>28.0000000000000</Height>
+            <Width>0.820209973753281</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.660290039, 56.292098526, 0.000000000)</StartPoint>
+            <EndPoint>(6.479537485, 56.292098526, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.760538605, 26.823188720, 0.000000000)</StartPoint>
+            <EndPoint>(20.629961177, 26.823188720, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.709852445, 31.671410704, 0.000000000)</StartPoint>
+            <EndPoint>(9.760538605, 31.671410704, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.760538605, 31.671410704, 0.000000000)</StartPoint>
+            <EndPoint>(9.760538605, 26.823188720, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 21.974966735, 0.000000000)</StartPoint>
+            <EndPoint>(9.760538605, 21.974966735, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.760538605, 21.974966735, 0.000000000)</StartPoint>
+            <EndPoint>(9.760538605, 26.823188720, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(58.479353945, 57.652730256, 0.000000000)</StartPoint>
+            <EndPoint>(58.479353945, 55.039972113, 0.000000000)</EndPoint>
+            <Height>28.0000000000000</Height>
+            <Width>0.820209973753281</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 16.242290345, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 21.974107355, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(20.629961177, 26.823188720, 0.000000000)</StartPoint>
+            <EndPoint>(20.629961177, 21.974107355, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(20.629961177, 21.974107355, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 21.974107355, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(20.629961177, 26.823188720, 0.000000000)</StartPoint>
+            <EndPoint>(20.629961177, 31.672270084, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 29.448266505, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 51.823594589, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(20.629961177, 31.672270084, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 31.672270084, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(56.267337575, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(56.267337575, 24.609027660, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.678172843, 55.039972113, 0.000000000)</StartPoint>
+            <EndPoint>(58.479353945, 55.039972113, 0.000000000)</EndPoint>
+            <Height>28.0000000000000</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(56.267337575, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 15.914206356, 0.000000000)</EndPoint>
+            <Height>11.3188976377953</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(51.836763912, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(56.267337575, 15.914206356, 0.000000000)</EndPoint>
+            <Height>11.3188976377953</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(50.099358573, 7.696298001, 0.000000000)</StartPoint>
+            <EndPoint>(50.099358573, 15.586122366, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.328083989501312</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+         
+        <Wall>
+            <StartPoint>(7.381768456, 51.239199218, 0.000000000)</StartPoint>
+            <EndPoint>(7.381768456, 32.983746662, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 30.359074746, 0.000000000)</StartPoint>
+            <EndPoint>(7.381768456, 18.210794282, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 15.586122366, 0.000000000)</StartPoint>
+            <EndPoint>(7.381768456, -0.079838981, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.709852445, -1.720258929, 0.000000000)</StartPoint>
+            <EndPoint>(24.524156907, -1.720258929, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, -0.079838981, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 0.717593068, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 12.963048540, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 15.586122366, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 52.938703811, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 32.323057785, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 53.922955780, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 55.039972113, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 22.968607713, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 12.632475929, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 31.338805817, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 29.530287503, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 25.265195639, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 24.937111650, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(44.024284214, 15.586122366, 0.000000000)</StartPoint>
+            <EndPoint>(44.024284214, 9.336717949, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 10.992055982, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 8.024381991, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(44.352368204, 7.696298001, 0.000000000)</StartPoint>
+            <EndPoint>(59.135521924, 7.696298001, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 12.632475929, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 10.992055982, 0.000000000)</EndPoint>
+            <Height>1.4763779527559</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 12.632475929, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 10.992055982, 0.000000000)</EndPoint>
+            <Height>0.328083989501312</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+             
+        <Wall>
+            <StartPoint>(6.889642472, 80.416173571, 0.000000000)</StartPoint>
+            <EndPoint>(61.269563732, 80.416173571, 0.000000000)</EndPoint>
+            <Height>0.984251968504116</Height>
+            <Width>0.0656167979002624</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(12.262017800, 76.404956665, 0.000000000)</StartPoint>
+            <EndPoint>(55.895692528, 76.404956665, 0.000000000)</EndPoint>
+            <Height>3.93700787401575</Height>
+            <Width>0.246062992125984</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(12.262017800, 66.152331994, 0.000000000)</StartPoint>
+            <EndPoint>(55.895692528, 66.152331994, 0.000000000)</EndPoint>
+            <Height>3.93700787401575</Height>
+            <Width>0.246062992125984</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(12.056965306, 76.199904172, 0.000000000)</StartPoint>
+            <EndPoint>(12.056965306, 66.357384487, 0.000000000)</EndPoint>
+            <Height>3.93700787401575</Height>
+            <Width>0.246062992125984</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(56.100745021, 76.199904172, 0.000000000)</StartPoint>
+            <EndPoint>(56.100745021, 66.357384487, 0.000000000)</EndPoint>
+            <Height>3.93700787401575</Height>
+            <Width>0.246062992125984</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall>
+              
+        <Wall>
+		
+		    <StartPoint>(60.775941872, 25.265195639, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 29.530287503, 0.000000000)</EndPoint>
+            <Height>4.47944281223773</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Ground</WLevel>
+        </Wall> 
+		
+		<Wall>
+            <StartPoint>(6.479537485, 56.292098526, 0.000000000)</StartPoint>
+            <EndPoint>(6.479537485, 80.710391704, 0.000000000)</EndPoint>
+            <Height>11.00656167979</Height>
+            <Width>0.820209973753281</Width>
+            <WLevel>Ground</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.678172843, 55.039972113, 0.000000000)</StartPoint>
+            <EndPoint>(61.678172843, 80.710391704, 0.000000000)</EndPoint>
+            <Height>11.0065616797892</Height>
+            <Width>0.820209973753281</Width>
+           <WLevel>Ground</WLevel>
+        </Wall>
+		
+		
+		
+		
+		<Wall>
+            <StartPoint>(25.426387879, 12.991096562, 0.000000000)</StartPoint>
+            <EndPoint>(25.426387879, 0.687946956, 0.000000000)</EndPoint>
+            <Height>12.9593175853018</Height>
+            <Width>0.0820209973753281</Width>
+            <WLevel>Ground</WLevel>
+        </Wall>
+        <!-- <Wall> -->
+            <!-- <StartPoint>(61.268067856, 10.992055982, 0.000000000)</StartPoint> -->
+            <!-- <EndPoint>(61.268067856, 12.632475929, 0.000000000)</EndPoint> -->
+            <!-- <Height>9.84251968503937</Height> -->
+            <!-- <Width>0.0820209973753281</Width> -->
+            <!-- <WLevel>Ground</WLevel> -->
+        <!-- </Wall> -->
+        <Wall>
+            <StartPoint>(23.539904939, 56.210077529, 0.000000000)</StartPoint>
+            <EndPoint>(11.070395026, 56.210077529, 0.000000000)</EndPoint>
+            <Height>12.8267716535433</Height>
+            <Width>0.0820209973753281</Width>
+            <WLevel>Ground</WLevel>
+        </Wall>
+		
+		<Wall>
+            <StartPoint>(26.123566356, 61.559081108, 0.000000000)</StartPoint>
+            <EndPoint>(6.889642472, 61.559081108, 0.000000000)</EndPoint>
+            <Height>2.46062992125984</Height>
+            <Width>0.0810209973753281</Width>
+            <WLevel>Ground</WLevel>
+        </Wall>
+        	
+						
+		
+        <Wall>
+            <StartPoint>(61.596151845, 12.632475929, 13.615485564)</StartPoint>
+            <EndPoint>(61.596151845, 10.992055982, 13.615485564)</EndPoint>
+            <Height>4.42913385826771</Height>
+            <Width>0.984251968503937</Width>
+            <WLevel>Ground</WLevel>
+        </Wall>
+		<Wall>
+            <StartPoint>(26.164576855, 54.957951116, 0.000000000)</StartPoint>
+            <EndPoint>(58.151269956, 54.957951116, 0.000000000)</EndPoint>
+            <Height>27.2939632545932</Height>
+            <Width>0.0820209973753281</Width>
+            <WLevel>Ground</WLevel>
+        </Wall>
+		
+		<Wall>
+            <StartPoint>(61.268067856, 10.992055982, 0.000000000)</StartPoint>
+            <EndPoint>(61.268067856, 12.632475929, 0.000000000)</EndPoint>
+            <Height>11.84251968503937</Height>
+            <Width>0.0820209973753281</Width>
+            <WLevel>Ground</WLevel>
+        </Wall>
+		
+		
+		
+		<Wall>
+            <StartPoint>(28.789129956, 15.668143364, 13.615485564)</StartPoint>
+            <EndPoint>(34.694641767, 15.668143364, 13.615485564)</EndPoint>
+            <Height>8.28412073490814</Height>
+            <Width>0.0820209973753281</Width>
+            <WLevel>Level 1</WLevel>
+        </Wall>
+		<Wall>
+            <StartPoint>(6.561558482, 15.093996382, 13.615485564)</StartPoint>
+            <EndPoint>(52.026852011, 15.093996382, 13.615485564)</EndPoint>
+            <Height>15.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            <WLevel>Level 1</WLevel>
+        </Wall>
+		
+		<Wall>
+            <StartPoint>(7.381768456, 20.507977791, 13.615485564)</StartPoint>
+            <EndPoint>(9.760538605, 20.507977791, 13.615485564)</EndPoint>
+            <Height>11.1548556430446</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.760538605, 20.507977791, 13.615485564)</StartPoint>
+            <EndPoint>(9.760538605, 15.914206356, 13.615485564)</EndPoint>
+            <Height>9.51443569553806</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 16.242290345, 13.615485564)</StartPoint>
+            <EndPoint>(24.852240897, 24.436066823, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.611077441, 55.054626303, 13.615485564)</StartPoint>
+            <EndPoint>(7.709852445, 55.054626303, 13.615485564)</EndPoint>
+            <Height>11.1548556430446</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 24.436066823, 13.615485564)</StartPoint>
+            <EndPoint>(24.852240897, 30.359074746, 13.615485564)</EndPoint>
+            <Height>10.0065616797899</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 51.239199218, 13.615485564)</StartPoint>
+            <EndPoint>(7.381768456, 32.983746662, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 30.359074746, 13.615485564)</StartPoint>
+            <EndPoint>(7.381768456, 18.210794282, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.709852445, 15.914206356, 13.615485564)</StartPoint>
+            <EndPoint>(24.443190594, 15.914206356, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.067862510, 15.914206356, 13.615485564)</StartPoint>
+            <EndPoint>(28.624969146, 15.914206356, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(34.858802577, 15.914206356, 13.615485564)</StartPoint>
+            <EndPoint>(44.516410199, 15.914206356, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(50.689909754, 24.196313640, 13.615485564)</StartPoint>
+            <EndPoint>(60.775941872, 24.196313640, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 24.196313640, 13.615485564)</StartPoint>
+            <EndPoint>(60.775941872, 31.338805817, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 32.323057785, 13.615485564)</StartPoint>
+            <EndPoint>(60.775941872, 52.938703811, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.790867467, 55.833704618, 13.615485564)</StartPoint>
+            <EndPoint>(7.709852445, 55.833704618, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.790867467, 55.054626303, 13.615485564)</StartPoint>
+            <EndPoint>(9.790867467, 56.161788607, 13.615485564)</EndPoint>
+            <Height>11.1548556430446</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 53.922955780, 13.615485564)</StartPoint>
+            <EndPoint>(60.775941872, 55.039972113, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <!-- <Wall> -->
+            <!-- <StartPoint>(28.132843162, 15.093996382, 13.615485564)</StartPoint> -->
+            <!-- <EndPoint>(35.383736960, 15.093996382, 13.615485564)</EndPoint> -->
+            <!-- <Height>15.8943569553806</Height> -->
+            <!-- <Width>0.984251968503937</Width> -->
+            
+			<!-- <WLevel>Level 1</WLevel> -->
+        <!-- </Wall> -->
+		<Wall>
+            <StartPoint>(61.596151845, 23.376103666, 13.615485564)</StartPoint>
+            <EndPoint>(61.596151845, 55.039972113, 13.615485564)</EndPoint>
+            <Height>15.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.561558482, 56.653914592, 13.615485564)</StartPoint>
+            <EndPoint>(10.611077441, 56.653914592, 13.615485564)</EndPoint>
+            <Height>15.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.611077441, 56.653914592, 13.615485564)</StartPoint>
+            <EndPoint>(10.611077441, 55.054626303, 13.615485564)</EndPoint>
+            <Height>12.3346456692913</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(40.180586686, 61.149167517, 13.615485564)</StartPoint>
+            <EndPoint>(32.061386236, 58.194020227, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.678172843, 61.149167517, 13.615485564)</StartPoint>
+            <EndPoint>(40.180586686, 61.149167517, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <!-- <Wall> -->
+            <!-- <StartPoint>(6.561558482, 15.093996382, 13.615485564)</StartPoint> -->
+            <!-- <EndPoint>(28.132843162, 15.093996382, 13.615485564)</EndPoint> -->
+            <!-- <Height>15.8943569553806</Height> -->
+            <!-- <Width>0.984251968503937</Width> -->
+            
+			<!-- <WLevel>Level 1</WLevel> -->
+        <!-- </Wall> -->
+        <!-- <Wall> -->
+            <!-- <StartPoint>(35.383736960, 15.093996382, 13.615485564)</StartPoint> -->
+            <!-- <EndPoint>(51.575736525, 15.093996382, 13.615485564)</EndPoint> -->
+            <!-- <Height>15.8943569553806</Height> -->
+            <!-- <Width>0.984251968503937</Width> -->
+            
+			<!-- <WLevel>Level 1</WLevel> -->
+        <!-- </Wall> -->
+        <Wall>
+            <StartPoint>(6.561558482, 15.093996382, 13.615485564)</StartPoint>
+            <EndPoint>(6.561558482, 56.653914592, 13.615485564)</EndPoint>
+            <Height>15.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.672450871, 51.239199218, 13.615485564)</StartPoint>
+            <EndPoint>(25.672450871, 53.706252318, 13.615485564)</EndPoint>
+            <Height>10.8267716535433</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.611077441, 56.653914592, 13.615485564)</StartPoint>
+            <EndPoint>(24.549431086, 56.653914592, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.596151845, 23.376103666, 13.615485564)</StartPoint>
+            <EndPoint>(51.508679923, 23.376103666, 13.615485564)</EndPoint>
+            <Height>15.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.678172843, 55.039972113, 13.615485564)</StartPoint>
+            <EndPoint>(61.678172843, 61.149167517, 13.615485564)</EndPoint>
+            <Height>22.8943569553806</Height>
+            <Width>0.820209973753281</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(32.061386236, 58.194020227, 13.615485564)</StartPoint>
+            <EndPoint>(27.911542792, 54.711888124, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.549431086, 56.653914592, 13.615485564)</StartPoint>
+            <EndPoint>(25.626550024, 54.711888124, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.911542792, 54.711888124, 13.615485564)</StartPoint>
+            <EndPoint>(25.239321325, 54.711888124, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            
+			<WLevel>Level 1</WLevel>
+        </Wall>
+        <!-- <Wall> -->
+            <!-- <StartPoint>(28.132843162, 15.093996382, 13.615485564)</StartPoint> -->
+            <!-- <EndPoint>(35.383736960, 15.093996382, 13.615485564)</EndPoint> -->
+            <!-- <Height>15.8943569553806</Height> -->
+            <!-- <Width>0.984251968503937</Width> -->
+            
+			<!-- <WLevel>Level 1</WLevel> -->
+        <!-- </Wall> -->
+		
+		<Wall>
+            <StartPoint>(51.575736525, 15.593996382, 13.615485564)</StartPoint>
+            <EndPoint>(51.575736525, 24.196313640, 13.615485564)</EndPoint>
+            <Height>3.72375328083989</Height>
+            <Width>0.984251968503937</Width>
+            <WLevel>Level 1</WLevel>
+        </Wall>
+		
+		<Wall>
+            <StartPoint>(51.754748460, 15.938462097, 13.615485564)</StartPoint>
+            <EndPoint>(51.754748460, 22.843973908, 13.615485564)</EndPoint>
+            <Height>12.00000000000000</Height>
+            <Width>0.0820209973753281</Width>
+            <WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 32.983746662, 13.615485564)</StartPoint>
+            <EndPoint>(24.852240897, 51.239199218, 13.615485564)</EndPoint>
+            <Height>9.02230971128608</Height>
+            <Width>0.0820209973753281</Width>
+            <WLevel>Level 1</WLevel>
+        </Wall>
+		<Wall>
+            <StartPoint>(11.104362581, 54.957951116, 13.615485564)</StartPoint>
+            <EndPoint>(21.898325836, 54.957951116, 13.615485564)</EndPoint>
+            <Height>12.67847769028871</Height>
+            <Width>0.0820209973753281</Width>
+            <WLevel>Level 1</WLevel>
+        </Wall>
+		
+		
+		
+		<Wall>
+            <StartPoint>(23.641554081, 56.690496299, 13.615485564)</StartPoint>
+            <EndPoint>(25.672450871, 55.097227508, 13.615485564)</EndPoint>
+            <Height>12.00656167979</Height>
+            <Width>0.984251968503937</Width>
+             <WLevel>Level 1</WLevel>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.032030923, 56.737647456, 13.615485564)</StartPoint>
+            <EndPoint>(22.391610976, 55.097227508, 13.615485564)</EndPoint>
+            <Height>12.00656167979</Height>
+            <Width>0.984251968503937</Width>
+             <WLevel>Level 1</WLevel>
+        </Wall>
+		
+        	
+		
+		 <CWall>
+            <CStartPoint>(25.426387879, 12.991096562, 0.000000000)</CStartPoint>
+            <CEndPoint>(25.426387879, 0.687946956, 0.000000000)</CEndPoint>
+            <CHeight>12.9593175853018</CHeight>
+            <CWidth>0.0820209973753281</CWidth>
+            <CWLevel>Ground</CWLevel>
+        </CWall>
+        <CWall>
+            <CStartPoint>(23.539904939, 56.210077529, 0.000000000)</CStartPoint>
+            <CEndPoint>(11.070395026, 56.210077529, 0.000000000)</CEndPoint>
+            <CHeight>12.8267716535433</CHeight>
+            <CWidth>0.0820209973753281</CWidth>
+            <CWLevel>Ground</CWLevel>
+        </CWall>
+		
+		<CWall>
+            <CStartPoint>(26.164576855, 54.957951116, 0.000000000)</CStartPoint>
+            <CEndPoint>(58.151269956, 54.957951116, 0.000000000)</CEndPoint>
+            <CHeight>27.2939632545932</CHeight>
+            <CWidth>0.0820209973753281</CWidth>
+            <CWLevel>Ground</CWLevel>
+        </CWall>
+		
+		<CWall>
+            <CStartPoint>(61.268067856, 10.992055982, 0.000000000)</CStartPoint>
+            <CEndPoint>(61.268067856, 12.632475929, 0.000000000)</CEndPoint>
+            <CHeight>11.84251968503937</CHeight>
+            <CWidth>0.0820209973753281</CWidth>
+            <CWLevel>Ground</CWLevel>
+        </CWall>
+		
+		<CWall>
+            <CStartPoint>(51.754748460, 14.938462097, 13.615485564)</CStartPoint>
+            <CEndPoint>(51.754748460, 22.843973908, 13.615485564)</CEndPoint>
+            <CHeight>12.00000000000000</CHeight>
+            <CWidth>0.0820209973753281</CWidth>
+            <CWLevel>Level 1</CWLevel>
+        </CWall>
+        <CWall>
+            <CStartPoint>(24.852240897, 32.983746662, 13.615485564)</CStartPoint>
+            <CEndPoint>(24.852240897, 51.239199218, 13.615485564)</CEndPoint>
+            <CHeight>9.02230971128608</CHeight>
+            <CWidth>0.0820209973753281</CWidth>
+            <CWLevel>Level 1</CWLevel>
+        </CWall>
+		<CWall>
+            <CStartPoint>(11.104362581, 54.957951116, 13.615485564)</CStartPoint>
+            <CEndPoint>(21.898325836, 54.957951116, 13.615485564)</CEndPoint>
+            <CHeight>11.67847769028871</CHeight>
+            <CWidth>0.0820209973753281</CWidth>
+            <CWLevel>Level 1</CWLevel>
+        </CWall>
+		
+		
+		
+		
+		
+		
+		<CWall>
+            <CStartPoint>(28.789129956, 15.668143364, 13.615485564)</CStartPoint>
+            <CEndPoint>(34.694641767, 15.668143364, 13.615485564)</CEndPoint>
+            <CHeight>8.28412073490814</CHeight>
+            <CWidth>0.0820209973753281</CWidth>
+            <CWLevel>Level 1</CWLevel>
+        </CWall>
+		
+					
+		<Floor>
+		
+			<FStartPoint>(61.104025861, 47.779744944, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 29.530287503, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.514130848, 29.530287503, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.514130848, 25.265195639, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.104025861, 25.265195639, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 12.632475929, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.514130848, 12.632475929, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.514130848, 10.992055982, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.104025861, 10.992055982, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 7.368214012, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(43.715574417, 7.368214012, -1.148293963)</FStartPoint>
+			<FEndPoint>(43.715574417, 15.586122366, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.1000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(29.035249655, 15.586122366, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.180324886, 15.586122366, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, 10.888196742, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.590429873, 10.888196742, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.590429873, 0.717593068, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.180324886, 0.717593068, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, -2.048342918, -1.148293963)</FStartPoint>
+			<FEndPoint>(7.053684466, -2.048342918, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(7.053684466, 55.964014537, -1.148293963)</FStartPoint>
+			<FEndPoint>(23.539904939, 55.964014537, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(23.539904939, 52.798004038, -1.1482939630)</FStartPoint>
+			<FEndPoint>(25.180324886, 52.798004038, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, 55.368056103, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 55.368056103, -1.148293963)</FEndPoint>
+			<Level>Ground</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		
+		<Floor>
+		
+			<FSStartPoint>(61.268067856, 55.964014537, -1.804461942)</FSStartPoint>
+			<FSEndPoint>(26.164576855, 55.964014537, -1.804461942)</FSEndPoint>
+			<SLevel>Ground</SLevel>
+			<SFWidth>1.0000</SFWidth>
+			<SOffset>0</SOffset>
+		</Floor>
+		<Floor>
+		
+			<FSStartPoint>(26.164576855, 61.600091607, -1.804461942)</FSStartPoint>
+			<FSEndPoint>(23.539904939, 61.600091607, -1.804461942)</FSEndPoint>
+			<SLevel>Ground</SLevel>
+			<SFWidth>1.0000</SFWidth>
+			<SOffset>0</SOffset>
+		</Floor>
+		<Floor>
+		
+			<FSStartPoint>(23.539904939, 55.964014537, -1.804461942)</FSStartPoint>
+			<FSEndPoint>(6.889642472, 55.964014537, -1.804461942)</FSEndPoint>
+			<SLevel>Ground</SLevel>
+			<SFWidth>1.0000</SFWidth>
+			<SOffset>0</SOffset>
+		</Floor>
+		<Floor>
+		
+			<FSStartPoint>(6.889642472, 80.629038030, -1.804461942)</FSStartPoint>
+			<FSEndPoint>(61.268067856, 80.629038030, -1.804461942)</FSEndPoint>
+			<SLevel>Ground</SLevel>
+			<SFWidth>1.0000</SFWidth>
+			<SOffset>0</SOffset>
+		</Floor>
+		
+		
+		
+		
+		
+		
+		
+		<Floor>
+		
+			<FSStartPoint>(26.082555858, 61.518070609, 12.139107612)</FSStartPoint>
+			<FSEndPoint>(26.082555858, 55.682974591, 12.139107612)</FSEndPoint>
+			<SLevel>Level 1</SLevel>
+			<SFWidth>1.0000</SFWidth>
+			<SOffset>0</SOffset>
+		</Floor>
+		<Floor>
+		
+			<FSStartPoint>(24.032030923, 57.229773440, 12.139107612)</FSStartPoint>
+			<FSEndPoint>(21.918680093, 56.382710293, 12.139107612)</FSEndPoint>
+			<SLevel>Level 1</SLevel>
+			<SFWidth>1.0000</SFWidth>
+			<SOffset>0</SOffset>
+		</Floor>
+		<Floor>
+		
+			<FSStartPoint>(11.103203425, 56.382710293, 12.139107612)</FSStartPoint>
+			<FSEndPoint>(11.103203425, 57.146040576, 12.139107612)</FSEndPoint>
+			<SLevel>Level 1</SLevel>
+			<SFWidth>1.0000</SFWidth>
+			<SOffset>0</SOffset>
+		</Floor>
+		<Floor>
+		
+			<FSStartPoint>(6.889642472, 57.146040576, 12.139107612)</FSStartPoint>
+			<FSEndPoint>(6.889642472, 61.518070609, 12.139107612)</FSEndPoint>
+			<SLevel>Level 1</SLevel>
+			<SFWidth>1.0000</SFWidth>
+			<SOffset>0</SOffset>
+		</Floor>
+		
+		
+		
+		
+		<Floor>
+		
+			<FStartPoint>(61.104025861, 47.779744944, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 29.530287503, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.514130848, 29.530287503, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.514130848, 25.265195639, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.104025861, 25.265195639, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 12.632475929, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.514130848, 12.632475929, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.514130848, 10.992055982, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.104025861, 10.992055982, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 7.368214012, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(43.715574417, 7.368214012, -1.148293963)</FStartPoint>
+			<FEndPoint>(43.715574417, 15.586122366, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.1000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(29.035249655, 15.586122366, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.180324886, 15.586122366, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, 10.888196742, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.590429873, 10.888196742, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.590429873, 0.717593068, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.180324886, 0.717593068, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, -2.048342918, -1.148293963)</FStartPoint>
+			<FEndPoint>(7.053684466, -2.048342918, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(7.053684466, 55.964014537, -1.148293963)</FStartPoint>
+			<FEndPoint>(23.539904939, 55.964014537, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(23.539904939, 52.798004038, -1.1482939630)</FStartPoint>
+			<FEndPoint>(25.180324886, 52.798004038, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, 55.368056103, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 55.368056103, -1.148293963)</FEndPoint>
+			<Level>Level 1</Level>
+			<FWidth>1.0000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		
+			
+		<Floor>
+			<FStartPoint>(24.524156907, 47.730030077, 24.442257218)</FStartPoint>
+			<FEndPoint>(26.140365796, 47.730030077, 24.442257218)</FEndPoint>
+			<Level>Level 2</Level>
+			<FWidth>1.3000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(26.140365796, 52.384934924, 24.442257218)</FStartPoint>
+			<FEndPoint>(33.843876330, 56.978095431, 24.442257218)</FEndPoint>
+			<Level>Level 2</Level>
+			<FWidth>1.3000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(42.788601727, 60.657041532, 24.442257218)</FStartPoint>
+			<FEndPoint>(61.104025861, 60.657041532, 24.442257218)</FEndPoint>
+			<Level>Level 2</Level>
+			<FWidth>1.3000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.104025861, 23.868229650, 24.442257218)</FStartPoint>
+			<FEndPoint>(51.083610541, 23.868229650, 24.442257218)</FEndPoint>
+			<Level>Level 2</Level>
+			<FWidth>1.3000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(51.083610541, 15.586717949, 24.442257218)</FStartPoint>
+			<FEndPoint>(7.053684466, 15.586717949, 24.442257218)</FEndPoint>
+			<Level>Level 2</Level>
+			<FWidth>1.3000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(7.053684466, 55.548502297, 24.442257218)</FStartPoint>
+			<FEndPoint>(7.381849068, 55.548502297, 24.442257218)</FEndPoint>
+			<Level>Level 2</Level>
+			<FWidth>1.3000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		<Floor>
+			<FStartPoint>(24.524156907, 55.548502297, 24.442257218)</FStartPoint>
+			<FEndPoint>(24.524156907, 55.341578634, 24.442257218)</FEndPoint>
+			<Level>Level 2</Level>
+			<FWidth>1.3000</FWidth>
+			<Offset>0</Offset>
+		</Floor>
+		
+		<FilledRegion>
+            <Points>(7.709852445, -2.048342918, 0.000000000)</Points>
+            <Points>(7.709852445, -0.079838981, 0.000000000)</Points>
+            <Points>(7.053684466, -0.079838981, 0.000000000)</Points>
+            <Points>(7.053684466, -2.048342918, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(25.180324886, -0.079838981, 0.000000000)</Points>
+            <Points>(24.524156907, -0.079838981, 0.000000000)</Points>
+            <Points>(24.524156907, -2.048342918, 0.000000000)</Points>
+            <Points>(25.180324886, -2.048342918, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(7.709852445, 15.586122366, 0.000000000)</Points>
+            <Points>(7.709852445, 18.210794282, 0.000000000)</Points>
+            <Points>(7.053684466, 18.210794282, 0.000000000)</Points>
+            <Points>(7.053684466, 15.586122366, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(7.709852445, 32.983746662, 0.000000000)</Points>
+            <Points>(7.053684466, 32.983746662, 0.000000000)</Points>
+            <Points>(7.053684466, 30.359074746, 0.000000000)</Points>
+            <Points>(7.709852445, 30.359074746, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(25.180324886, 32.983746662, 0.000000000)</Points>
+            <Points>(24.524156907, 32.983746662, 0.000000000)</Points>
+            <Points>(24.524156907, 30.359074746, 0.000000000)</Points>
+            <Points>(25.180324886, 30.359074746, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(61.104025861, 32.323057785, 0.000000000)</Points>
+            <Points>(58.479353945, 32.323057785, 0.000000000)</Points>
+            <Points>(58.479353945, 31.338805817, 0.000000000)</Points>
+            <Points>(61.104025861, 31.338805817, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(27.148828823, 15.586122366, 0.000000000)</Points>
+            <Points>(27.148828823, 16.242290345, 0.000000000)</Points>
+            <Points>(24.524156907, 16.242290345, 0.000000000)</Points>
+            <Points>(24.524156907, 15.586122366, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(44.352368204, 9.336717949, 0.000000000)</Points>
+            <Points>(43.696200225, 9.336717949, 0.000000000)</Points>
+            <Points>(43.696200225, 7.368214012, 0.000000000)</Points>
+            <Points>(44.352368204, 7.368214012, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(51.570215973, 15.586122366, 0.000000000)</Points>
+            <Points>(51.570215973, 16.242290345, 0.000000000)</Points>
+            <Points>(43.696200225, 16.242290345, 0.000000000)</Points>
+            <Points>(43.696200225, 15.586122366, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(61.104025861, 8.024381991, 0.000000000)</Points>
+            <Points>(59.135521924, 8.024381991, 0.000000000)</Points>
+            <Points>(59.135521924, 7.368214012, 0.000000000)</Points>
+            <Points>(61.104025861, 7.368214012, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(56.595421565, 25.265195639, 0.000000000)</Points>
+            <Points>(50.689909754, 25.265195639, 0.000000000)</Points>
+            <Points>(50.689909754, 24.609027660, 0.000000000)</Points>
+            <Points>(56.595421565, 24.609027660, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(61.104025861, 53.922955780, 0.000000000)</Points>
+            <Points>(58.479353945, 53.922955780, 0.000000000)</Points>
+            <Points>(58.479353945, 52.938703811, 0.000000000)</Points>
+            <Points>(61.104025861, 52.938703811, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(37.140934446, 25.265195639, 0.000000000)</Points>
+            <Points>(34.516262530, 25.265195639, 0.000000000)</Points>
+            <Points>(34.516262530, 24.609027660, 0.000000000)</Points>
+            <Points>(37.140934446, 24.609027660, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(61.104025861, 24.937111650, 0.000000000)</Points>
+            <Points>(60.447857882, 24.937111650, 0.000000000)</Points>
+            <Points>(60.447857882, 22.968607713, 0.000000000)</Points>
+            <Points>(61.104025861, 22.968607713, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(6.807621474, 56.268726777, 0.000000000)</Points>
+            <Points>(6.807621474, 61.518070609, 0.000000000)</Points>
+            <Points>(6.151453495, 61.518070609, 0.000000000)</Points>
+            <Points>(6.151453495, 56.268726777, 0.000000000)</Points>
+			<Points>Ground</Points>
+        </FilledRegion>
+       
+	   
+        <FilledRegion>
+            <Points>(7.709852445, 15.586122366, 16.000000000)</Points>
+            <Points>(7.709852445, 18.210794282, 16.000000000)</Points>
+            <Points>(7.053684466, 18.210794282, 16.000000000)</Points>
+            <Points>(7.053684466, 15.586122366, 16.000000000)</Points>
+			<Points>Level 1</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(25.180324886, 32.983746662, 16.000000000)</Points>
+            <Points>(24.524156907, 32.983746662, 16.000000000)</Points>
+            <Points>(24.524156907, 30.359074746, 16.000000000)</Points>
+            <Points>(25.180324886, 30.359074746, 16.000000000)</Points>
+			<Points>Level 1</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(61.104025861, 32.323057785, 16.000000000)</Points>
+            <Points>(58.479353945, 32.323057785, 16.000000000)</Points>
+            <Points>(58.479353945, 31.338805817, 16.000000000)</Points>
+            <Points>(61.104025861, 31.338805817, 16.000000000)</Points>
+			<Points>Level 1</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(27.148828823, 15.586122366, 16.000000000)</Points>
+            <Points>(27.148828823, 16.242290345, 16.000000000)</Points>
+            <Points>(24.524156907, 16.242290345, 16.000000000)</Points>
+            <Points>(24.524156907, 15.586122366, 16.000000000)</Points>
+			<Points>Level 1</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(61.104025861, 53.922955780, 16.000000000)</Points>
+            <Points>(58.479353945, 53.922955780, 16.000000000)</Points>
+            <Points>(58.479353945, 52.938703811, 16.000000000)</Points>
+            <Points>(61.104025861, 52.938703811, 16.000000000)</Points>
+			<Points>Level 1</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(37.140934446, 25.265195639, 16.000000000)</Points>
+            <Points>(34.516262530, 25.265195639, 16.000000000)</Points>
+            <Points>(34.516262530, 24.609027660, 16.000000000)</Points>
+            <Points>(37.140934446, 24.609027660, 16.000000000)</Points>
+			<Points>Level 1</Points>
+        </FilledRegion>
+        <FilledRegion>
+            <Points>(61.104025861, 24.937111650, 16.000000000)</Points>
+            <Points>(60.447857882, 24.937111650, 16.000000000)</Points>
+            <Points>(60.447857882, 22.968607713, 16.000000000)</Points>
+            <Points>(61.104025861, 22.968607713, 16.000000000)</Points>
+			<Points>Level 1</Points>
+        </FilledRegion>
+		
+		<!-- <CircleFilledRegion>
+            <Circlepoints>(46.658853711, 288.375118525, 0.000000000)</Circlepoints>
+            <Radius>3.0</Radius>
+            <FillLevel>Ground</FillLevel>
+        </CircleFilledRegion>
+		<CircleFilledRegion>
+            <Circlepoints>(60.658853711, 300.375118525, 0.000000000)</Circlepoints>
+            <Radius>4.0</Radius>
+            <FillLevel>Ground</FillLevel>
+        </CircleFilledRegion>
+		<CircleFilledRegion>
+            <Circlepoints>(46.658853711, 288.375118525, 16.000000000)</Circlepoints>
+            <Radius>3.0</Radius>
+            <FillLevel>Level 1</FillLevel>
+        </CircleFilledRegion>
+          -->
+		
+            
+            
+			
+		<Beam>
+            <BeamStartPoint>(61.104025861, 31.830931801, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(61.104025861, 23.712046033, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>1.0000</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(61.104025861, 53.279874671, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(61.104025861, 31.830931801, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>1.0000</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.463789453, -2.048342918, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(24.360114913, -2.048342918, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        
+        <Beam>
+            <BeamStartPoint>(24.360114913, 59.539915548, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(24.360114913, 53.962487727, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <!-- <Beam> -->
+            <!-- <BeamStartPoint>(24.443190594, 15.586122366, 13.287401575)</BeamStartPoint> -->
+            <!-- <BeamEndPoint>(43.696200225, 15.586122366, 13.287401575)</BeamEndPoint> -->
+			<!-- <BeamLevel>Ground</BeamLevel> -->
+            <!-- <BeamWidth>0.82021</BeamWidth> -->
+            <!-- <BeamHight>1.9685</BeamHight> -->
+        <!-- </Beam> -->
+        <Beam>
+            <BeamStartPoint>(36.909835848, 15.586122366, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(36.909835848, 25.141879352, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(24.360114913, 15.974777463, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(24.360114913, -2.048342918, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(6.479537485, 58.719705574, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(24.852240897, 58.719705574, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(24.360114913, 30.635846079, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(24.360114913, 15.974777463, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.053684466, 56.161788607, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(7.053684466, 52.370749073, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.053684466, 31.154303251, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(7.053684466, 16.987636584, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.053684466, 16.991876757, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(7.053684466, -1.638237931, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(61.104025861, 60.575020535, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(61.104025861, 52.938703811, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.984252</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        
+        <Beam>
+            <BeamStartPoint>(61.104025861, 23.712046033, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(61.104025861, 8.024381991, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(43.696200225, 7.368214012, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(43.696200225, 15.914206356, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(43.696200225, 7.368214012, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(61.084651669, 7.368214012, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(24.360114913, 24.444985665, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(36.909835848, 24.444985665, 13.287401575)</BeamEndPoint>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(61.104025861, 31.830931801, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(61.104025861, 24.855090652, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>1.0000</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(51.510119728, 23.952859681, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(61.104025861, 23.952859681, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>1.31234</BeamWidth>
+            <BeamHight>2.62467</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(51.526956597, 15.586122366, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(60.693920874, 15.586122366, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(24.360114913, 53.962487727, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(24.360114913, 30.635846079, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.053684466, 52.370749073, 13.287401575)</BeamStartPoint>
+            <BeamEndPoint>(7.053684466, 31.154303251, 13.287401575)</BeamEndPoint>
+			<BeamLevel>Ground</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+  	
+	
+	
+	
+		<Beam>
+            <BeamStartPoint>(59.791689903, 30.842623461, 25.340768615)</BeamStartPoint>
+            <BeamEndPoint>(59.791689903, 23.870838684, 25.176726620)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>1.31234</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+       
+        <Beam>
+            <BeamStartPoint>(59.791689903, 60.000873553, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(59.791689903, 53.922955780, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>1.31234</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(24.360114913, 24.444985665, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(37.092221016, 24.444985665, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.381768456, 55.341578634, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(24.852240897, 55.341578634, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.332323522, 15.586122366, 26.082677165)</BeamStartPoint>
+            <BeamEndPoint>(25.481635477, 15.586122366, 26.082677165)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.053684466, 31.154303251, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(7.053684466, 17.312536208, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(24.360114913, 31.179011914, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(24.360114913, 15.924795783, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(50.263131234567, 24.444985665, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(50.263131234567, 15.914206356, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(37.092221016, 24.444985665, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(50.263131234567, 24.444985665, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(25.481635477, 15.586122366, 26.082677165)</BeamStartPoint>
+            <BeamEndPoint>(51.083610541, 15.586122366, 26.082677165)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(7.053684466, 55.341578634, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(7.053684466, 31.154303251, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(23.867988928, 55.751683621, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(23.867988928, 29.858371492, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>1.31234</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(24.852240897, 53.430829795, 25.918635171)</BeamStartPoint>
+            <BeamEndPoint>(60.693920874, 53.430829795, 25.918635171)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>1.64042</BeamWidth>
+            <BeamHight>3.28084</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(59.791689903, 30.842623461, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(59.791689903, 24.280943671, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>1.31234</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(24.790097443, 30.842623461, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(59.791689903, 30.842623461, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>1.64042</BeamWidth>
+            <BeamHight>2.62467</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(59.791689903, 53.922955780, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(59.791689903, 32.323057785, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>1.31234</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+        <Beam>
+            <BeamStartPoint>(60.693920874, 24.444985665, 25.262467192)</BeamStartPoint>
+            <BeamEndPoint>(56.595421565, 24.444985665, 25.262467192)</BeamEndPoint>
+			<BeamLevel>Level 1</BeamLevel>
+            <BeamWidth>0.82021</BeamWidth>
+            <BeamHight>1.9685</BeamHight>
+        </Beam>
+	
+	
+	
+		<Door>
+            <Y>22.7001711506433</Y>
+            <X>21.9741073548138</X>
+            <Z>0</Z>
+			<DoorLevel>Ground</DoorLevel>
+            
+        </Door>
+        <Door>
+            <Y>35.6790125504807</Y>
+            <X>15.9142063557451</X>
+            <Z>0</Z>
+            
+			<DoorLevel>Ground</DoorLevel>
+        </Door>
+        <Door>
+            <Y>22.7001711506434</Y>
+            <X>31.6722700844725</X>
+            <Z>0</Z>
+            
+			<DoorLevel>Ground</DoorLevel>
+        </Door>
+        <Door>
+            <Y>61.5961518453027</Y>
+            <X>27.3977415708467</X>
+            <Z>0</Z>
+            
+			<DoorLevel>Ground</DoorLevel>
+        </Door>
+        <Door>
+            <Y>56.2673375753094</Y>
+            <X>20.8730948965514</X>
+            <Z>0</Z>
+            
+			<DoorLevel>Ground</DoorLevel>
+        </Door>
+        <Door>
+            <Y>58.6433959397908</Y>
+            <X>15.914206355745</X>
+            <Z>0</Z>
+            
+			<DoorLevel>Ground</DoorLevel>
+        </Door>
+        <Door>
+            <Y>50.0993585726848</Y>
+            <X>13.2895344397345</X>
+            <Z>0</Z>
+            
+			<DoorLevel>Ground</DoorLevel>
+        </Door>
+	</CAP>
+</Export>

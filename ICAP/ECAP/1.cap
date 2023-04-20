@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Export>
+    <CAP>
+        <Wall>
+            <StartPoint>(6.561558482, -2.540468903, 0.000000000)</StartPoint>
+            <EndPoint>(6.561558482, 56.620182516, 0.000000000)</EndPoint>
+            <Height>15.4199475065617</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.596151845, 6.876088028, 0.000000000)</StartPoint>
+            <EndPoint>(61.596151845, 10.992055982, 0.000000000)</EndPoint>
+            <Height>16.0761154855643</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.032030923, 55.964014537, 0.000000000)</StartPoint>
+            <EndPoint>(24.032030923, 61.107965623, 0.000000000)</EndPoint>
+            <Height>12.4671916010499</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.561558482, -2.540468903, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, -2.540468903, 0.000000000)</EndPoint>
+            <Height>14.7637795275591</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.672450871, -3.032594887, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, 12.963048540, 0.000000000)</EndPoint>
+            <Height>14.7637795275591</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(11.523828823, 65.619195511, 0.000000000)</StartPoint>
+            <EndPoint>(56.633881504, 65.619195511, 0.000000000)</EndPoint>
+            <Height>4.18307086614173</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(43.204074241, 6.876088028, 0.000000000)</StartPoint>
+            <EndPoint>(61.596151845, 6.876088028, 0.000000000)</EndPoint>
+            <Height>16.0761154855643</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(43.204074241, 6.876088028, 0.000000000)</StartPoint>
+            <EndPoint>(43.204074241, 15.668738946, 0.000000000)</EndPoint>
+            <Height>16.0761154855643</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.268067856, 10.992055982, 0.000000000)</StartPoint>
+            <EndPoint>(61.268067856, 12.632475929, 0.000000000)</EndPoint>
+            <Height>9.84251968503937</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.596151845, 12.632475929, 0.000000000)</StartPoint>
+            <EndPoint>(61.596151845, 55.039972113, 0.000000000)</EndPoint>
+            <Height>16.0761154855643</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(23.539904939, 56.210077529, 0.000000000)</StartPoint>
+            <EndPoint>(11.070395026, 56.210077529, 0.000000000)</EndPoint>
+            <Height>10.8267716535433</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.032030923, 61.107965623, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, 61.107965623, 0.000000000)</EndPoint>
+            <Height>12.4671916010499</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.672450871, 61.107965623, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, 54.711888124, 0.000000000)</EndPoint>
+            <Height>12.4671916010499</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(42.731322449, 12.963048540, 0.000000000)</StartPoint>
+            <EndPoint>(37.318002438, 12.963048540, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.549419375, 13.742248015, 0.000000000)</StartPoint>
+            <EndPoint>(25.549419375, 15.914206356, 0.000000000)</EndPoint>
+            <Height>14.7637795275591</Height>
+            <Width>0.738188976377953</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(35.468799088, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(37.640757428, 13.742248015, 0.000000000)</EndPoint>
+            <Height>14.1076115485564</Height>
+            <Width>0.738188976377953</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(37.640757428, 13.742248015, 0.000000000)</StartPoint>
+            <EndPoint>(43.204074241, 13.742248015, 0.000000000)</EndPoint>
+            <Height>14.1076115485564</Height>
+            <Width>0.738188976377953</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.025559697, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(27.025559697, 13.742248015, 0.000000000)</EndPoint>
+            <Height>12.4671916010499</Height>
+            <Width>0.738188976377953</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.025559697, 13.742248015, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 13.742248015, 0.000000000)</EndPoint>
+            <Height>12.4671916010499</Height>
+            <Width>0.738188976377953</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.804759173, 15.586122366, 0.000000000)</StartPoint>
+            <EndPoint>(27.804759173, 12.963048540, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.804759173, 12.963048540, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, 12.963048540, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(37.318002438, 12.963048540, 0.000000000)</StartPoint>
+            <EndPoint>(34.694928612, 15.586122366, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(11.523828823, 76.938093148, 0.000000000)</StartPoint>
+            <EndPoint>(56.633881504, 76.938093148, 0.000000000)</EndPoint>
+            <Height>4.18307086614173</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.498566356, 80.218933043, 0.000000000)</StartPoint>
+            <EndPoint>(57.331059982, 80.218933043, 0.000000000)</EndPoint>
+            <Height>1.80446194225722</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(37.318002438, 12.961450450, 0.000000000)</StartPoint>
+            <EndPoint>(27.814266579, 12.961450450, 0.000000000)</EndPoint>
+            <Height>1.64015794970226</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(34.727331351, 15.259636466, 0.000000000)</StartPoint>
+            <EndPoint>(27.804759173, 15.259636466, 0.000000000)</EndPoint>
+            <Height>0.930197281511996</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+		
+            <StartPoint>(6.889642472, 80.416173571, 0.000000000)</StartPoint>
+            <EndPoint>(61.269563732, 80.416173571, 0.000000000)</EndPoint>
+            <Height>0.984251968504116</Height>
+            <Width>0.0656167979002624</Width>
+            <Function>Exterior</Function>
+        </Wall>
+		<Wall>
+            <StartPoint>(10.660290039, 61.189986620, 0.000000000)</StartPoint>
+            <EndPoint>(6.479537485, 61.189986620, 0.000000000)</EndPoint>
+            <Height>12.4671916010499</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.549419375, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(44.024284214, 15.914206356, 0.000000000)</EndPoint>
+            <Height>12.4671916010499</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(51.836763912, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(51.836763912, 24.609027660, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.660290039, 61.189986620, 0.000000000)</StartPoint>
+            <EndPoint>(10.660290039, 56.292098526, 0.000000000)</EndPoint>
+            <Height>12.9593175853018</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(59.654496609, 61.231188514, 0.000000000)</StartPoint>
+            <EndPoint>(58.479353945, 57.652730256, 0.000000000)</EndPoint>
+            <Height>23.6220472440945</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(59.654496609, 61.231188514, 0.000000000)</StartPoint>
+            <EndPoint>(61.678172843, 61.231188514, 0.000000000)</EndPoint>
+            <Height>23.6220472440945</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.660290039, 56.292098526, 0.000000000)</StartPoint>
+            <EndPoint>(6.479537485, 56.292098526, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(56.633881504, 65.619195511, 0.000000000)</StartPoint>
+            <EndPoint>(56.633881504, 76.938093148, 0.000000000)</EndPoint>
+            <Height>4.18307086614173</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(11.523828823, 76.938093148, 0.000000000)</StartPoint>
+            <EndPoint>(11.523828823, 65.619195511, 0.000000000)</EndPoint>
+            <Height>4.18307086614173</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.426387879, 12.991096562, 0.000000000)</StartPoint>
+            <EndPoint>(25.426387879, 0.687946956, 0.000000000)</EndPoint>
+            <Height>12.9593175853018</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.760538605, 26.823188720, 0.000000000)</StartPoint>
+            <EndPoint>(20.629961177, 26.823188720, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.709852445, 31.671410704, 0.000000000)</StartPoint>
+            <EndPoint>(9.760538605, 31.671410704, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.760538605, 31.671410704, 0.000000000)</StartPoint>
+            <EndPoint>(9.760538605, 26.823188720, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 21.974966735, 0.000000000)</StartPoint>
+            <EndPoint>(9.760538605, 21.974966735, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.760538605, 21.974966735, 0.000000000)</StartPoint>
+            <EndPoint>(9.760538605, 26.823188720, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(58.479353945, 57.652730256, 0.000000000)</StartPoint>
+            <EndPoint>(58.479353945, 55.039972113, 0.000000000)</EndPoint>
+            <Height>24.1141732283464</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 16.242290345, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 21.974107355, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(20.629961177, 26.823188720, 0.000000000)</StartPoint>
+            <EndPoint>(20.629961177, 21.974107355, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(20.629961177, 21.974107355, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 21.974107355, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(20.629961177, 26.823188720, 0.000000000)</StartPoint>
+            <EndPoint>(20.629961177, 31.672270084, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 29.448266505, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 51.823594589, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(20.629961177, 31.672270084, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 31.672270084, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(56.267337575, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(56.267337575, 24.609027660, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.678172843, 55.039972113, 0.000000000)</StartPoint>
+            <EndPoint>(58.479353945, 55.039972113, 0.000000000)</EndPoint>
+            <Height>24.4422572178478</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(56.267337575, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 15.914206356, 0.000000000)</EndPoint>
+            <Height>11.3188976377953</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(51.836763912, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(56.267337575, 15.914206356, 0.000000000)</EndPoint>
+            <Height>11.3188976377953</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.268067856, 10.992055982, 0.000000000)</StartPoint>
+            <EndPoint>(61.268067856, 12.632475929, 0.000000000)</EndPoint>
+            <Height>9.84251968503937</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(50.099358573, 7.696298001, 0.000000000)</StartPoint>
+            <EndPoint>(50.099358573, 15.586122366, 0.000000000)</EndPoint>
+            <Height>12.7952755905512</Height>
+            <Width>0.328083989501312</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.479537485, 56.292098526, 0.000000000)</StartPoint>
+            <EndPoint>(6.479537485, 80.669381205, 0.000000000)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.678172843, 55.039972113, 0.000000000)</StartPoint>
+            <EndPoint>(61.678172843, 80.669381205, 0.000000000)</EndPoint>
+            <Height>10.0065616797892</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(42.731322449, 12.963048540, 0.000000000)</StartPoint>
+            <EndPoint>(37.318002438, 12.963048540, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.804759173, 15.914206356, 0.000000000)</StartPoint>
+            <EndPoint>(27.804759173, 12.963048540, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.804759173, 12.963048540, 0.000000000)</StartPoint>
+            <EndPoint>(25.672450871, 12.963048540, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(37.318002438, 12.963048540, 0.000000000)</StartPoint>
+            <EndPoint>(34.366844622, 15.914206356, 0.000000000)</EndPoint>
+            <Height>13.2874015748031</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 51.239199218, 0.000000000)</StartPoint>
+            <EndPoint>(7.381768456, 32.983746662, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 30.359074746, 0.000000000)</StartPoint>
+            <EndPoint>(7.381768456, 18.210794282, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 15.586122366, 0.000000000)</StartPoint>
+            <EndPoint>(7.381768456, -0.079838981, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.709852445, -1.720258929, 0.000000000)</StartPoint>
+            <EndPoint>(24.524156907, -1.720258929, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, -0.079838981, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 0.717593068, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 12.963048540, 0.000000000)</StartPoint>
+            <EndPoint>(24.852240897, 15.586122366, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 52.938703811, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 32.323057785, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 53.922955780, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 55.039972113, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 22.968607713, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 12.632475929, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 31.338805817, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 29.530287503, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 25.265195639, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 24.937111650, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(44.024284214, 15.586122366, 0.000000000)</StartPoint>
+            <EndPoint>(44.024284214, 9.336717949, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 10.992055982, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 8.024381991, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(44.352368204, 7.696298001, 0.000000000)</StartPoint>
+            <EndPoint>(59.135521924, 7.696298001, 0.000000000)</EndPoint>
+            <Height>11.6469816272966</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 12.632475929, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 10.992055982, 0.000000000)</EndPoint>
+            <Height>1.4763779527559</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 12.632475929, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 10.992055982, 0.000000000)</EndPoint>
+            <Height>0.328083989501312</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(37.318002438, 12.961450450, 0.000000000)</StartPoint>
+            <EndPoint>(27.814266579, 12.961450450, 0.000000000)</EndPoint>
+            <Height>1.64015794970226</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(34.727331351, 15.259636466, 0.000000000)</StartPoint>
+            <EndPoint>(27.804759173, 15.259636466, 0.000000000)</EndPoint>
+            <Height>0.930197281511996</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(26.123566356, 61.559081108, 0.000000000)</StartPoint>
+            <EndPoint>(6.889642472, 61.559081108, 0.000000000)</EndPoint>
+            <Height>2.46062992125984</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.889642472, 80.416173571, 0.000000000)</StartPoint>
+            <EndPoint>(61.269563732, 80.416173571, 0.000000000)</EndPoint>
+            <Height>0.984251968504116</Height>
+            <Width>0.0656167979002624</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(12.262017800, 76.404956665, 0.000000000)</StartPoint>
+            <EndPoint>(55.895692528, 76.404956665, 0.000000000)</EndPoint>
+            <Height>3.93700787401575</Height>
+            <Width>0.246062992125984</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(12.262017800, 66.152331994, 0.000000000)</StartPoint>
+            <EndPoint>(55.895692528, 66.152331994, 0.000000000)</EndPoint>
+            <Height>3.93700787401575</Height>
+            <Width>0.246062992125984</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(12.056965306, 76.199904172, 0.000000000)</StartPoint>
+            <EndPoint>(12.056965306, 66.357384487, 0.000000000)</EndPoint>
+            <Height>3.93700787401575</Height>
+            <Width>0.246062992125984</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(56.100745021, 76.199904172, 0.000000000)</StartPoint>
+            <EndPoint>(56.100745021, 66.357384487, 0.000000000)</EndPoint>
+            <Height>3.93700787401575</Height>
+            <Width>0.246062992125984</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(57.331059982, 80.669381205, 0.000000000)</StartPoint>
+            <EndPoint>(10.498566356, 80.669381205, 0.000000000)</EndPoint>
+            <Height>2.6246719160105</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.479537485, 80.669381205, 0.000000000)</StartPoint>
+            <EndPoint>(10.498566356, 80.669381205, 0.000000000)</EndPoint>
+            <Height>1.80446194225722</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(57.331059982, 80.669381205, 0.000000000)</StartPoint>
+            <EndPoint>(61.678172843, 80.669381205, 0.000000000)</EndPoint>
+            <Height>1.80446194225722</Height>
+            <Width>0.0820209973753281</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+		
+		
+		
+            <StartPoint>(60.775941872, 25.265195639, 0.000000000)</StartPoint>
+            <EndPoint>(60.775941872, 29.530287503, 0.000000000)</EndPoint>
+            <Height>4.47944281223773</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall> 
+		
+		<Floor>
+		
+			<FStartPoint>(61.104025861, 47.779744944, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 29.530287503, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.514130848, 29.530287503, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.514130848, 25.265195639, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.104025861, 25.265195639, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 12.632475929, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.514130848, 12.632475929, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.514130848, 10.992055982, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+			<FStartPoint>(61.104025861, 10.992055982, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 7.368214012, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+			<FStartPoint>(43.715574417, 7.368214012, -1.148293963)</FStartPoint>
+			<FEndPoint>(43.715574417, 15.586122366, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+			<FStartPoint>(29.035249655, 15.586122366, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.180324886, 15.586122366, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, 10.888196742, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.590429873, 10.888196742, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.590429873, 0.717593068, -1.148293963)</FStartPoint>
+			<FEndPoint>(25.180324886, 0.717593068, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, -2.048342918, -1.148293963)</FStartPoint>
+			<FEndPoint>(7.053684466, -2.048342918, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(7.053684466, 55.964014537, -1.148293963)</FStartPoint>
+			<FEndPoint>(23.539904939, 55.964014537, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(23.539904939, 52.798004038, -1.1482939630)</FStartPoint>
+			<FEndPoint>(25.180324886, 52.798004038, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		<Floor>
+		
+			<FStartPoint>(25.180324886, 55.368056103, -1.148293963)</FStartPoint>
+			<FEndPoint>(61.104025861, 55.368056103, -1.148293963)</FEndPoint>
+			
+		</Floor>
+		
+		
+	</CAP>
+</Export>

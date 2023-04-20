@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Export>
+    <CAP>
+        <Wall>
+            <StartPoint>(7.381768456, 20.507977791, 13.615485564)</StartPoint>
+            <EndPoint>(9.760538605, 20.507977791, 13.615485564)</EndPoint>
+            <Height>11.1548556430446</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.760538605, 20.507977791, 13.615485564)</StartPoint>
+            <EndPoint>(9.760538605, 15.914206356, 13.615485564)</EndPoint>
+            <Height>9.51443569553806</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 16.242290345, 13.615485564)</StartPoint>
+            <EndPoint>(24.852240897, 24.436066823, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.611077441, 55.054626303, 13.615485564)</StartPoint>
+            <EndPoint>(7.709852445, 55.054626303, 13.615485564)</EndPoint>
+            <Height>11.1548556430446</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.852240897, 24.436066823, 13.615485564)</StartPoint>
+            <EndPoint>(24.852240897, 30.359074746, 13.615485564)</EndPoint>
+            <Height>10.0065616797899</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 51.239199218, 13.615485564)</StartPoint>
+            <EndPoint>(7.381768456, 32.983746662, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.381768456, 30.359074746, 13.615485564)</StartPoint>
+            <EndPoint>(7.381768456, 18.210794282, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(7.709852445, 15.914206356, 13.615485564)</StartPoint>
+            <EndPoint>(24.443190594, 15.914206356, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.067862510, 15.914206356, 13.615485564)</StartPoint>
+            <EndPoint>(28.624969146, 15.914206356, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(34.858802577, 15.914206356, 13.615485564)</StartPoint>
+            <EndPoint>(44.516410199, 15.914206356, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(50.689909754, 24.196313640, 13.615485564)</StartPoint>
+            <EndPoint>(60.775941872, 24.196313640, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 24.196313640, 13.615485564)</StartPoint>
+            <EndPoint>(60.775941872, 31.338805817, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 32.323057785, 13.615485564)</StartPoint>
+            <EndPoint>(60.775941872, 52.938703811, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.790867467, 55.833704618, 13.615485564)</StartPoint>
+            <EndPoint>(7.709852445, 55.833704618, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(9.790867467, 55.054626303, 13.615485564)</StartPoint>
+            <EndPoint>(9.790867467, 56.161788607, 13.615485564)</EndPoint>
+            <Height>11.1548556430446</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(60.775941872, 53.922955780, 13.615485564)</StartPoint>
+            <EndPoint>(60.775941872, 55.039972113, 13.615485564)</EndPoint>
+            <Height>10.00656167979</Height>
+            <Width>0.656167979002625</Width>
+            <Function>Interior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(28.132843162, 15.093996382, 13.615485564)</StartPoint>
+            <EndPoint>(35.383736960, 15.093996382, 13.615485564)</EndPoint>
+            <Height>13.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+		<Wall>
+            <StartPoint>(61.596151845, 23.376103666, 13.615485564)</StartPoint>
+            <EndPoint>(61.596151845, 55.039972113, 13.615485564)</EndPoint>
+            <Height>13.5662729658793</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.561558482, 56.653914592, 13.615485564)</StartPoint>
+            <EndPoint>(10.611077441, 56.653914592, 13.615485564)</EndPoint>
+            <Height>14.2224409448819</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.611077441, 56.653914592, 13.615485564)</StartPoint>
+            <EndPoint>(10.611077441, 55.054626303, 13.615485564)</EndPoint>
+            <Height>10.3346456692913</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(40.180586686, 61.149167517, 13.615485564)</StartPoint>
+            <EndPoint>(32.061386236, 58.194020227, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.678172843, 61.149167517, 13.615485564)</StartPoint>
+            <EndPoint>(40.180586686, 61.149167517, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.561558482, 15.093996382, 13.615485564)</StartPoint>
+            <EndPoint>(28.132843162, 15.093996382, 13.615485564)</EndPoint>
+            <Height>13.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(35.383736960, 15.093996382, 13.615485564)</StartPoint>
+            <EndPoint>(51.575736525, 15.093996382, 13.615485564)</EndPoint>
+            <Height>13.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(6.561558482, 15.093996382, 13.615485564)</StartPoint>
+            <EndPoint>(6.561558482, 56.653914592, 13.615485564)</EndPoint>
+            <Height>13.5662729658793</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(25.672450871, 51.239199218, 13.615485564)</StartPoint>
+            <EndPoint>(25.672450871, 53.706252318, 13.615485564)</EndPoint>
+            <Height>10.8267716535433</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(10.611077441, 56.653914592, 13.615485564)</StartPoint>
+            <EndPoint>(24.549431086, 56.653914592, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.596151845, 23.376103666, 13.615485564)</StartPoint>
+            <EndPoint>(51.508679923, 23.376103666, 13.615485564)</EndPoint>
+            <Height>13.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(61.678172843, 55.039972113, 13.615485564)</StartPoint>
+            <EndPoint>(61.678172843, 61.149167517, 13.615485564)</EndPoint>
+            <Height>13.5662729658793</Height>
+            <Width>0.820209973753281</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(32.061386236, 58.194020227, 13.615485564)</StartPoint>
+            <EndPoint>(27.911542792, 54.711888124, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(24.549431086, 56.653914592, 13.615485564)</StartPoint>
+            <EndPoint>(25.626550024, 54.711888124, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(27.911542792, 54.711888124, 13.615485564)</StartPoint>
+            <EndPoint>(25.239321325, 54.711888124, 13.615485564)</EndPoint>
+            <Height>3.88779527559055</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+        <Wall>
+            <StartPoint>(28.132843162, 15.093996382, 13.615485564)</StartPoint>
+            <EndPoint>(35.383736960, 15.093996382, 13.615485564)</EndPoint>
+            <Height>13.8943569553806</Height>
+            <Width>0.984251968503937</Width>
+            <Function>Exterior</Function>
+        </Wall>
+		
+    </CAP>
+</Export>

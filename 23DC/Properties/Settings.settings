@@ -1,0 +1,146 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="_23DC.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FloorKW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">grond,Verdieping</Value>
+    </Setting>
+    <Setting Name="SectionKW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">doorsnede</Value>
+    </Setting>
+    <Setting Name="ElevationKW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gevel</Value>
+    </Setting>
+    <Setting Name="catchEcapPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\</Value>
+    </Setting>
+    <Setting Name="LevelLayername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MAATVOERING</Value>
+    </Setting>
+    <Setting Name="WallKW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUITENWAND</Value>
+    </Setting>
+    <Setting Name="catchIcapPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\</Value>
+    </Setting>
+    <Setting Name="FloorPoints" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Export&gt;
+    &lt;CAP&gt;
+       &lt;Levels&gt;
+            &lt;Level0&gt;
+                &lt;Level_Name&gt;Ground Floor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;0&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;0&lt;/Level_Value&gt;
+            &lt;/Level0&gt;
+            &lt;Level1&gt;
+                &lt;Level_Name&gt;1st Floor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;1&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;2880&lt;/Level_Value&gt;
+            &lt;/Level1&gt;
+            &lt;Level2&gt;
+                &lt;Level_Name&gt;2nd Floor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;2&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;5760&lt;/Level_Value&gt;
+            &lt;/Level2&gt;
+            &lt;Level3&gt;
+                &lt;Level_Name&gt;3rd Floor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;3&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;10550&lt;/Level_Value&gt;
+            &lt;/Level3&gt;
+        &lt;/Levels&gt;
+        &lt;Floors&gt;
+            &lt;Hatch1&gt;
+                &lt;Level_Name&gt;1stfloor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;1&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;2880&lt;/Level_Value&gt;
+                &lt;cPoint&gt;(-1.60326584326685,11029.817984624,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6798.39673415673,11029.817984624,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6798.39673415673,-0.18201537601999,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(-1.60326584326685,-0.18201537601999,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(-1.60326584326685,11029.817984624,2880)&lt;/cPoint&gt;
+            &lt;/Hatch1&gt;
+            &lt;Hatch14&gt;
+                &lt;Level_Name&gt;2ndfloor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;2&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;5760&lt;/Level_Value&gt;
+                &lt;cPoint&gt;(0,11030,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,11030,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,0,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(0,0,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(0,11030,5760)&lt;/cPoint&gt;
+            &lt;/Hatch14&gt;
+            &lt;Hatch21&gt;
+                &lt;Level_Name&gt;2ndfloor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;2&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;5760&lt;/Level_Value&gt;
+                &lt;cPoint&gt;(1020,11365,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(5780,-335.000000000001,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(5780,-335.000000000001,5760)&lt;/cPoint&gt;
+            &lt;/Hatch21&gt;
+            &lt;Hatch296&gt;
+                &lt;Level_Name&gt;groundfloor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;0&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;0&lt;/Level_Value&gt;
+                &lt;cPoint&gt;(6800,2940,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,0,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(0,0,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(0,11030,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,11030,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,9240,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(10000,9240,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(10000,2940,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,2940,0)&lt;/cPoint&gt;
+            &lt;/Hatch296&gt;
+            &lt;Hatch4&gt;
+                &lt;Level_Name&gt;1stfloor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;1&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;2880&lt;/Level_Value&gt;
+                &lt;cPoint&gt;(6798.39673415673,9539.81798462398,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(10230.3950501274,9539.81798462398,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(10230.3950501274,2639.81798462398,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6798.39673415673,2639.81798462398,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6798.39673415673,9539.81798462398,2880)&lt;/cPoint&gt;
+            &lt;/Hatch4&gt;
+        &lt;/Floors&gt;
+        &lt;Walls&gt;
+            &lt;Polyline13&gt;
+                &lt;Level_Name&gt;1stfloor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;1&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;2880&lt;/Level_Value&gt;
+                &lt;cPoint&gt;(-1.60326584326685,11029.817984624,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6798.39673415673,11029.817984624,2880)&lt;/cPoint&gt;
+                 &lt;Levels&gt;&lt;cPoint&gt;(6798.39673415673,-0.18201537601999,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(-1.60326584326685,-0.18201537601999,2880)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(-1.60326584326685,11029.817984624,2880)&lt;/cPoint&gt;
+            &lt;/Polyline13&gt;
+            &lt;Polyline26&gt;
+                &lt;Level_Name&gt;2ndfloor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;2&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;5760&lt;/Level_Value&gt;
+                &lt;cPoint&gt;(0,11030,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,11030,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,0,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(0,0,5760)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(0,11030,5760)&lt;/cPoint&gt;
+            &lt;/Polyline26&gt;
+            &lt;Polyline311&gt;
+                &lt;Level_Name&gt;groundfloor&lt;/Level_Name&gt;
+                &lt;Level_Number&gt;0&lt;/Level_Number&gt;
+                &lt;Level_Value&gt;0&lt;/Level_Value&gt;
+                &lt;cPoint&gt;(6800,2940,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,0,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(0,0,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(0,11030,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,11030,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,9240,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(10000,9240,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(10000,2940,0)&lt;/cPoint&gt;
+                &lt;cPoint&gt;(6800,2940,0)&lt;/cPoint&gt;
+            &lt;/Polyline311&gt;
+        &lt;/Walls&gt;
+    &lt;/CAP&gt;
+&lt;/Export&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
