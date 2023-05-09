@@ -18,7 +18,11 @@
             </TabControl.Style>
             <TabItem Header="Levels">
                 <Grid Background="#FFE5E5E5">
-                    <DataGrid  x:Name="dgv_levels"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1075*"/>
+                        <ColumnDefinition Width="42*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid  x:Name="dgv_levels" Grid.ColumnSpan="2"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Floors">
@@ -76,7 +80,7 @@
                 <TextBlock  Height="15" HorizontalAlignment="Center" >AI</TextBlock>
             </StackPanel>
         </Button>
-        <Slider x:Name="sliderCanvas" Width="105" HorizontalAlignment="Right" Margin="0,78,10,0" IsSnapToTickEnabled="True" TickFrequency="5" TickPlacement="BottomRight" Height="23" VerticalAlignment="Top" ValueChanged="Slider_ValueChanged" Value="10" Maximum="100" Minimum="1"/>
+        <Slider x:Name="sliderCanvas" Width="105" HorizontalAlignment="Right" Margin="0,75,10,0" IsSnapToTickEnabled="True" TickFrequency="0.5" TickPlacement="BottomRight" Height="20" VerticalAlignment="Top" ValueChanged="Slider_ValueChanged" Value="10" Maximum="100000" Minimum="0"/>
 
     </Grid>
 </Window>

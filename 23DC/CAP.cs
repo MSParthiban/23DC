@@ -23,10 +23,10 @@ namespace _23DC
         {
             private string levelName;
             private string levelNumbar;
-            private int levelValue;
+            private double levelValue;
             public string LevelName { get => levelName; set => levelName = value; }
             public string LevelNumbar { get => levelNumbar; set => levelNumbar = value; }
-            public int LevelValue { get => levelValue; set => levelValue = value; }
+            public double LevelValue { get => levelValue; set => levelValue = value; }
         }
         public class Floor
         {

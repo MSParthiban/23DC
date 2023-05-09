@@ -24,38 +24,46 @@
             </Level3>
         </Levels>
         <Floors>
-            <Hatch1>
+            <Floor0>
                 <Level_Name>1stfloor</Level_Name>
                 <Level_Number>1</Level_Number>
                 <Level_Value>2880</Level_Value>
+                <FWidth>0.4921</FWidth>
+			<Offset>0</Offset>
                 <cPoint>(-1.60326584326685,11029.817984624,2880)</cPoint>
                 <cPoint>(6798.39673415673,11029.817984624,2880)</cPoint>
                 <cPoint>(6798.39673415673,-0.18201537601999,2880)</cPoint>
                 <cPoint>(-1.60326584326685,-0.18201537601999,2880)</cPoint>
                 <cPoint>(-1.60326584326685,11029.817984624,2880)</cPoint>
-            </Hatch1>
-            <Hatch14>
+            </Floor0>
+            <Floor1>
                 <Level_Name>2ndfloor</Level_Name>
                 <Level_Number>2</Level_Number>
                 <Level_Value>5760</Level_Value>
+                <FWidth>0.4921</FWidth>
+			<Offset>0</Offset>
                 <cPoint>(0,11030,5760)</cPoint>
                 <cPoint>(6800,11030,5760)</cPoint>
                 <cPoint>(6800,0,5760)</cPoint>
                 <cPoint>(0,0,5760)</cPoint>
                 <cPoint>(0,11030,5760)</cPoint>
-            </Hatch14>
-            <Hatch21>
+            </Floor1>
+            <Floor2>
                 <Level_Name>2ndfloor</Level_Name>
                 <Level_Number>2</Level_Number>
                 <Level_Value>5760</Level_Value>
+                <FWidth>0.4921</FWidth>
+			<Offset>0</Offset>
                 <cPoint>(1020,11365,5760)</cPoint>
                 <cPoint>(5780,-335.000000000001,5760)</cPoint>
                 <cPoint>(5780,-335.000000000001,5760)</cPoint>
-            </Hatch21>
-            <Hatch296>
+            </Floor2>
+            <Floor3>
                 <Level_Name>groundfloor</Level_Name>
                 <Level_Number>0</Level_Number>
                 <Level_Value>0</Level_Value>
+                <FWidth>0.4921</FWidth>
+			<Offset>0</Offset>
                 <cPoint>(6800,2940,0)</cPoint>
                 <cPoint>(6800,0,0)</cPoint>
                 <cPoint>(0,0,0)</cPoint>
@@ -65,43 +73,51 @@
                 <cPoint>(10000,9240,0)</cPoint>
                 <cPoint>(10000,2940,0)</cPoint>
                 <cPoint>(6800,2940,0)</cPoint>
-            </Hatch296>
-            <Hatch4>
+            </Floor3>
+            <Floor4>
                 <Level_Name>1stfloor</Level_Name>
                 <Level_Number>1</Level_Number>
                 <Level_Value>2880</Level_Value>
+                <FWidth>0.4921</FWidth>
+			<Offset>0</Offset>
                 <cPoint>(6798.39673415673,9539.81798462398,2880)</cPoint>
                 <cPoint>(10230.3950501274,9539.81798462398,2880)</cPoint>
                 <cPoint>(10230.3950501274,2639.81798462398,2880)</cPoint>
                 <cPoint>(6798.39673415673,2639.81798462398,2880)</cPoint>
                 <cPoint>(6798.39673415673,9539.81798462398,2880)</cPoint>
-            </Hatch4>
+            </Floor4>
         </Floors>
         <Walls>
-            <Polyline13>
+            <Wall0>
                 <Level_Name>1stfloor</Level_Name>
                 <Level_Number>1</Level_Number>
                 <Level_Value>2880</Level_Value>
+                <Height>9.84251968503937</Height>
+			<Width>0.492125984251969</Width>
                 <cPoint>(-1.60326584326685,11029.817984624,2880)</cPoint>
                 <cPoint>(6798.39673415673,11029.817984624,2880)</cPoint>
                 <cPoint>(6798.39673415673,-0.18201537601999,2880)</cPoint>
                 <cPoint>(-1.60326584326685,-0.18201537601999,2880)</cPoint>
                 <cPoint>(-1.60326584326685,11029.817984624,2880)</cPoint>
-            </Polyline13>
-            <Polyline26>
+            </Wall0>
+            <Wall1>
                 <Level_Name>2ndfloor</Level_Name>
                 <Level_Number>2</Level_Number>
                 <Level_Value>5760</Level_Value>
+                <Height>9.84251968503937</Height>
+			<Width>0.492125984251969</Width>
                 <cPoint>(0,11030,5760)</cPoint>
                 <cPoint>(6800,11030,5760)</cPoint>
                 <cPoint>(6800,0,5760)</cPoint>
                 <cPoint>(0,0,5760)</cPoint>
                 <cPoint>(0,11030,5760)</cPoint>
-            </Polyline26>
-            <Polyline311>
+            </Wall1>
+            <Wall2>
                 <Level_Name>groundfloor</Level_Name>
                 <Level_Number>0</Level_Number>
                 <Level_Value>0</Level_Value>
+                <Height>9.84251968503937</Height>
+			<Width>0.492125984251969</Width>
                 <cPoint>(6800,2940,0)</cPoint>
                 <cPoint>(6800,0,0)</cPoint>
                 <cPoint>(0,0,0)</cPoint>
@@ -111,7 +127,7 @@
                 <cPoint>(10000,9240,0)</cPoint>
                 <cPoint>(10000,2940,0)</cPoint>
                 <cPoint>(6800,2940,0)</cPoint>
-            </Polyline311>
+            </Wall2>
         </Walls>
     </CAP>
 </Export>

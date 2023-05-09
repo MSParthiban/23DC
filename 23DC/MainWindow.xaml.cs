@@ -34,6 +34,7 @@ using WinCopies.Util;
 using XDrawerLib;
 using XDrawerLib.Drawers;
 using XDrawerLib.Helpers;
+using static _23DC.CAP;
 using DoubleCollection = Autodesk.AutoCAD.Geometry.DoubleCollection;
 using Ellipse = Autodesk.AutoCAD.DatabaseServices.Ellipse;
 using Exception = System.Exception;
@@ -64,7 +65,8 @@ namespace _23DC
         public static bool isElevation = false;
         public static bool isFloor = false;
         public static int countHatchs = 0;
-        public static double slidervalue = 10;
+        public static double slidervalue = 1;
+        public static string capsintax = "L-I\\";
         private static List<string> lstFiles = new List<string>();
         private int filecount;
         public static string filename = string.Empty;
@@ -79,7 +81,9 @@ namespace _23DC
             txtBrowse_Output.Text = Properties.Settings.Default.catchIcapPath;
             //var uriSource = new Uri(@"pack://application:,,,/23DC;component/Resources/magnifying_glass.png", UriKind.Relative);
             //ico_btnScan.Source = new BitmapImage(uriSource);
-            lstFiles = Directory.GetFiles(txtBrowse.Text, "*.dwg*").ToList();
+            sliderCanvas.Value = slidervalue;
+            if (Path.HasExtension(txtBrowse.Text))
+                lstFiles = Directory.GetFiles(txtBrowse.Text, "*.dwg*").ToList();
 
         }
 
@@ -956,72 +960,63 @@ namespace _23DC
         private List<CAP.Level> LoadCollectionDataPDF()
         {
             List<CAP.Level> gLevels = new List<CAP.Level>();
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 0,
-                LevelNumbar = "0",
-                LevelName = "Level 0"
-            });
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 3000,
-                LevelNumbar = "1",
-                LevelName = "Level 1"
-            });
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 6000,
-                LevelNumbar = "2",
-                LevelName = "Level 2"
-            });
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 9000,
-                LevelNumbar = "3",
-                LevelName = "Level 3"
-            });
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 12000,
-                LevelNumbar = "4",
-                LevelName = "Level 4"
-            });
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 15000,
-                LevelNumbar = "5",
-                LevelName = "Level 5"
-            });
+            //gLevels.Add(new CAP.Level()
+            //{
+            //    LevelValue = 0,
+            //    LevelNumbar = "0",
+            //    LevelName = "Level 0"
+            //});
+            //gLevels.Add(new CAP.Level()
+            //{
+            //    LevelValue = 3000,
+            //    LevelNumbar = "1",
+            //    LevelName = "Level 1"
+            //});
+            //gLevels.Add(new CAP.Level()
+            //{
+            //    LevelValue = 6000,
+            //    LevelNumbar = "2",
+            //    LevelName = "Level 2"
+            //});
+            //gLevels.Add(new CAP.Level()
+            //{
+            //    LevelValue = 9000,
+            //    LevelNumbar = "3",
+            //    LevelName = "Level 3"
+            //});
+            //gLevels.Add(new CAP.Level()
+            //{
+            //    LevelValue = 12000,
+            //    LevelNumbar = "4",
+            //    LevelName = "Level 4"
+            //});
+            //gLevels.Add(new CAP.Level()
+            //{
+            //    LevelValue = 15000,
+            //    LevelNumbar = "5",
+            //    LevelName = "Level 5"
+            //});
 
             return gLevels;
         }
-        private List<CAP.Level> LoadCollectionDataDWG()
+        private List<CAP.Level> LoadCollectionDataDWG(string capsintax)
         {
             List<CAP.Level> gLevels = new List<CAP.Level>();
-            gLevels.Add(new CAP.Level()
+            XElement xElement = XElement.Load(_outputcapfilename.Replace("dkn", "Model " + capsintax.Replace("L", "").Replace("\\", "") + " - Final"));
+            foreach (XElement xE in xElement.Element("CAP").Element("Levels").Elements())
             {
-                LevelValue = 0,
-                LevelNumbar = "0",
-                LevelName = "Level 0"
-            });
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 2880,
-                LevelNumbar = "1",
-                LevelName = "Level 1"
-            });
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 5760,
-                LevelNumbar = "2",
-                LevelName = "Level 2"
-            });
-            gLevels.Add(new CAP.Level()
-            {
-                LevelValue = 10550,
-                LevelNumbar = "3",
-                LevelName = "Level 3"
-            });
+                //if (level.LevelNumbar != xE.Element("Level_Number").Value) continue;
+                double lv = 0;
+                double.TryParse(xE.Element("Level_Value").Value, out lv);
+                gLevels.Add(new CAP.Level()
+                {
+                    LevelValue = lv,
+                    LevelNumbar = xE.Element("Level_Number").Value,
+                    LevelName = xE.Element("Level_Name").Value
+                }); ;
+            }
+
+
 
 
             return gLevels;
@@ -1456,75 +1451,75 @@ namespace _23DC
                                     var AcadDoc = Utilities.App.Documents.Open(_file);
                                     try
                                     {
-                                        foreach (AcadEntity item in AcadDoc.ModelSpace)
-                                        {
-                                            if (item.ObjectName == "AcDbHatch")
-                                            {
-                                                AcadHatch hatch = ((AcadHatch)item);
-                                                var elename = hatch.ObjectName;
-                                                var type = hatch.PatternType;
-                                                //var Maximun = hatch.GetBoundingBox().MaxPoint;
-                                                //var Minimum = hatch.GeometricExtents.MinPoint;
-                                                var spacing = hatch.PatternSpace;
-                                                var Hatchweight = hatch.Lineweight;
-                                                var meterial = hatch.Material;
-                                                var area = hatch.Area;
-                                                string areastr = Math.Round(area, 0).ToString();
+                                        //foreach (AcadEntity item in AcadDoc.ModelSpace)
+                                        //{
+                                        //    if (item.ObjectName == "AcDbHatch")
+                                        //    {
+                                        //        //AcadHatch hatch = ((AcadHatch)item);
+                                        //        //var elename = hatch.ObjectName;
+                                        //        //var type = hatch.PatternType;
+                                        //        ////var Maximun = hatch.GetBoundingBox().MaxPoint;
+                                        //        ////var Minimum = hatch.GeometricExtents.MinPoint;
+                                        //        //var spacing = hatch.PatternSpace;
+                                        //        //var Hatchweight = hatch.Lineweight;
+                                        //        //var meterial = hatch.Material;
+                                        //        ////var area = hatch.Area;
+                                        //        //string areastr = Math.Round(area, 0).ToString();
 
-                                                //List<Curve> curves = GetHatchBoundary(hatch);
-                                                layerNAME = hatch.Layer;
+                                        //        //List<Curve> curves = GetHatchBoundary(hatch);
+                                        //        //layerNAME = hatch.Layer;
 
-                                                //countHatchs++;
-                                                //if (isFloor && areastr.Length > 7 && !lstLevelAreas.Contains(areastr + currentFilename.ToLower().Replace(" ", "")))
-                                                //{
-                                                //    lstLevelAreas.Add(areastr + currentFilename.ToLower().Replace(" ", ""));
-                                                //    levelHatchs.Add("Hatch" + countHatchs.ToString() + ";" + currentFilename.ToLower().Replace(" ", ""), curves);
-                                                //}
-                                                //pattendtype
-                                                //writer.WriteStartElement("Hatch");
-                                                //writer.WriteAttributeString("ElementID", "" + hatch.ToString());
-                                                //writer.WriteAttributeString("ElementName", "" + elename.ToString());
-                                                //writer.WriteAttributeString("LayerName", "" + layerNAME.ToString());
-                                                //writer.WriteAttributeString("Type", "" + type.ToString());
-                                                //writer.WriteAttributeString("Space", "" + spacing.ToString());
-                                                //writer.WriteAttributeString("HatchWeight", "" + Hatchweight.ToString());
-                                                //writer.WriteAttributeString("Material", "" + meterial.ToString());
-                                                //writer.WriteAttributeString("Area", "" + area.ToString());
-                                                //writer.WriteElementString("Maximun", "" + Maximun.ToString());
-                                                //writer.WriteElementString("Minimum", "" + Minimum.ToString());
-                                                //writer.WriteStartElement("Boundary");
-                                                int xcount = 0;
-                                                for (var curve = 0; curve <= hatch.NumberOfLoops; curve++)
-                                                {
-                                                    object acadObject;
-                                                    hatch.GetLoopAt(curve, out acadObject);
-                                                    if (acadObject != null)
-                                                    {
-                                                        var objs = (object[])acadObject;
-                                                        var _acad = objs[0];
-                                                        AcadEntity acadEntity = (AcadEntity)_acad;
-                                                        if (acadEntity.ObjectName == "AcDbPolyline")
-                                                        {
-                                                            var pline = (Acad3DPolyline)acadEntity;
-                                                        
-
-                                                        }
+                                        //        //countHatchs++;
+                                        //        //if (isFloor && areastr.Length > 7 && !lstLevelAreas.Contains(areastr + currentFilename.ToLower().Replace(" ", "")))
+                                        //        //{
+                                        //        //    lstLevelAreas.Add(areastr + currentFilename.ToLower().Replace(" ", ""));
+                                        //        //    levelHatchs.Add("Hatch" + countHatchs.ToString() + ";" + currentFilename.ToLower().Replace(" ", ""), curves);
+                                        //        //}
+                                        //        //pattendtype
+                                        //        //writer.WriteStartElement("Hatch");
+                                        //        //writer.WriteAttributeString("ElementID", "" + hatch.ToString());
+                                        //        //writer.WriteAttributeString("ElementName", "" + elename.ToString());
+                                        //        //writer.WriteAttributeString("LayerName", "" + layerNAME.ToString());
+                                        //        //writer.WriteAttributeString("Type", "" + type.ToString());
+                                        //        //writer.WriteAttributeString("Space", "" + spacing.ToString());
+                                        //        //writer.WriteAttributeString("HatchWeight", "" + Hatchweight.ToString());
+                                        //        //writer.WriteAttributeString("Material", "" + meterial.ToString());
+                                        //        //writer.WriteAttributeString("Area", "" + area.ToString());
+                                        //        //writer.WriteElementString("Maximun", "" + Maximun.ToString());
+                                        //        //writer.WriteElementString("Minimum", "" + Minimum.ToString());
+                                        //        //writer.WriteStartElement("Boundary");
+                                        //        ////////////int xcount = 0;
+                                        //        ////////////for (var curve = 0; curve <= hatch.NumberOfLoops; curve++)
+                                        //        ////////////{
+                                        //        ////////////    object acadObject;
+                                        //        ////////////    hatch.GetLoopAt(curve, out acadObject);
+                                        //        ////////////    if (acadObject != null)
+                                        //        ////////////    {
+                                        //        ////////////        var objs = (object[])acadObject;
+                                        //        ////////////        var _acad = objs[0];
+                                        //        ////////////        AcadEntity acadEntity = (AcadEntity)_acad;
+                                        //        ////////////        if (acadEntity.ObjectName == "AcDbPolyline")
+                                        //        ////////////        {
+                                        //        ////////////            var pline = (Acad3DPolyline)acadEntity;
 
 
+                                        //        ////////////        }
 
-                                                        //writer.WriteElementString("cPoint", "" + curve.StartPoint.ToString());
-                                                        xcount++;
-                                                    }
-                                                    //if (xcount == curves.Count)
-                                                    //writer.WriteElementString("cPoint", "" + curve.EndPoint.ToString());
-                                                }
-                                                //writer.WriteEndElement();
-                                                //writer.WriteEndElement();
 
-                                            }
-                                        }
+
+                                        //        ////////////        //writer.WriteElementString("cPoint", "" + curve.StartPoint.ToString());
+                                        //        ////////////        xcount++;
+                                        //        ////////////    }
+                                        //        ////////////    //if (xcount == curves.Count)
+                                        //        ////////////    //writer.WriteElementString("cPoint", "" + curve.EndPoint.ToString());
+                                        //        ////////////}
+                                        //        //writer.WriteEndElement();
+                                        //        //writer.WriteEndElement();
+
+                                        //    }
+                                        //}
                                     }
-                                    catch(Exception ex) { MessageBox.Show(ex.Message, "CapInfo"); }
+                                    catch (Exception ex) { MessageBox.Show(ex.Message, "CapInfo"); }
                                     AcadDoc.Close();
                                     ////////AcadDoc.ModelSpace.GetEnumerator().MoveNext();
                                     ////////Autodesk.AutoCAD.ApplicationServices.Document cadDoc = Autodesk.AutoCAD.ApplicationServices.DocumentExtension.FromAcadDocument(AcadDoc);
@@ -1764,34 +1759,34 @@ namespace _23DC
             //}
             //catch (Exception ex) { MessageBox.Show(ex.Message, "CapInfo"); }
 
-            System.IO.File.Copy(_outputcapfilename, txtBrowse_Output.Text, true);
+            System.IO.File.Copy(_outputcapfilename.Replace("dkn", "Model " + capsintax + " - Final"), txtBrowse_Output.Text, true);
 
-            XElement rootElement = XElement.Load(txtBrowse_Output.Text);
+            //XElement rootElement = XElement.Load(txtBrowse_Output.Text);
 
-            XElement xLevels = rootElement.Element("CAP").Element("Levels");
+            //XElement xLevels = rootElement.Element("CAP").Element("Levels");
 
-            SortedList<string, string> listleveldetails = new SortedList<string, string>();
-            int countLevel = 0;
-            foreach (var levelVItem in CAP.Levels)
-            {
-                //if (levelVItem is not gLevel) continue;
-                XElement xLevel = xLevels.Element((levelVItem).LevelName.Replace(" ", ""));
-                //writer.WriteStartElement("Level" + countLevel);
-                string levelname = countLevel == 0 ? "Ground Floor" : (countLevel == 1 ? "1st Floor" : (countLevel == 2 ? "2nd Floor" : "3rd Floor"));
-                if (xLevel == null)
-                {
-                    xLevels.Add(new XElement((levelVItem).LevelName.Replace(" ", "")));
-                    xLevel = xLevels.Element((levelVItem).LevelName.Replace(" ", ""));
-                }
-                xLevel.SetElementValue("Level_Name", (levelVItem).LevelName);
-                xLevel.SetElementValue("Level_Number", (levelVItem).LevelNumbar.ToString());
-                xLevel.SetElementValue("Level_Value", (levelVItem).LevelValue.ToString());
+            //SortedList<string, string> listleveldetails = new SortedList<string, string>();
+            //int countLevel = 0;
+            //foreach (var levelVItem in CAP.Levels)
+            //{
+            //    //if (levelVItem is not gLevel) continue;
+            //    XElement xLevel = xLevels.Element((levelVItem).LevelName.Replace(" ", ""));
+            //    //writer.WriteStartElement("Level" + countLevel);
+            //    string levelname = countLevel == 0 ? "Ground Floor" : (countLevel == 1 ? "1st Floor" : (countLevel == 2 ? "2nd Floor" : "3rd Floor"));
+            //    if (xLevel == null)
+            //    {
+            //        xLevels.Add(new XElement((levelVItem).LevelName.Replace(" ", "")));
+            //        xLevel = xLevels.Element((levelVItem).LevelName.Replace(" ", ""));
+            //    }
+            //    xLevel.SetElementValue("Level_Name", (levelVItem).LevelName);
+            //    xLevel.SetElementValue("Level_Number", (levelVItem).LevelNumbar.ToString());
+            //    xLevel.SetElementValue("Level_Value", (levelVItem).LevelValue.ToString());
 
 
-                countLevel++;
+            //    countLevel++;
 
-            }
-            rootElement.Save(txtBrowse_Output.Text);
+            //}
+            //rootElement.Save(txtBrowse_Output.Text);
             MessageBox.Show(@"The file {" + System.IO.Path.GetFileName(txtBrowse_Output.Text) + "} has exported\n", "CapInfo");
 
 
@@ -1811,10 +1806,21 @@ namespace _23DC
         private void btnAI_Click(object sender, RoutedEventArgs e)
         {
             dgv_levels.EnableColumnVirtualization = true;
+
+
             var _levels = new List<CAP.Level>();
             //if (dgv_levels.ItemsSource == null)
             //{
-            _levels = txtBrowse.Text.ToLower().Contains("deken") ? LoadCollectionDataPDF() : LoadCollectionDataDWG();
+            _levels = txtBrowse.Text.ToUpper().Replace(" ", "").Contains(capsintax) ? LoadCollectionDataDWG(capsintax) : LoadCollectionDataPDF();
+            if (_levels.Count == 0) { capsintax = "L-II\\"; _levels = txtBrowse.Text.ToUpper().Replace(" ", "").Contains(capsintax) ? LoadCollectionDataDWG(capsintax) : LoadCollectionDataPDF(); }
+            if (_levels.Count == 0) { capsintax = "L-III\\"; _levels = txtBrowse.Text.ToUpper().Replace(" ", "").Contains(capsintax) ? LoadCollectionDataDWG(capsintax) : LoadCollectionDataPDF(); }
+            if (_levels.Count == 0) { capsintax = "L-IV\\"; _levels = txtBrowse.Text.ToUpper().Replace(" ", "").Contains(capsintax) ? LoadCollectionDataDWG(capsintax) : LoadCollectionDataPDF(); }
+            if (_levels.Count == 0) { capsintax = "L-V\\"; _levels = txtBrowse.Text.ToUpper().Replace(" ", "").Contains(capsintax) ? LoadCollectionDataDWG(capsintax) : LoadCollectionDataPDF(); }
+            if (_levels.Count == 0) { capsintax = "L-VI\\"; _levels = txtBrowse.Text.ToUpper().Replace(" ", "").Contains(capsintax) ? LoadCollectionDataDWG(capsintax) : LoadCollectionDataPDF(); }
+            if (_levels.Count == 0) { capsintax = "L-VII\\"; _levels = txtBrowse.Text.ToUpper().Replace(" ", "").Contains(capsintax) ? LoadCollectionDataDWG(capsintax) : LoadCollectionDataPDF(); }
+
+
+            XElement xElement = XElement.Load(_outputcapfilename.Replace("dkn", "Model " + capsintax.Replace("L", "").Replace("\\", "") + " - Final"));
             dgv_levels.ItemsSource = _levels;
             //}
             //else
@@ -1832,7 +1838,7 @@ namespace _23DC
             int currentlevel = 0;
             tab_Floors.Items.Clear();
             tab_Walls.Items.Clear();
-            XElement xElement = XElement.Load(_outputcapfilename.Replace("dkn", "flwa"));
+
             foreach (var level in _levels)
             {
                 TabItem tabItemlevel = new TabItem();
@@ -1840,6 +1846,15 @@ namespace _23DC
                 tab_Floors.Items.Add(tabItemlevel);
                 TabItem _floorview = (TabItem)tab_Floors.Items.GetItemAt(currentlevel);
                 Canvas CanvasView = new Canvas();
+                var st = new ScaleTransform();
+                CanvasView.RenderTransform = st;
+               
+                CanvasView.Margin = new Thickness(4);
+                //double left = (CanvasView.ActualWidth - CanvasView.ActualWidth / 2) / 2;
+                //Canvas.SetLeft(CanvasView, left);
+                //double top = (CanvasView.ActualHeight - CanvasView.ActualHeight / 2) / 2;
+                //Canvas.SetTop(CanvasView, top);
+                //CanvasView.Background = new SolidColorBrush(Color.FromRgb(60, 125, 200));
                 CanvasView.RenderTransform = RenderTransform;
                 System.Windows.Shapes.Polyline pline = new System.Windows.Shapes.Polyline();
                 PointCollection pointCollection = new PointCollection();
@@ -1849,27 +1864,43 @@ namespace _23DC
                 if (pline != null) // pline = PolyLine
                 {
                     pline.Stroke = new SolidColorBrush(Color.FromRgb(60, 125, 200));
-                    pline.StrokeThickness = 3;
+                    pline.StrokeThickness = 2;
 
                     //    < cPoint > (0, 11030, 5760) </ cPoint >
                     //< cPoint > (6800, 11030, 5760) </ cPoint >
                     //< cPoint > (6800, 0, 5760) </ cPoint >
                     //< cPoint > (0, 0, 5760) </ cPoint >
                     //< cPoint > (0, 11030, 5760) </ cPoint >
+                    //slidervalue = 1;
+                    double xMax = 0;
+                    double yMax = 0;
                     pointCollection = new PointCollection();
                     foreach (XElement xE in xElement.Element("CAP").Element("Floors").Elements())
                     {
-                        foreach (XElement xEle in xE.Elements("cPoint"))
+                        foreach (XElement xEle in xE.Element("cPoint").Elements("Point"))
                         {
                             if (level.LevelNumbar != xE.Element("Level_Number").Value) continue;
                             double xValue = 0;
                             double.TryParse(xEle.Value.Replace("(", "").Replace(")", "").Split(',')[0].ToString(), out xValue);
                             double yValue = 0;
                             double.TryParse(xEle.Value.Replace("(", "").Replace(")", "").Split(',')[1].ToString(), out yValue);
-                            xValue = xValue / slidervalue;
-                            yValue = yValue / slidervalue;
+                            if (xMax <= xValue || xMax == 0) xMax = xValue;
+                            if (yMax <= yValue || yMax == 0) yMax = yValue;
+                            xValue = (xValue *10000/ slidervalue);// - (this.Width / 2);
+
+                            yValue = (yValue *10000/ slidervalue);// - (this.Width / 2);
+
                             pointCollection.Add(new Point(xValue, yValue));
                         }
+                    }
+                    if (pointCollection.Count > 0)
+                        pointCollection.Add(pointCollection[0]);
+
+                    PointCollection pCollection = new PointCollection();
+
+                    foreach (Point point in pointCollection)
+                    {
+                        pCollection.Add(new Point((point.X - xMax) / slidervalue, (point.Y - yMax) / slidervalue));
                     }
 
                     pline.Points = pointCollection;
@@ -1878,27 +1909,34 @@ namespace _23DC
                     //slider.VerticalAlignment = VerticalAlignment.Bottom;
                     //slider.Margin= new Thickness(3, 0, 0, 3);
                     CanvasView.Children.Add(pline);
+               CanvasView.Width = this.Width;
+                    CanvasView.Height = this.Height;
 
                 }
-                //CanvasView.Width = _floorview.Width;
-                //CanvasView.Height = _floorview.Height;
-                // CanvasView.Background= new SolidColorBrush(Color.FromRgb(60, 125, 200)); 
-                Drawer drawer = new Drawer(CanvasView);
-                drawer.ContinuousDraw = true;
-                drawer.DrawTool = Tool.Selection;
+
+                //Drawer drawer = new Drawer(CanvasView);
+                //drawer.ContinuousDraw = true;
+                //drawer.DrawTool = Tool.Selection;
+
                 System.Windows.Controls.ComboBox combobox = new System.Windows.Controls.ComboBox();
                 combobox.Items.Add("System Family: Floor");
                 combobox.SelectedIndex = 0;
-                combobox.Width = 200;
+                combobox.Width = 300;
                 combobox.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
-                //CanvasView.Children.Add(combobox);
 
-
-                //CanvasView.Children.Add(slider);
                 StackPanel stackPanel = new StackPanel();
                 stackPanel.Children.Add(combobox);
                 stackPanel.Children.Add(CanvasView);
-                _floorview.Content = stackPanel;
+
+
+
+
+                
+                ScrollViewer scrollViewer = new ScrollViewer();
+                scrollViewer.HorizontalScrollBarVisibility=ScrollBarVisibility.Visible;
+                scrollViewer.VerticalScrollBarVisibility = ScrollBarVisibility.Visible;
+                scrollViewer.Content = stackPanel;
+                _floorview.Content = scrollViewer;
 
 
                 TabItem tabItemwall = new TabItem();
@@ -1906,46 +1944,66 @@ namespace _23DC
                 tab_Walls.Items.Add(tabItemwall);
                 TabItem _wallview = (TabItem)tab_Walls.Items.GetItemAt(currentlevel);
                 Canvas CanvaswView = new Canvas();
-                pline = new System.Windows.Shapes.Polyline();
-                pointCollection = new PointCollection();
-                CanvaswView.Children.Clear();
-                if (pline != null) // pline = PolyLine
-                {
-                    pline.Stroke = new SolidColorBrush(Color.FromRgb(60, 125, 200));
-                    pline.StrokeThickness = 3;
 
-                    pointCollection = new PointCollection();
-                    foreach (XElement xE in xElement.Element("CAP").Element("Walls").Elements())
+                CanvaswView.Children.Clear();
+                //if (pline != null) // pline = PolyLine
+                //drawer.ActiveObject = _floorview;
+
+
+                pointCollection = new PointCollection();
+                foreach (XElement xE in xElement.Element("CAP").Element("Walls").Elements())
+                {
+                    foreach (XElement xEle in xE.Elements("cPoint"))
                     {
-                        foreach (XElement xEle in xE.Elements("cPoint"))
-                        {
-                            if (level.LevelNumbar != xE.Element("Level_Number").Value) continue;
-                            double xValue = 0;
-                            double.TryParse(xEle.Value.Replace("(", "").Replace(")", "").Split(',')[0].ToString(), out xValue);
-                            double yValue = 0;
-                            double.TryParse(xEle.Value.Replace("(", "").Replace(")", "").Split(',')[1].ToString(), out yValue);
-                            xValue = xValue / slidervalue;
-                            yValue = yValue / slidervalue;
-                            pointCollection.Add(new Point(xValue, yValue));
-                        }
+                        if (level.LevelNumbar != xE.Element("Level_Number").Value) continue;
+                        pline = new System.Windows.Shapes.Polyline();
+                        pointCollection = new PointCollection();
+                        pline.Stroke = new SolidColorBrush(Color.FromRgb(60, 125, 200));
+                        pline.StrokeThickness = 2;
+                        double xValue = 0;
+                        double.TryParse(xEle.Element("sPoint").Value.Replace("(", "").Replace(")", "").Split(',')[0].ToString(), out xValue);
+                        double yValue = 0;
+                        double.TryParse(xEle.Element("sPoint").Value.Replace("(", "").Replace(")", "").Split(',')[1].ToString(), out yValue);
+                        xValue = xValue * 306 / slidervalue;
+                        yValue = yValue * 306 / slidervalue;
+                        pointCollection.Add(new Point(xValue, yValue));
+
+                        double.TryParse(xEle.Element("ePoint").Value.Replace("(", "").Replace(")", "").Split(',')[0].ToString(), out xValue);
+
+                        double.TryParse(xEle.Element("ePoint").Value.Replace("(", "").Replace(")", "").Split(',')[1].ToString(), out yValue);
+                        xValue = xValue * 306 / slidervalue;
+                        yValue = yValue * 306 / slidervalue;
+                        pointCollection.Add(new Point(xValue, yValue));
+                        pline.Points = pointCollection;
+                        CanvaswView.Children.Add(pline);
                     }
-                    pline.Points = pointCollection;
-                    CanvaswView.Children.Add(pline);
                 }
+
+                //}
                 //CanvasView.Width = _floorview.Width;
                 //CanvasView.Height = _floorview.Height;
                 // CanvasView.Background= new SolidColorBrush(Color.FromRgb(60, 125, 200)); 
-                drawer = new Drawer(CanvasView);
-                drawer.ContinuousDraw = true;
-                drawer.DrawTool = Tool.Selection;
+                //drawer = new Drawer(CanvasView);
+                //drawer.ContinuousDraw = true;
+                //drawer.DrawTool = Tool.Selection;
                 combobox = new System.Windows.Controls.ComboBox();
                 combobox.Items.Add("System Family: Basic Wall");
                 combobox.Items.Add("System Family: Brick Wall");
                 combobox.Items.Add("System Family: Curtain Wall");
                 combobox.Items.Add("System Family: Stacked Wall");
                 combobox.SelectedIndex = 0;
-                CanvaswView.Children.Add(combobox);
-                _wallview.Content = CanvaswView;
+                combobox.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                combobox.Width = 300;
+                //CanvaswView.Children.Add(combobox);
+
+                StackPanel stackPanelwall = new StackPanel();
+                stackPanelwall.Children.Add(combobox);
+                stackPanelwall.Children.Add(CanvaswView);
+                _wallview.Content = stackPanelwall;
+                //CanvaswView.Margin = new Thickness(4);
+                //CanvaswView.Width = tab_Walls.ActualWidth;
+                //CanvaswView.Height = tab_Walls.ActualHeight;
+                //_wallview.Content = CanvaswView;
 
                 currentlevel++;
             }
@@ -1953,7 +2011,7 @@ namespace _23DC
 
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            if (e.NewValue != 10)
+            if (e.NewValue != 1)
             {
                 slidervalue = e.NewValue;
                 btnAI_Click(null, null);

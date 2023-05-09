@@ -1,0 +1,2892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export>
+    <CAP>
+       <Levels>
+			<Level0>
+                <Level_Name>Ground Floor</Level_Name>
+                <Level_Number>0</Level_Number>
+                <Level_Value>26517.6</Level_Value>
+            </Level0>
+            <Level1>
+                <Level_Name>1st Floor</Level_Name>
+                <Level_Number>1</Level_Number>
+                <Level_Value>28346.4</Level_Value>
+            </Level1>
+            <Level2>
+                <Level_Name>2nd Floor</Level_Name>
+                <Level_Number>2</Level_Number>
+                <Level_Value>31394.4</Level_Value>
+            </Level2>
+            <Level3>
+                <Level_Name>3rd Floor</Level_Name>
+                <Level_Number>3</Level_Number>
+                <Level_Value>35052</Level_Value>
+            </Level3>
+        </Levels>
+		
+        <Floors>
+            <Floor0>
+                <Level_Name>Ground Floor</Level_Name>
+                <Level_Number>0</Level_Number>
+                <Level_Value>87</Level_Value>
+				<Width>1.0000</Width>
+				<Offset>0</Offset>
+				<familyname>(Floor)</familyname>
+				<type>(Generic - 12")</type>
+                <cPoint>
+					<Point>(-55.595410158, 71.223460126, 85.465879265)</Point>
+					<Point>(-55.595410158, 54.541087367, 85.465879265)</Point>
+					
+					<Point>(58.839734957, 54.541087367, 85.465879265)</Point>
+					<Point>(60.996304175, 56.697656649, 85.465879265)</Point>
+				
+					<Point>(92.606193197, 25.087767628, 85.465879265)</Point>
+					<Point>(88.959658942, 21.441307044, 85.465879265)</Point>
+				
+					<Point>(80.549005505, 29.852273374, 85.465879265)</Point>
+					<Point>(67.499540321, 16.802809849, 85.465879265)</Point>
+				
+					<Point>(62.279755793, 22.022594223, 85.465879265)</Point>
+					<Point>(43.604527435, 3.347365806, 85.465879265)</Point>
+				
+					<Point>(43.488532286, 3.463360954, 85.465879265)</Point>
+					<Point>(31.984237702, -8.040933630, 85.465879265)</Point>
+				
+					<Point>(-16.268387155, -8.040933630, 85.465879265)</Point>
+					<Point>(-16.268387155, -21.738440192, 85.465879265)</Point>
+				
+					<Point>(-16.268387155, -28.840041254, 85.465879265)</Point>
+					<Point>(-36.609594504, -28.840041254, 85.465879265)</Point>
+					
+					<Point>(-40.156119586, -34.980574561, 85.465879265)</Point>
+					<Point>(-55.047423550, -38.654538074, 85.465879265)</Point>
+					
+					<Point>(-43.826980243, -84.133664098, 85.465879265)</Point>
+					<Point>(-33.502433161, -84.133664098, 85.465879265)</Point>
+					
+					<Point>(-33.502433161, -89.276419095, 85.465879265)</Point>
+					<Point>(-39.452273379, -91.290879121, 85.465879265)</Point>
+					
+					<Point>(-42.061178382, -91.290879121, 85.465879265)</Point>
+					<Point>(-69.427785362, -100.556504726, 85.465879265)</Point>
+					
+					<Point>(-69.985373146, -98.296490673, 85.465879265)</Point>
+					<Point>(-132.338157651, -119.407531493, 85.465879265)</Point>
+					
+					<Point>(-140.746388045, -85.327303382, 85.465879265)</Point>
+					<Point>(-141.701990694, -85.563068448, 85.465879265)</Point>
+					
+					<Point>(-142.872224318, -80.869517742, 85.465879265)</Point>
+					<Point>(-143.258842223, -80.964903619, 85.465879265)</Point>
+					
+					<Point>(-145.498599202, -71.886723676, 85.465879265)</Point>
+					<Point>(-150.117321352, -73.026248915, 85.465879265)</Point>
+					
+					<Point>(-151.531904707, -67.292661584, 85.465879265)</Point>
+					<Point>(-146.518058296, -66.042569272, 85.465879265)</Point>
+					
+					<Point>(-152.350172109, -42.403853407, 85.465879265)</Point>
+					<Point>(-150.792204545, -42.019473638, 85.465879265)</Point>
+					
+					<Point>(-157.050367629, -16.653895438, 85.465879265)</Point>
+					<Point>(-157.050367629, -11.863810304, 85.465879265)</Point>
+					
+					<Point>(-156.831067835, -11.863810304, 85.465879265)</Point>
+					<Point>(-156.831067835, 78.051916095, 85.465879265)</Point>
+					
+					<Point>(-129.370437913, 78.051916095, 85.465879265)</Point>
+					<Point>(-129.370437913, 71.223460126, 85.465879265)</Point>
+				</cPoint>         
+				
+            </Floor0>
+            <Floor1>
+                <Level_Name>1stfloor</Level_Name>
+                <Level_Number>1</Level_Number>
+                <Level_Value>93</Level_Value>
+				<Width>1.0000</Width>
+				<Offset>0</Offset>
+				<familyname>(Floor)</familyname>
+				<type>(Generic - 12")</type>
+				
+                <cPoint>
+				<Point>(-33.492791568, -82.226467702, 90.715223097)</Point>
+				<Point>(-33.492791568, -87.365958308, 90.715223097)</Point>
+				
+				<Point>(-39.452273379, -89.383682725, 90.715223097)</Point>
+				<Point>(-42.061178382, -89.383682725, 90.715223097)</Point>
+				
+				<Point>(-69.427785392, -98.649308340, 90.715223097)</Point>
+				<Point>(-84.301049232, -38.365015383, 90.715223097)</Point>
+				
+				<Point>(-75.737208249, -36.252155460, 90.715223097)</Point>
+				<Point>(-75.737208249, -18.598897774, 90.715223097)</Point>
+				
+				<Point>(-78.602314095, -18.598897774, 90.715223097)</Point>
+				<Point>(-78.602314095, -11.219039071, 90.715223097)</Point>
+				
+				<Point>(-82.541353034, -11.219039071, 90.715223097)</Point>
+				<Point>(-82.541353034, 27.110579344, 90.715223097)</Point>
+				
+				<Point>(-82.541353034, 34.396035316, 90.715223097)</Point>
+				<Point>(-91.727704740, 34.396035316, 90.715223097)</Point>
+				
+				<Point>(-91.727704740, 57.619370757, 90.715223097)</Point>
+				<Point>(-82.541353034, 57.619370757, 90.715223097)</Point>
+				
+				<Point>(-82.541353034, 76.144719699, 90.715223097)</Point>
+				<Point>(-55.589253297, 76.144719699, 90.715223097)</Point>
+				
+				<Point>(-55.589253297, 59.002593004, 90.715223097)</Point>
+				<Point>(-41.530854346, 59.002593004, 90.715223097)</Point>
+				
+				<Point>(-41.530854346, 56.448283763, 90.715223097)</Point>
+				<Point>(58.839734898, 56.448283763, 90.715223097)</Point>
+				
+				<Point>(74.148024625, 71.756573528, 90.715223097)</Point>
+				<Point>(92.127281880, 53.777316651, 90.715223097)</Point>
+				
+				<Point>(78.975561240, 40.625595979, 90.715223097)</Point>
+				<Point>(92.606193197, 26.994964024, 90.715223097)</Point>
+				
+				<Point>(88.959812503, 23.348656998, 90.715223097)</Point>
+				<Point>(80.549001782, 31.759467719, 90.715223097)</Point>
+				
+				<Point>(67.499540315, 18.710006252, 90.715223097)</Point>
+				<Point>(62.279755849, 23.929790563, 90.715223097)</Point>
+				
+				<Point>(43.604527475, 5.254562163, 90.715223097)</Point>
+				<Point>(43.488532279, 5.370557359, 90.715223097)</Point>
+				
+				<Point>(31.984237702, -6.133737234, 90.715223097)</Point>
+				<Point>(-16.268387155, -6.133737234, 90.715223097)</Point>
+				
+				<Point>(-16.268387155, -19.983889225, 90.715223097)</Point>
+				<Point>(-18.433084503, -19.983889225, 90.715223097)</Point>
+				
+				<Point>(-21.271665907, -16.461313757, 90.715223097)</Point>
+				<Point>(-21.271665907, -6.450424658, 90.715223097)</Point>
+				
+				<Point>(-30.129935711, -6.450424658, 90.715223097)</Point>
+				<Point>(-30.129935711, -16.461314651, 90.715223097)</Point>
+				
+				<Point>(-32.968515222, -19.983889225, 90.715223097)</Point>
+				<Point>(-36.609594504, -19.983889225, 90.715223097)</Point>
+				
+				<Point>(-36.609594504, -6.450424658, 90.715223097)</Point>
+				<Point>(-48.502639123, -6.450424658, 90.715223097)</Point>
+				
+				<Point>(-48.502639123, -17.758965976, 90.715223097)</Point>
+				<Point>(-48.502639123, -35.132620815, 90.715223097)</Point>
+				
+				<Point>(-55.047520018, -36.747365478, 90.715223097)</Point>
+				<Point>(-43.826973946, -82.226467702, 90.715223097)</Point>
+
+				</cPoint>
+						
+            </Floor1>
+            <Floor2>
+                <Level_Name>2nd floor</Level_Name>
+                <Level_Number>2</Level_Number>
+                <Level_Value>93</Level_Value>
+				<Width>1.0000</Width>
+				<Offset>0</Offset>
+				<familyname>(Floor)</familyname>
+				<type>(Generic - 12")</type>
+                <cPoint>
+				<Point>(-82.541353034, 76.144719699, 101.377952756)</Point>
+				<Point>(-55.589253297, 76.144719699, 101.377952756)</Point>
+				
+				<Point>(-55.589253297, 73.319909886, 101.377952756)</Point>
+				<Point>(-47.882567103, 73.319909886, 101.377952756)</Point>
+				
+				<Point>(-47.882567103, 36.889470254, 101.377952756)</Point>
+				<Point>(39.280921436, 36.889470254, 101.377952756)</Point>
+				
+				<Point>(74.148024631, 71.756573534, 101.377952756)</Point>
+				<Point>(92.127281696, 53.777316469, 101.377952756)</Point>
+				
+				<Point>(75.754226486, 37.404261219, 101.377952756)</Point>
+				<Point>(80.974010884, 32.184476821, 101.377952756)</Point>
+				
+				<Point>(67.499540315, 18.710006252, 101.377952756)</Point>
+				<Point>(62.279755856, 23.929790555, 101.377952756)</Point>
+				
+				<Point>(42.866207697, 4.516242348, 101.377952756)</Point>
+				<Point>(42.750212490, 4.632237554, 101.377952756)</Point>
+				
+				<Point>(31.984237702, -6.133737234, 101.377952756)</Point>
+				<Point>(-16.268387155, -6.133737234, 101.377952756)</Point>
+				
+				<Point>(-16.268387155, -19.983889225, 101.377952756)</Point>
+				<Point>(-36.609594504, -19.983889225, 101.377952756)</Point>
+				
+				<Point>(-36.609594504, -6.450424658, 101.377952756)</Point>
+				<Point>(-40.418656342, -6.450424658, 101.377952756)</Point>
+				
+				<Point>(-40.418656342, -33.138150898, 101.377952756)</Point>
+				<Point>(-45.780061829, -34.460910018, 101.377952756)</Point>
+				
+				<Point>(-33.995404385, -82.226467702, 101.377952756)</Point>
+				<Point>(-33.502433161, -82.226467702, 101.377952756)</Point>
+				
+				<Point>(-33.502433161, -87.369222699, 101.377952756)</Point>
+				<Point>(-39.606332244, -89.435843021, 101.377952756)</Point>
+				
+				<Point>(-42.061178382, -89.383682725, 101.377952756)</Point>
+				<Point>(-69.427785395, -98.649308340, 101.377952756)</Point>
+				
+				<Point>(-84.301049232, -38.365015383, 101.377952756)</Point>
+				<Point>(-75.737208249, -36.252155460, 101.377952756)</Point>
+				
+				<Point>(-75.737208249, -35.745272833, 101.377952756)</Point>
+				<Point>(-55.136656985, -30.662731084, 101.377952756)</Point>
+				
+				<Point>(-59.806269386, -11.735864392, 101.377952756)</Point>
+				<Point>(-74.588914286, -11.735864392, 101.377952756)</Point>
+				
+				<Point>(-74.588914286, -18.915585300, 101.377952756)</Point>
+				<Point>(-78.602314095, -18.915585300, 101.377952756)</Point>
+				
+				<Point>(-78.602314095, -11.219039071, 101.377952756)</Point>
+				<Point>(-82.541353034, -11.219039071, 101.377952756)</Point>
+				
+				<Point>(-82.541353034, 34.396035316, 101.377952756)</Point>
+				<Point>(-91.727704740, 34.396035316, 101.377952756)</Point>
+				
+				<Point>(-91.727704740, 57.619370757, 101.377952756)</Point>
+				<Point>(-82.541353034, 57.619370757, 101.377952756)</Point>
+				</cPoint>
+				
+						
+            </Floor2>
+                        
+        </Floors>
+				
+		<Walls>
+			<Wall0>
+                <Level_Name>Ground Floor</Level_Name>
+                <Level_Number>0</Level_Number>
+                <Level_Value>26517.6</Level_Value>
+				<cPoint>
+					<sPoint>(-82.213269045, 57.600004488, 86.942257218)</sPoint>
+					<ePoint>(-82.213269045, 66.290803449, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 66.290803449, 86.942257218)</sPoint>
+					<ePoint>(-55.917337286, 66.290803449, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.917337286, 66.290803449, 86.942257218)</sPoint>
+					<ePoint>(-55.917337286, 58.674509015, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.923494148, 56.120199774, 86.942257218)</sPoint>
+					<ePoint>(58.975631736, 56.120199774, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(60.996304175, 58.140872218, 86.942257218)</sPoint>
+					<ePoint>(21.574057025, 18.718624972, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(21.574057025, 18.718624972, 86.942257218)</sPoint>
+					<ePoint>(-55.923494148, 18.718624972, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.923494148, 18.718624972, 86.942257218)</sPoint>
+					<ePoint>(-55.923494148, 58.674509015, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, -10.808934084, 86.942257218)</sPoint>
+					<ePoint>(-82.213269045, 57.600004488, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, -10.808934084, 86.942257218)</sPoint>
+					<ePoint>(-55.868124688, -10.808934084, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.868124688, -10.808934084, 86.942257218)</sPoint>
+					<ePoint>(-55.868124688, 18.718624972, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.868124688, -6.122340669, 86.942257218)</sPoint>
+					<ePoint>(-36.281510514, -6.122340669, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -5.805653244, 86.942257218)</sPoint>
+					<ePoint>(-36.281510514, -19.655805236, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -19.655805236, 86.942257218)</sPoint>
+					<ePoint>(-16.596471144, -19.655805236, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -19.655805236, 86.942257218)</sPoint>
+					<ePoint>(-16.596471144, -5.805653244, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -5.805653244, 86.942257218)</sPoint>
+					<ePoint>(31.848340864, -5.805653244, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(31.848340864, -5.805653244, 86.942257218)</sPoint>
+					<ePoint>(43.256541873, 5.602547765, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(78.453582797, 40.683593596, 86.942257218)</sPoint>
+					<ePoint>(60.996304175, 58.140872218, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-63.288964426, -96.137889192, 86.942257218)</sPoint>
+					<ePoint>(-66.156260483, -84.516173170, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-44.973839610, -79.290073321, 86.942257218)</sPoint>
+					<ePoint>(-67.286005039, -84.794902306, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-67.286005039, -84.794902306, 86.942257218)</sPoint>
+					<ePoint>(-77.738204293, -42.430062587, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-77.738204293, -42.430062587, 86.942257218)</sPoint>
+					<ePoint>(-55.426038814, -36.925233592, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.426038814, -36.925233592, 86.942257218)</sPoint>
+					<ePoint>(-42.549582117, -89.116070526, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-42.549582117, -89.116070526, 86.942257218)</sPoint>
+					<ePoint>(-63.288964426, -96.137889192, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-40.992734903, -82.472530694, 86.942257218)</sPoint>
+					<ePoint>(-33.748496153, -82.472530694, 86.942257218)</ePoint>
+					<height>(5.249343832021)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-33.748496153, -82.472530694, 86.942257218)</sPoint>
+					<ePoint>(-33.748496153, -86.876061837, 86.942257218)</ePoint>
+					<height>(5.249343832021)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-33.748496153, -86.876061837, 86.942257218)</sPoint>
+					<ePoint>(-39.431581701, -88.800205720, 86.942257218)</ePoint>
+					<height>(3.66476364672536)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-39.431581701, -88.800205720, 86.942257218)</sPoint>
+					<ePoint>(-40.992734903, -82.472530694, 86.942257218)</ePoint>
+					<height>(5.249343832021)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.028167113, -11.825994452, 86.942257218)</sPoint>
+					<ePoint>(-78.028167113, -18.024750793, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.028167113, -18.024750793, 86.942257218)</sPoint>
+					<ePoint>(-75.163061268, -18.024750793, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-75.163061268, -18.024750793, 86.942257218)</sPoint>
+					<ePoint>(-75.163061268, -36.790161419, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-75.163061268, -35.430953249, 86.942257218)</sPoint>
+					<ePoint>(-63.537999167, -32.562832746, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, 56.120199774, 86.942257218)</sPoint>
+					<ePoint>(-36.281510514, 45.867575102, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.629279543, 36.878073790, 86.942257218)</sPoint>
+					<ePoint>(-16.629279543, 56.120199774, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.923494148, 36.878073790, 86.942257218)</sPoint>
+					<ePoint>(39.733505799, 36.878073790, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(43.314539462, 5.544550175, 86.942257218)</sPoint>
+					<ePoint>(36.412824608, 12.446265029, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(36.412824608, 12.446265029, 86.942257218)</sPoint>
+					<ePoint>(33.728491638, 9.761932059, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(33.728491638, 9.761932059, 86.942257218)</sPoint>
+					<ePoint>(-16.711300541, 9.761932059, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.711300541, 9.761932059, 86.942257218)</sPoint>
+					<ePoint>(-16.711300541, 18.718624972, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.297258546, 9.843953055, 86.942257218)</sPoint>
+					<ePoint>(-16.711300541, 9.843953055, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, 18.718624972, 86.942257218)</sPoint>
+					<ePoint>(-36.281510514, -6.122340669, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -5.805653244, 86.942257218)</sPoint>
+					<ePoint>(-16.596471144, -5.805653244, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(43.314539462, 5.544550175, 86.942257218)</sPoint>
+					<ePoint>(78.453582797, 40.683593596, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(62.279755839, 24.509766598, 86.942257218)</sPoint>
+					<ePoint>(67.218164762, 19.571357822, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(67.218164762, 19.571357822, 86.942257218)</sPoint>
+					<ePoint>(80.267626238, 32.620819298, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(83.615369607, 35.405811579, 86.942257218)</sPoint>
+					<ePoint>(78.395585194, 40.625595992, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(4.627282136, 56.120199774, 86.942257218)</sPoint>
+					<ePoint>(4.627282136, 36.878073790, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(25.883843816, 56.120199774, 86.942257218)</sPoint>
+					<ePoint>(25.883843816, 36.878073790, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-67.367468520, 26.920724708, 86.942257218)</sPoint>
+					<ePoint>(-82.213269045, 26.920724708, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-67.367468520, 10.516525233, 86.942257218)</sPoint>
+					<ePoint>(-82.213269045, 10.516525233, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-75.163061268, -36.790161419, 86.942257218)</sPoint>
+					<ePoint>(-83.824453386, -38.927089030, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-83.824453386, -38.927089030, 86.942257218)</sPoint>
+					<ePoint>(-69.214502263, -98.144123109, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-69.214502263, -98.144123109, 86.942257218)</sPoint>
+					<ePoint>(-63.288964426, -96.137889192, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(31.644495635, -5.805653244, 86.942257218)</sPoint>
+					<ePoint>(31.644495635, 9.761932059, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(15.555759827, 9.761932059, 86.942257218)</sPoint>
+					<ePoint>(15.555759827, -5.805653244, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(4.660090535, 9.761932059, 86.942257218)</sPoint>
+					<ePoint>(4.660090535, -5.805653244, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, 9.286210273, 86.942257218)</sPoint>
+					<ePoint>(-16.596471144, -5.805653244, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-43.007232299, 36.878073790, 86.942257218)</sPoint>
+					<ePoint>(-43.007232299, 56.120199774, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(80.267626238, 32.620819298, 86.942257218)</sPoint>
+					<ePoint>(88.959815433, 23.928630103, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(88.959815433, 23.928630103, 86.942257218)</sPoint>
+					<ePoint>(92.026214233, 26.994966953, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(92.026214233, 26.994966953, 86.942257218)</sPoint>
+					<ePoint>(83.615369607, 35.405811579, 86.942257218)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+						
+            </Wall0>
+            <Wall1>
+                <Level_Name>1stfloor</Level_Name>
+                <Level_Number>1</Level_Number>
+                <Level_Value>28346.4</Level_Value>
+				<cPoint>
+					<sPoint>(-91.399620751, 34.724119306, 92.191601050)</sPoint>
+					<ePoint>(-91.399620751, 57.291286767, 92.191601050)</ePoint>
+					<height>(4.996)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -26.604760868, 92.191601050)</sPoint>
+					<ePoint>(-34.641090567, -26.604760868, 92.191601050)</ePoint>
+					<height>(3.28083989501312)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-34.641090567, -26.604760868, 92.191601050)</sPoint>
+					<ePoint>(-34.641090567, -22.820398424, 92.191601050)</ePoint>
+					<height>(3.28083989501312)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -26.604760868, 92.191601050)</sPoint>
+					<ePoint>(-18.236953467, -26.604760868, 92.191601050)</ePoint>
+					<height>(3.28083989501312)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-18.236953467, -26.604760868, 92.191601050)</sPoint>
+					<ePoint>(-18.236953467, -22.820398424, 92.191601050)</ePoint>
+					<height>(3.28083989501312)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-91.399620751, 57.291286767, 92.191601050)</sPoint>
+					<ePoint>(-82.213269045, 57.291286767, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, -10.808934084, 92.191601050)</sPoint>
+					<ePoint>(-82.213269045, 75.816635709, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 75.816635709, 92.191601050)</sPoint>
+					<ePoint>(-55.917337286, 75.816635709, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.917337286, 75.816635709, 92.191601050)</sPoint>
+					<ePoint>(-55.917337286, 58.674509015, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.923494148, 58.674509015, 92.191601050)</sPoint>
+					<ePoint>(-41.858938336, 58.674509015, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-41.858938336, 58.674509015, 92.191601050)</sPoint>
+					<ePoint>(-41.858938336, 56.120199774, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.923494148, 56.120199774, 92.191601050)</sPoint>
+					<ePoint>(58.975631736, 56.120199774, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(74.148024628, 71.292592703, 92.191601050)</sPoint>
+					<ePoint>(21.257369593, 18.401937540, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(30.863162039, 18.401937540, 92.191601050)</sPoint>
+					<ePoint>(-55.923494148, 18.401937540, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.923494148, 18.401937540, 92.191601050)</sPoint>
+					<ePoint>(-55.923494148, 58.674509015, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 34.724119306, 92.191601050)</sPoint>
+					<ePoint>(-91.399620751, 34.724119306, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-91.399620751, 34.724119306, 92.191601050)</sPoint>
+					<ePoint>(-91.399620751, 57.291286767, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, -10.808934084, 92.191601050)</sPoint>
+					<ePoint>(-55.868124688, -10.808934084, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.868124688, -10.808934084, 92.191601050)</sPoint>
+					<ePoint>(-55.868124688, 18.401937540, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.868124688, -6.122340669, 92.191601050)</sPoint>
+					<ePoint>(-36.281510514, -6.122340669, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -5.805653244, 92.191601050)</sPoint>
+					<ePoint>(-36.281510514, -26.604760868, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -19.655805236, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, -19.655805236, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -19.655805236, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, -5.805653244, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -5.805653244, 92.191601050)</sPoint>
+					<ePoint>(31.848340864, -5.805653244, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(31.848340864, -5.805653244, 92.191601050)</sPoint>
+					<ePoint>(42.518222076, 4.864227968, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(91.605303441, 53.835314246, 92.191601050)</sPoint>
+					<ePoint>(74.148024628, 71.292592703, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-62.679793126, -95.931639539, 92.191601050)</sPoint>
+					<ePoint>(-65.418070526, -84.832860351, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-44.857834482, -79.760265149, 92.191601050)</sPoint>
+					<ePoint>(-66.532934704, -85.107918218, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-66.532934704, -85.107918218, 92.191601050)</sPoint>
+					<ePoint>(-77.022551070, -42.591419287, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-77.022551070, -42.591419287, 92.191601050)</sPoint>
+					<ePoint>(-55.347450850, -37.243766220, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.347450850, -37.243766220, 92.191601050)</sPoint>
+					<ePoint>(-42.549582117, -89.116070526, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-42.549582117, -89.116070526, 92.191601050)</sPoint>
+					<ePoint>(-62.679793126, -95.931639539, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-41.070867509, -82.472530694, 92.191601050)</sPoint>
+					<ePoint>(-33.748496153, -82.472530694, 92.191601050)</ePoint>
+					<height>(9.18635170603675)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-33.748496153, -82.472530694, 92.191601050)</sPoint>
+					<ePoint>(-33.748496153, -87.192749363, 92.191601050)</ePoint>
+					<height>(9.18635170603675)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-33.748496153, -87.192749363, 92.191601050)</sPoint>
+					<ePoint>(-39.431581701, -89.116893246, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-39.431581701, -89.116893246, 92.191601050)</sPoint>
+					<ePoint>(-41.070867509, -82.472530694, 92.191601050)</ePoint>
+					<height>(9.18635170603675)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.028167113, -10.808934084, 92.191601050)</sPoint>
+					<ePoint>(-78.028167113, -18.341438318, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.028167113, -18.341438318, 92.191601050)</sPoint>
+					<ePoint>(-75.163061268, -18.341438318, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-75.163061268, -18.341438318, 92.191601050)</sPoint>
+					<ePoint>(-75.163061268, -36.448424401, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-75.163061268, -36.194983087, 92.191601050)</sPoint>
+					<ePoint>(-63.433964072, -33.301195178, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.923494148, 36.561386264, 92.191601050)</sPoint>
+					<ePoint>(39.416818274, 36.561386264, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(37.144079581, 12.122643356, 92.191601050)</sPoint>
+					<ePoint>(34.401063903, 9.379627678, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(34.401063903, 9.379627678, 92.191601050)</sPoint>
+					<ePoint>(-16.711300541, 9.379627678, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.711300541, 9.379627678, 92.191601050)</sPoint>
+					<ePoint>(-16.711300541, 18.401937540, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.543321538, 9.461648674, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, 9.461648674, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.543321538, 18.401937540, 92.191601050)</sPoint>
+					<ePoint>(-35.543321538, -5.805653244, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -5.805653244, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, -5.805653244, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(42.576219679, 4.806230364, 92.191601050)</sPoint>
+					<ePoint>(91.605303441, 53.835314246, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(62.279755852, 24.509766585, 92.191601050)</sPoint>
+					<ePoint>(67.499540310, 19.289982282, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(67.499540310, 19.289982282, 92.191601050)</sPoint>
+					<ePoint>(80.394034849, 32.184476821, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(80.394034849, 32.184476821, 92.191601050)</sPoint>
+					<ePoint>(75.174250453, 37.404261218, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.923494148, 27.588289252, 92.191601050)</sPoint>
+					<ePoint>(-82.213269045, 27.588289252, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.868124688, 9.379627835, 92.191601050)</sPoint>
+					<ePoint>(-82.213269045, 9.379627835, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-75.163061268, -36.448424401, 92.191601050)</sPoint>
+					<ePoint>(-83.903928638, -38.604960048, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-83.903928638, -38.604960048, 92.191601050)</sPoint>
+					<ePoint>(-69.214502294, -98.144123119, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-69.214502294, -98.144123119, 92.191601050)</sPoint>
+					<ePoint>(-62.679793126, -95.931639539, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(32.200546415, -5.453447693, 92.191601050)</sPoint>
+					<ePoint>(23.641147725, 9.379627678, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(16.293948803, 9.379627678, 92.191601050)</sPoint>
+					<ePoint>(16.293948803, -5.805653244, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(5.398279512, 9.379627678, 92.191601050)</sPoint>
+					<ePoint>(5.398279512, -5.805653244, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, 9.461648674, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, -5.805653244, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(26.059573936, 23.204141894, 92.191601050)</sPoint>
+					<ePoint>(31.510007799, 17.755278114, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(31.510726207, 17.755996729, 92.191601050)</sPoint>
+					<ePoint>(43.518356124, 5.748366812, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(23.729504760, 9.379627678, 92.191601050)</sPoint>
+					<ePoint>(31.808300009, 17.458422927, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(34.825855794, 31.970423773, 92.191601050)</sPoint>
+					<ePoint>(52.283134429, 14.513145138, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(40.573078304, 26.223201262, 92.191601050)</sPoint>
+					<ePoint>(60.384857909, 46.034980867, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(71.828120378, 34.058131135, 92.191601050)</sPoint>
+					<ePoint>(54.370841743, 51.515409770, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(51.418424064, 37.068547022, 92.191601050)</sPoint>
+					<ePoint>(63.128480175, 25.358490911, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(72.466094359, 34.696105117, 92.191601050)</sPoint>
+					<ePoint>(77.685878752, 29.476320724, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(26.654841192, 36.561386264, 92.191601050)</sPoint>
+					<ePoint>(26.654841192, 23.799409152, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(9.850810283, 36.561386264, 92.191601050)</sPoint>
+					<ePoint>(9.850810283, 9.379627678, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-3.003735943, 18.401937540, 92.191601050)</sPoint>
+					<ePoint>(-3.003735943, 36.561386264, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-15.858282168, 18.401937540, 92.191601050)</sPoint>
+					<ePoint>(-15.858282168, 36.561386264, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.543321538, 18.401937540, 92.191601050)</sPoint>
+					<ePoint>(-35.543321538, 36.561386264, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.543321538, 0.931463687, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, 0.931463687, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-5.359594504, 9.379627678, 92.191601050)</sPoint>
+					<ePoint>(-5.359594504, -5.805653244, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.543321538, 9.461649183, 92.191601050)</sPoint>
+					<ePoint>(-55.868124688, 9.461649183, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-45.385841129, -6.122340669, 92.191601050)</sPoint>
+					<ePoint>(-45.385841129, 9.461649183, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -8.993075584, 92.191601050)</sPoint>
+					<ePoint>(-30.458019701, -8.993075545, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-30.458019701, -5.805653244, 92.191601050)</sPoint>
+					<ePoint>(-30.458019701, -16.345576083, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-30.458019701, -16.345576083, 92.191601050)</sPoint>
+					<ePoint>(-33.125485911, -19.655805236, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -8.993075574, 92.191601050)</sPoint>
+					<ePoint>(-20.943584005, -8.993075545, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-20.943584005, -5.805653244, 92.191601050)</sPoint>
+					<ePoint>(-20.943584005, -16.345576083, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-20.943584005, -16.345576083, 92.191601050)</sPoint>
+					<ePoint>(-18.276117794, -19.655805236, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-70.412999006, -40.960719036, 92.191601050)</sPoint>
+					<ePoint>(-59.923382641, -83.477217967, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-62.524437120, -72.934627453, 92.191601050)</sPoint>
+					<ePoint>(-47.458882966, -69.217698938, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-50.083934084, -58.577845285, 92.191601050)</sPoint>
+					<ePoint>(-71.759034304, -63.925498354, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-67.772355673, -51.663771040, 92.191601050)</sPoint>
+					<ePoint>(-52.706801520, -47.946842525, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-75.163061268, -18.425490275, 92.191601050)</sPoint>
+					<ePoint>(-59.329410776, -18.425490275, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-59.329410776, -18.425490275, 92.191601050)</sPoint>
+					<ePoint>(-59.329410776, -10.808934084, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-68.351720488, -10.808934084, 92.191601050)</sPoint>
+					<ePoint>(-68.351720488, 9.379627835, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 65.892094966, 92.191601050)</sPoint>
+					<ePoint>(-55.917337286, 65.892094966, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-58.181116814, 65.892094966, 92.191601050)</sPoint>
+					<ePoint>(-58.181116814, 55.885533388, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.556444898, 55.885533388, 92.191601050)</sPoint>
+					<ePoint>(-82.213269045, 55.885533388, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.522324349, 55.885533388, 92.191601050)</sPoint>
+					<ePoint>(-78.522324349, 65.892094966, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.522324169, 27.588289252, 92.191601050)</sPoint>
+					<ePoint>(-78.522324030, 36.446556800, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-58.181116810, 27.588289252, 92.191601050)</sPoint>
+					<ePoint>(-58.181116893, 36.446556800, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.556444862, 36.446556800, 92.191601050)</sPoint>
+					<ePoint>(-82.213269045, 36.446556800, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 45.878971667, 92.191601050)</sPoint>
+					<ePoint>(-55.923494148, 45.878971667, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -22.820398424, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, -22.820398424, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -22.820398424, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, -26.604760868, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -19.655805236, 92.191601050)</sPoint>
+					<ePoint>(-16.596471144, -22.820398424, 92.191601050)</ePoint>
+					<height>(9.21467979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				
+            </Wall1>
+            <Wall2>
+                <Level_Name>2ndfloor</Level_Name>
+                <Level_Number>2</Level_Number>
+                <Level_Value>31394.4</Level_Value>
+				<cPoint>
+					<sPoint>(-59.415944739, -78.150194514, 102.854330709)</sPoint>
+					<ePoint>(-69.907437923, -35.626088468, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-69.907437923, -35.626088468, 102.854330709)</sPoint>
+					<ePoint>(-47.211987246, -30.026695836, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-52.886025809, -76.539141247, 102.854330709)</sPoint>
+					<ePoint>(-63.377518993, -34.015035201, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-64.661691331, -56.888141491, 102.854330709)</sPoint>
+					<ePoint>(-41.966240654, -51.288748859, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.720494062, -72.550801882, 102.854330709)</sPoint>
+					<ePoint>(-47.211987246, -30.026695836, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-45.018269882, -74.598018544, 102.854330709)</sPoint>
+					<ePoint>(-55.509763065, -32.073912498, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-59.415944739, -78.150194514, 102.854330709)</sPoint>
+					<ePoint>(-36.720494062, -72.550801882, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-74.457370252, -4.025890639, 102.854330709)</sPoint>
+					<ePoint>(-47.882567103, -4.025890639, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-70.684404373, -11.407780403, 102.854330709)</sPoint>
+					<ePoint>(-51.983616972, -11.407780403, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-48.538735082, 0.895369204, 102.854330709)</sPoint>
+					<ePoint>(38.781353735, 0.895369204, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(38.781353735, 0.895369204, 102.854330709)</sPoint>
+					<ePoint>(91.663300866, 53.777316470, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(91.663300866, 53.777316470, 102.854330709)</sPoint>
+					<ePoint>(74.148024617, 71.292592692, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(28.357100453, 25.501668416, 102.854330709)</sPoint>
+					<ePoint>(74.148024617, 71.292592692, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(28.357100453, 25.501668416, 102.854330709)</sPoint>
+					<ePoint>(-48.210651092, 25.501668416, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-48.210651092, 25.501668416, 102.854330709)</sPoint>
+					<ePoint>(-48.210651092, 72.991825897, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-48.210651092, 72.991825897, 102.854330709)</sPoint>
+					<ePoint>(-74.457370252, 72.991825897, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-74.457370252, 72.991825897, 102.854330709)</sPoint>
+					<ePoint>(-74.457370252, -4.025890639, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-41.258480860, -82.792475589, 102.854330709)</sPoint>
+					<ePoint>(-39.668746866, -89.168550382, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-39.668746866, -89.168550382, 102.854330709)</sPoint>
+					<ePoint>(-33.748496153, -87.191960668, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-33.748496153, -87.191960668, 102.854330709)</sPoint>
+					<ePoint>(-33.748496153, -82.792475589, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-33.748496153, -82.792475589, 102.854330709)</sPoint>
+					<ePoint>(-41.258480860, -82.792475589, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.492125984251969)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(23.311658619, 0.895369204, 102.854330709)</sPoint>
+					<ePoint>(23.311658619, 25.501668416, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(33.143719033, 30.288287008, 102.854330709)</sPoint>
+					<ePoint>(50.658995271, 12.773010770, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(23.311658619, 16.479358705, 102.854330709)</sPoint>
+					<ePoint>(30.829235731, 16.479358705, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(30.829235731, 16.479358705, 102.854330709)</sPoint>
+					<ePoint>(38.890941533, 24.541064507, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(39.301408522, 1.415423993, 102.854330709)</sPoint>
+					<ePoint>(30.640026034, 16.479358705, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.820209973753281)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(47.590582007, 33.240705022, 102.854330709)</sPoint>
+					<ePoint>(67.135774359, 52.785897421, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(61.388551861, 58.533119905, 102.854330709)</sPoint>
+					<ePoint>(78.903828119, 41.017843690, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(70.204187627, 32.318203176, 102.854330709)</sPoint>
+					<ePoint>(58.436133881, 44.086256922, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+				<cPoint>
+					<sPoint>(47.590582007, 33.240705022, 102.854330709)</sPoint>
+					<ePoint>(59.358635754, 21.472651275, 102.854330709)</ePoint>
+					<height>(6.56167979002625)</height>
+					<width>(0.656167979002625)</width><walltype>(Generic)</walltype>
+				</cPoint>
+                
+            </Wall2>
+            
+        </Walls>		
+						
+		<Beams>
+			<Beam1>
+				<Level_Name>1st Floor</Level_Name>
+				<Level_Number>1</Level_Number>
+				<Level_Value>28346.4</Level_Value>
+						
+				
+				<cPoint>
+					<sPoint>(-36.281510514, -5.778171724, 91.191601050)</sPoint>
+					<ePoint>(-36.281510514, -19.093054819, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -5.778171724, 91.191601050)</sPoint>
+					<ePoint>(-16.596471144, -19.093054820, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, 10.024399249, 91.191601050)</sPoint>
+					<ePoint>(-36.281510514, -5.778171724, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, 9.434955834, 91.191601050)</sPoint>
+					<ePoint>(-16.596471144, -5.778171724, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(4.660090535, 9.434955834, 91.191601050)</sPoint>
+					<ePoint>(4.660090535, -5.452648265, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(15.555759827, 9.434955834, 91.191601050)</sPoint>
+					<ePoint>(15.555759827, -5.559590252, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(31.644495635, 9.265160926, 91.191601050)</sPoint>
+					<ePoint>(31.644495635, -5.292713527, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.947598547, 9.778336257, 91.191601050)</sPoint>
+					<ePoint>(-35.320301960, 9.778336257, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-17.590224477, -5.805653244, 91.191601050)</sPoint>
+					<ePoint>(-35.388780908, -5.805653244, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(3.653213843, -5.805653244, 91.191601050)</sPoint>
+					<ePoint>(-15.638124740, -5.805653244, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(14.560656169, -5.805653244, 91.191601050)</sPoint>
+					<ePoint>(5.621717780, -5.805653244, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(31.409119355, -5.805653244, 91.191601050)</sPoint>
+					<ePoint>(16.514106231, -5.805653244, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -4.821401276, 91.191601050)</sPoint>
+					<ePoint>(-36.281510514, 9.286210272, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, 10.024399249, 91.191601050)</sPoint>
+					<ePoint>(-36.281510514, 18.242903186, 91.191601050)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+			</Beam1>
+			
+			<Beam2>
+				<Level_Name>2nd Floor</Level_Name>
+				<Level_Number>2</Level_Number>
+				<Level_Value>31394.4</Level_Value>
+						
+				<cPoint>
+					<sPoint>(-59.825147684, -83.875383758, 101.854330709)</sPoint>
+					<ePoint>(-70.277346886, -41.510544026, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-66.551536501, -84.690105442, 101.854330709)</sPoint>
+					<ePoint>(-77.003735703, -42.325265711, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-47.212360864, -69.156852082, 101.854330709)</sPoint>
+					<ePoint>(-62.183394453, -72.850486387, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-49.837198859, -58.517862255, 101.854330709)</sPoint>
+					<ePoint>(-64.871938974, -62.227214152, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-52.482789328, -47.891549285, 101.854330709)</sPoint>
+					<ePoint>(-67.453822917, -51.585183590, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-54.900276919, 75.805152770, 101.854330709)</sPoint>
+					<ePoint>(-82.213269045, 75.805152770, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 75.805152770, 101.854330709)</sPoint>
+					<ePoint>(-82.213269045, 65.892095027, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.261169307, 65.892095027, 101.854330709)</sPoint>
+					<ePoint>(-82.213269045, 65.892095027, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-68.422405322, 61.356932606, 101.854330709)</sPoint>
+					<ePoint>(-78.522324349, 61.356932606, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 65.892095027, 101.854330709)</sPoint>
+					<ePoint>(-82.213269045, 27.588289252, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.556444898, 55.885533388, 101.854330709)</sPoint>
+					<ePoint>(-82.131248047, 55.885533388, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 57.291286767, 101.854330709)</sPoint>
+					<ePoint>(-91.399620751, 57.291286767, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-91.399620751, 57.291286767, 101.854330709)</sPoint>
+					<ePoint>(-91.399620751, 34.724119306, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.261169307, 75.805152770, 101.854330709)</sPoint>
+					<ePoint>(-55.261169307, 58.674509015, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.261169307, 45.878971667, 101.854330709)</sPoint>
+					<ePoint>(-82.213269045, 45.878971667, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-54.781125694, 36.446556784, 101.854330709)</sPoint>
+					<ePoint>(-81.159078450, 36.446556784, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.522324163, 36.446556784, 101.854330709)</sPoint>
+					<ePoint>(-78.522324163, 27.588289252, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, 34.724119306, 101.854330709)</sPoint>
+					<ePoint>(-91.399620751, 34.724119306, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.162744110, 27.588289252, 101.854330709)</sPoint>
+					<ePoint>(-81.475080068, 27.588289252, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-82.213269045, -11.371684501, 101.854330709)</sPoint>
+					<ePoint>(-82.213269045, 9.379627835, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-68.351720488, -10.688216907, 101.854330709)</sPoint>
+					<ePoint>(-68.351720488, 9.379627835, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-55.622061695, 9.379627835, 101.854330709)</sPoint>
+					<ePoint>(-81.146996079, 9.379627835, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.904213967, -6.122340669, 101.854330709)</sPoint>
+					<ePoint>(-54.736234965, -6.122340669, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, 9.461648833, 101.854330709)</sPoint>
+					<ePoint>(-35.543321538, 9.461648833, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(30.848185611, 18.483958544, 101.854330709)</sPoint>
+					<ePoint>(9.850810283, 18.483958544, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.543321538, -6.122340669, 101.854330709)</sPoint>
+					<ePoint>(-35.543321538, 36.528577966, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(5.398279338, -5.788153113, 101.854330709)</sPoint>
+					<ePoint>(5.398279338, 8.975626414, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-3.003735943, 18.812042533, 101.854330709)</sPoint>
+					<ePoint>(-3.003735943, 36.528577966, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-15.805788730, 18.812042533, 101.854330709)</sPoint>
+					<ePoint>(-15.805788730, 36.528577966, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-41.858938336, 56.164404557, 101.854330709)</sPoint>
+					<ePoint>(-41.858938336, 58.674509015, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-59.329410776, -18.425490275, 101.854330709)</sPoint>
+					<ePoint>(-73.765106315, -18.425490275, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-59.329410777, -18.425490275, 101.854330709)</sPoint>
+					<ePoint>(-59.329410777, -11.404492900, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-30.458019701, -8.993075577, 101.854330709)</sPoint>
+					<ePoint>(-36.281510514, -8.993075577, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, -8.993075577, 101.854330709)</sPoint>
+					<ePoint>(-20.943581918, -8.993075577, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-36.281510514, -26.757344254, 101.854330709)</sPoint>
+					<ePoint>(-36.281510514, -6.054945757, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-30.458019701, -16.345576082, 101.854330709)</sPoint>
+					<ePoint>(-30.458019701, -6.122340669, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-20.943581918, -16.345575151, 101.854330709)</sPoint>
+					<ePoint>(-20.943581918, -6.122340669, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-32.887150670, -19.319685398, 101.854330709)</sPoint>
+					<ePoint>(-30.458019701, -16.345576082, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-5.359594504, -6.122340669, 101.854330709)</sPoint>
+					<ePoint>(-35.632341197, -6.122340669, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-16.596471144, 0.931463687, 101.854330709)</sPoint>
+					<ePoint>(-35.543321538, 0.931463687, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-35.543321538, 9.461648833, 101.854330709)</sPoint>
+					<ePoint>(-55.622061695, 9.461648833, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-45.385841262, 9.461648833, 101.854330709)</sPoint>
+					<ePoint>(-45.385841262, -6.122340669, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-64.988859588, 27.588289252, 101.854330709)</sPoint>
+					<ePoint>(-64.988859588, 9.379627835, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.522324163, 36.446556784, 101.854330709)</sPoint>
+					<ePoint>(-78.522324163, 27.588289252, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-58.181116814, 36.446556784, 101.854330709)</sPoint>
+					<ePoint>(-58.181116814, 27.588289252, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(-78.522324349, 65.892095027, 101.854330709)</sPoint>
+					<ePoint>(-78.522324349, 55.885533388, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-58.181117000, 65.892095027, 101.854330709)</sPoint>
+					<ePoint>(-58.181117000, 55.885533388, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-5.359594504, -6.122340669, 101.854330709)</sPoint>
+					<ePoint>(-5.359594504, 8.969522849, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(16.293948630, -5.794256679, 101.854330709)</sPoint>
+					<ePoint>(16.293948630, 8.969522849, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(9.850810283, 9.789732822, 101.854330709)</sPoint>
+					<ePoint>(9.850810283, 36.528577966, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-5.359594504, -5.805653244, 101.854330709)</sPoint>
+					<ePoint>(31.571478852, -5.805653244, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-5.359594504, 2.243801064, 101.854330709)</sPoint>
+					<ePoint>(-16.596471144, 2.243801064, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(23.673477920, 9.323196858, 101.854330709)</sPoint>
+					<ePoint>(32.115694849, 17.765817748, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(40.783800122, 26.433923093, 101.854330709)</sPoint>
+					<ePoint>(50.341805170, 35.991928141, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(63.597920765, 24.889050324, 101.854330709)</sPoint>
+					<ePoint>(51.418424050, 37.068547039, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+				</cPoint>
+				<cPoint>
+					<sPoint>(55.119775238, 50.766476884, 101.854330709)</sPoint>
+					<ePoint>(72.297561282, 33.588690841, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(84.645591035, 46.759606614, 101.854330709)</sPoint>
+					<ePoint>(67.130314803, 64.274882846, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(60.975064549, 58.119632592, 101.854330709)</sPoint>
+					<ePoint>(74.384110465, 71.528678508, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(49.127173559, 34.777296547, 101.854330709)</sPoint>
+					<ePoint>(60.118064567, 45.768187555, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(22.394271947, 18.483958544, 101.854330709)</sPoint>
+					<ePoint>(35.153744705, 31.243431301, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(31.502165158, 17.036292979, 101.854330709)</sPoint>
+					<ePoint>(40.410597047, 25.944724868, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(63.597920765, 24.889050324, 101.854330709)</sPoint>
+					<ePoint>(72.297561282, 33.588690841, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(78.490340788, 40.604356354, 101.854330709)</sPoint>
+					<ePoint>(60.975064549, 58.119632592, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(78.490340787, 40.604356353, 101.854330709)</sPoint>
+					<ePoint>(91.645034526, 53.759050122, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				<cPoint>
+					<sPoint>(-41.858938336, 58.674509015, 101.854330709)</sPoint>
+					<ePoint>(-55.001476269, 58.674509015, 101.854330709)</ePoint>
+					<width>(0.656168)</width>
+					<height>(1.31234)</height>
+					<familyname>(W Shapes)</familyname>
+					
+				</cPoint>
+				
+			</Beam2>
+		</Beams>
+				
+        <Columns>
+			<Column0>
+                <Level_Name>Ground Floor</Level_Name>
+                <Level_Number>0</Level_Number>
+                <Level_Value>28346.4</Level_Value>
+				<cPoint>
+					<orgin>(74.977478756, 37.569547744, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-43.007232300, 46.728795574, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-7.856386473, 37.091328382, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(39.921782691, 37.312413656, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(49.810271047, 47.200902019, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(8.301749987, 56.366262767, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-66.893213477, -39.508337299, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-47.880781001, -79.761207200, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.033098995, -38.271833746, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(85.044354582, 28.090071959, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.884528887, 4.200908429, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(34.952914201, 11.522405628, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(39.573693994, 9.531458631, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(52.797147608, 15.273221402, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(73.734281963, 25.770791947, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(64.889648342, 22.145937788, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-69.417993454, -10.562871092, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(57.578197719, 54.968828747, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-36.281510514, 18.964687957, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-16.678492142, 14.453533108, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(8.612308321, 9.942378252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-58.974382515, -94.431020311, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-56.520979064, -81.892905841, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-66.634058880, -84.387991989, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-64.205248123, -83.788758793, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-45.268544475, -77.849512519, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-50.199939212, -57.861590463, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-77.967654405, -14.089773981, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-77.948177181, -11.087805476, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-64.726952035, -90.097131043, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-75.065282377, -26.449439949, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-75.979673244, -17.718175092, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-68.954795494, -33.673882666, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-56.130591880, 46.441722085, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 28.233060667, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 36.927286387, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.049227050, 46.441722085, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(25.916652216, 28.069018672, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(25.915258421, 23.305889370, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(34.499006775, 31.889637740, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(34.730997172, 32.121628138, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(62.859731813, 25.451800742, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-36.281510514, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-16.596471145, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 56.530304761, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.802507939, 56.382666973, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 65.224530483, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, 65.224530483, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(15.555759827, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+				</cPoint>
+				<cPoint>
+					<orgin>(4.660090536, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-36.281510514, -19.093054819, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-16.596471145, -19.093054819, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-36.281355242, -26.194655881, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-16.596315871, -26.194655881, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.638465896, 37.091328382, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 9.860357255, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, -5.395548257, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(39.950678397, 26.669750442, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(59.495870758, 46.214942804, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(45.344455576, 42.735086548, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(50.796230257, 37.515302271, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-72.417590123, -63.343100947, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-36.281510514, 10.024399249, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(9.112621306, 28.069018672, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(9.112621306, 19.046708960, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, 28.233060667, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-34.477043537, -81.909780269, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-34.477043537, -86.240457374, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-40.174228563, -88.218952900, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-41.732410558, -81.916973488, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(31.251044836, 17.970102969, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				
+						
+            </Column0>  
+			
+			<Column1>
+                <Level_Name>First Floor</Level_Name>
+                <Level_Number>1</Level_Number>
+                <Level_Value>31394.4</Level_Value>
+				<cPoint>
+					<orgin>(74.977478756, 37.569547744, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.131333949, -37.873667960, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(57.578197719, 54.968828747, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(32.120871609, 33.339605164, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-45.268544475, -77.849512968, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(25.915258421, 23.305889370, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(34.615105020, 32.005735986, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(62.859731813, 25.451800742, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(59.379875580, 46.330937979, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, -10.480850094, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, -10.480850094, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, 19.046708960, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 65.224530483, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, 65.224530483, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(43.314539475, 5.906608358, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(52.014193689, 14.606262593, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(45.402453136, 42.793084186, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-72.417590123, -63.343100947, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(39.834683243, 26.785745594, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(50.737802710, 37.573729817, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-36.281510514, -19.093054819, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-16.596471145, -19.093054819, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 10.024399250, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, 37.009307386, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 28.151039669, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 37.009307386, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-82.213269044, 56.448283764, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, 56.448283764, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-71.133417810, -40.469994664, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-60.641924625, -82.994100710, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(22.856349737, 10.024399251, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(15.555759827, 10.024399250, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-55.966549884, 28.151039662, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-77.663336716, -42.081047924, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-67.171843532, -84.605153970, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-52.758242044, -81.049048602, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-63.249735227, -38.524942557, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-34.477043537, -81.909780269, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-34.477043537, -86.240457374, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-40.174228563, -88.218952900, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-41.732410558, -81.916973488, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-78.112219176, -17.862739858, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-60.067599753, -17.862739858, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-78.112219176, -10.480850095, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-60.067599753, -10.480850095, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(31.135727821, 18.086790151, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-36.281510514, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(-16.596471145, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				<cPoint>
+					<orgin>(15.555759827, -5.559590252, 0.000000000)</orgin>	
+					<height>(1.969)</height>
+					<width>(1.969)</width>
+					<familyname>(Concrete-Rectangular-Column)</familyname>
+				</cPoint>
+				
+			</Column1>  
+        </Columns>
+		
+		<Doors> 
+			<Door1>
+				<Level_Name>First Floor</Level_Name>
+                <Level_Number>1</Level_Number>
+                <cPoint>
+					<location>(-82.213269045, 61.945403969, 86.942950820)</location>	
+					<familyname>(Single-Flush)</familyname>
+					<type>(30" x 80")</type>
+					
+				</cPoint>
+				<cPoint>
+					<location>(-69.065303165, 66.290803449, 86.942257218)</location>	
+					<familyname>(Single-Flush)</familyname>
+					<type>(30" x 80")</type>
+					
+				</cPoint>
+				<cPoint>
+					<location>(-55.917337286, 62.482656232, 86.942257218)</location>	
+					<familyname>(Single-Flush)</familyname>
+					<type>(30" x 80")</type>
+					
+				</cPoint>
+				<cPoint>
+					<location>(1.526068794, 56.120199774, 86.942257218)</location>	
+					<familyname>(Single-Flush)</familyname>
+					<type>(30" x 80")</type>
+					
+				</cPoint>
+			</Door1>
+		</Doors>
+		
+		<Windows> 
+			<Windows1>
+				<Level_Name>First Floor</Level_Name>
+                <Level_Number>1</Level_Number>
+                <cPoint>
+					<location>(74.977478756, 37.569547744, 0.000000000)</location>	
+					<familyname>(Fixed)</familyname>
+					<type>(16" x 24")</type>
+					<offset>(2)</offset>
+				</cPoint>
+			</Windows1>
+		</Windows>
+		
+		<Roofs> 
+			<Roof3>
+				<Level_Name>Third Floor</Level_Name>
+                <Level_Number>3</Level_Number>	
+				<familyname>(Basic Roof)</familyname>
+				<type>(Generic - 9")</type>
+				<angle>(0.6)</angle>
+				<offset>(-6)</offset>
+				<cPoint>
+					<Point>(74.059211967, 71.466247122, 113.549868766)</Point>
+					<Point>(91.773670348, 53.751788740, 113.549868766)</Point>
+					<Point>(45.020940943, 6.999059335, 113.549868766)</Point>
+					<Point>(28.232728744, 25.639763900, 113.549868766)</Point>
+					
+				</cPoint>
+				<cPoint>
+					<Point>(-74.588603848, 72.909804899, 113.549868766)</Point>
+					<Point>(-48.210651092, 72.909804899, 113.549868766)</Point>
+					<Point>(-48.210651092, -3.697806649, 113.549868766)</Point>
+					<Point>(-74.588603848, -3.697806649, 113.549868766)</Point>
+				</cPoint>
+				
+			</Roof3>
+		</Roofs>
+			
+    </CAP>
+</Export>

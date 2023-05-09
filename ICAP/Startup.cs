@@ -43,6 +43,13 @@ using TextElement = Autodesk.Revit.DB.TextElement;
 using NPOI.SS.Formula.Eval;
 using Autodesk.Windows;
 using NPOI.OpenXmlFormats.Dml.Chart;
+using static System.Net.Mime.MediaTypeNames;
+using System.Windows.Controls;
+using Frame = Autodesk.Revit.DB.Frame;
+using System.Text.RegularExpressions;
+using System.Windows;
+using MessageBox = System.Windows.Forms.MessageBox;
+using Autodesk.Revit.DB;
 
 namespace ICAP
 {
@@ -2912,9 +2919,13 @@ namespace ICAP
         public string Thickness = null;
         public FilteredElementCollector levelfillRegions;
         public Level _l;
-
-
-        ///public List<String> duplicatLevel = new List<String>();
+        private double _floorTypeWid;
+        private double w;
+        private double _Wid;
+        private double _nativeWitdth;
+        private FamilyInstance instance;
+        private int levelvalue;
+        private RoofType rooftype;
 
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -2925,7 +2936,16 @@ namespace ICAP
             Document doc = uidoc.Document;
             var path = doc.PathName;
 
+
+            Autodesk.Revit.DB.Units units = doc.GetUnits();
+            //FormatOptions fo = units.GetFormatOptions(UnitType.UT_Length); //you specify which unit you are interested in setting/reading
+            //FormatOptions nFt = new FormatOptions();
+            //fo.DisplayUnits = DisplayUnitType.DUT_CUBIC_FEET;
+            //units.SetFormatOptions(UnitType.UT_Length, fo);
+            //doc.SetUnits(units);
             Autodesk.Revit.DB.View view = doc.ActiveView;
+
+           // deletelevel(doc);
 
             #region Collect elements
 
@@ -2945,7 +2965,7 @@ namespace ICAP
             #region open Dilog
             OpenFileDialog openFileDialog1 = new OpenFileDialog
             {
-                InitialDirectory = @"D:\",
+                InitialDirectory = @"C:\",
                 Title = "Browse Cap Files",
                 CheckFileExists = true,
                 CheckPathExists = true,
@@ -2957,64 +2977,1131 @@ namespace ICAP
                 ShowReadOnly = true
             };
             #endregion open Dilog
+
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 caplocation = openFileDialog1.FileName;
 
                 StringBuilder result = new StringBuilder();
 
-                deletelevel(doc);
-
                 //Load xml
                 //XDocument xdoc = XDocument.Load(caplocation);
                 XElement rootElement = XElement.Load(caplocation);
-                //Run query
-                var lv1s = rootElement.Element("CAP").Element("Levels").Elements().ToList();
+
 
                 #region Level
-
-                foreach (var lvlname in lv1s)
+                if (rootElement.Element("CAP").Element("Levels") != null)
                 {
-                    var lstle = lvlname.Element("Level_Value");
-                    var lName = lvlname.Element("Level_Name").Value.ToString();
-                    var lNo = lvlname.Element("Level_Number").Value.ToString();
-                    double lvldepth = 0;
-                    double.TryParse(lstle.Value.ToString(), out lvldepth);
-                    using (Transaction transaction = new Transaction(doc, "LevelCreation"))
+                    //Run query
+                    var lv1s = rootElement.Element("CAP").Element("Levels").Elements().ToList();
+
+                    foreach (var lvlname in lv1s)
                     {
-                        if (!transaction.HasStarted()) transaction.Start();
-                        var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
-                        if (lvlcollection.Count > 0)
+                        var lstle = lvlname.Element("Level_Value");
+                        var lName = lvlname.Element("Level_Name").Value.ToString();
+                        var lNo = lvlname.Element("Level_Number").Value.ToString();
+                        double lvldepth = 0;
+                        double.TryParse(lstle.Value.ToString(), out lvldepth);
+                        using (Transaction transaction = new Transaction(doc, "LevelCreation"))
                         {
-                            Level level = lvlcollection[0] as Level;
-                            level.Elevation = lvldepth / 305;
+                            if (!transaction.HasStarted()) transaction.Start();
+                            var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
+                            if (lvlcollection.Count > 0)
+                            {
+                                Level level = lvlcollection[0] as Level;
+                                level.Elevation = lvldepth / 305;
+                            }
+                            else
+                            {
+                                Level _l = Level.Create(doc, lvldepth / 305);
+                                _l.Name = "Level " + lNo;
+                            }
 
-                        }
-                        else
-                        {
-                            Level _l = Level.Create(doc, lvldepth / 305);
-                            _l.Name = "Level " + lNo;
+                            //_l.Elevation = lvldepth/100;
+                            transaction.Commit();
                         }
 
-                        //_l.Elevation = lvldepth/100;
-                        transaction.Commit();
                     }
 
+                    TaskDialog.Show("2D-3D", "Level Created");
                 }
-
-                TaskDialog.Show("2D-3D", "Level Created");
                 #endregion Level
 
-                alternative(doc, colllevel, caplocation);
+                #region Column
+                if (rootElement.Element("CAP").Element("Columns") != null)
+                {
+                    //Run query
+                    var collColumns = rootElement.Element("CAP").Element("Columns").Elements().ToList();
+
+
+                    List<XYZ> collColumnscollpnt = new List<XYZ>();
+                    List<string[]> Columnspnt = new List<string[]>();
+
+                    levelvalue = 1;
+                    foreach (var columnname in collColumns)
+                    {
+                        var lstle = columnname.Element("Level_Value");
+                        var lName = columnname.Element("Level_Name").Value.ToString();
+                        var lNo = columnname.Element("Level_Number").Value.ToString();
+                        var cPoints = columnname.Elements("cPoint");
+
+                        var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
+                        Level level = lvlcollection[0] as Level;
+
+                        //int.TryParse(lName, out levelvalue);
+                        //levelvalue;
+                        var colllevels = new FilteredElementCollector(doc).OfClass(typeof(Level)).OfCategory(BuiltInCategory.OST_Levels);
+                        var collvl = colllevels.Where(_layer => _layer.Name == "Level " + levelvalue).Select(i => i).ToList();
+
+                        Level nxtlvl = collvl[0] as Level;
+                        levelvalue++;
+                        foreach (string cPoint in cPoints)
+                        {
+                            string point = cPoint.Replace("<cPoint>", "").Replace("</cPoint>", "");
+                            myStrings = new[] { point };
+                            Columnspnt.Add(myStrings);
+                        }
+                        using (Transaction transaction = new Transaction(doc, "Place Column"))
+                        {
+                            if (!transaction.HasStarted()) transaction.Start();
+                            FailureHandlingOptions options = transaction.GetFailureHandlingOptions();
+                            MyPreProcessor preproccessor = new MyPreProcessor();
+                            options.SetClearAfterRollback(true);
+                            options.SetFailuresPreprocessor(preproccessor);
+                            transaction.SetFailureHandlingOptions(options);
+                            try
+                            {
+                                foreach (string[] star in Columnspnt)
+                                {
+                                    string fltpnt = star[0].ToString();
+                                    string[] point = fltpnt.Split(')');
+
+                                    string mid = point[0].Replace("(", "");
+                                    var height = point[1].Replace("(", "");
+                                    var width = point[2].Replace("(", "");
+                                    var family = point[3].Replace("(", "");
+
+                                    double _w = Convert.ToDouble(width);
+                                    double _h = Convert.ToDouble(height);
+
+                                    string[] start = mid.Split(',');
+
+                                    double xa = Convert.ToDouble(start[0]);
+                                    double ya = Convert.ToDouble(start[1]);
+                                    double za = Convert.ToDouble(start[2]);
+
+                                    XYZ origine = new XYZ(xa, ya, za);
+
+                                    bool presentcolumn = true;
+                                    FilteredElementCollector collector1 = new FilteredElementCollector(doc);
+                                    collector1.OfClass(typeof(FamilySymbol)).OfCategory(BuiltInCategory.OST_StructuralColumns);
+
+
+                                    foreach (FamilySymbol type in collector1)
+                                    {
+
+                                        try
+                                        {
+                                            Element et = doc.GetElement(type.Id);
+
+                                            Parameter h = et.LookupParameter("h");
+                                            if (h == null) continue;
+                                            Parameter w = et.LookupParameter("b");
+
+                                            double hh = h.AsDouble();
+                                            double ww = w.AsDouble();
+
+                                            if (_h == hh && _w == ww)
+                                            {
+                                                type.Activate();
+                                                //var level = new FilteredElementCollector(doc).OfClass(typeof(Level)).OfCategory(BuiltInCategory.OST_Levels).Where(e => e.Name.ToUpper() == "Level 1".ToUpper()).FirstOrDefault();
+
+
+                                                FamilyInstance instance = null;
+                                                if (null != type)
+                                                {
+                                                    Level _l = (level) as Level;
+                                                    instance = doc.Create.NewFamilyInstance(origine, type, _l, StructuralType.Column);
+                                                    var toplevel = instance.LookupParameter("Top Level");
+                                                    toplevel.Set(nxtlvl.Id);
+                                                    var topoffset = instance.LookupParameter("Top Offset");
+                                                    topoffset.SetValueString("0");
+
+                                                    presentcolumn = false;
+                                                }
+                                            }
+
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            TaskDialog.Show("CapInfo", ex.Message);
+                                        }
+                                    }
+
+
+                                    if (presentcolumn)
+                                    {
+
+                                        string newFamilyName = Guid.NewGuid().ToString();
+
+                                        try
+                                        {
+                                            FamilySymbol ctype = new FilteredElementCollector(doc).OfClass(typeof(FamilySymbol)).OfCategory(BuiltInCategory.OST_StructuralColumns).Cast<FamilySymbol>().Where(x => x.FamilyName == family).FirstOrDefault(); // family type M_Concrete-Rectangular-Column
+                                            if (ctype != null)
+                                            {
+                                                FamilySymbol columnType = ctype.Duplicate(newFamilyName) as FamilySymbol;
+
+                                                Element e1 = doc.GetElement(columnType.Id);
+
+                                                Parameter h1 = e1.LookupParameter("h");
+                                                if (h1 != null)
+                                                {
+                                                    h1.Set(_h);
+                                                }
+                                                Parameter w1 = e1.LookupParameter("b");
+                                                if (w1 != null)
+                                                {
+                                                    w1.Set(_w);
+                                                }
+
+                                                columnType.Activate();
+                                                //var level1 = new FilteredElementCollector(doc).OfClass(typeof(Level)).OfCategory(BuiltInCategory.OST_Levels).Where(e => e.Name.ToUpper() == "Level 1".ToUpper()).FirstOrDefault();
+                                                FamilyInstance instance1 = null;
+                                                if (null != columnType)
+                                                {
+
+                                                    Level _l = (level) as Level;
+                                                    instance1 = doc.Create.NewFamilyInstance(origine, columnType, _l, StructuralType.Column);
+                                                    var toplevel = instance1.LookupParameter("Top Level");
+                                                    toplevel.Set(nxtlvl.Id);
+                                                    var topoffset = instance1.LookupParameter("Top Offset");
+                                                    topoffset.SetValueString("0");
+                                                }
+                                            }
+                                            //n++;
+                                        }
+
+                                        catch (Exception ex)
+                                        {
+                                            TaskDialog.Show("CapInfo", ex.Message + ex.StackTrace);
+                                        }
+
+                                    }
+
+                                }
+                                transaction.Commit();
+                            }
+                            catch (Exception ex)
+                            {
+
+                            }
+                        }
+
+                    }
+
+                    TaskDialog.Show("CapInfo", "Column Created");
+                }
+
+                #endregion Column
+
+                #region Floor
+
+                if (rootElement.Element("CAP").Element("Floors") != null)
+                {
+                    //Run query
+                    var floors = rootElement.Element("CAP").Element("Floors").Elements().ToList();
+
+
+                    List<XYZ> collpnts = new List<XYZ>();
+                    List<string> collpntsting = new List<string>();
+                    List<string[]> floorpnt = new List<string[]>();
+                    CurveArray profile = new CurveArray();
+                    foreach (var floorname in floors)
+                    {
+                        var lstle = floorname.Element("Level_Value");
+                        var lName = floorname.Element("Level_Name").Value.ToString();
+                        var lNo = floorname.Element("Level_Number").Value.ToString();
+                        var width = floorname.Element("Width").Value.ToString();
+                        var offSet = floorname.Element("Offset").Value.ToString();
+                        var famy = floorname.Element("familyname").Value.ToString();
+                        var typ = floorname.Element("type").Value.ToString();
+
+                        string family = famy.Replace("(", "").Replace(")", "");
+                        string type = typ.Replace("(", "").Replace(")", "");
+
+
+                        var cPoints = floorname.Elements("cPoint");
+
+                        var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
+                        Level level = lvlcollection[0] as Level;
+
+                        foreach (string cPoint in cPoints)
+                        {
+                            string point = cPoint.Replace("<cPoint>", "").Replace("</cPoint>", "");
+                            myStrings = new[] { point };
+                            floorpnt.Add(myStrings);
+                        }
+                        foreach (string[] star in floorpnt)
+                        {
+
+                            string roof = star[0].ToString();
+                            string[] point = roof.Split(')');
+
+                            foreach (string pnt in point)
+                            {
+                                string points = pnt.Replace("(", "");
+                                collpntsting.Add(points);
+
+                            }
+                            foreach (string pnt in collpntsting)
+                            {
+                                string[] p1 = pnt.Split(',');
+                                if (p1[0] != "")
+                                {
+                                    double a1 = Convert.ToDouble(p1[0]);
+                                    double b1 = Convert.ToDouble(p1[1]);
+                                    double c1 = Convert.ToDouble(p1[2]);
+                                    XYZ ptt1 = new XYZ(a1, b1, c1);
+
+                                    collpnts.Add(ptt1);
+                                }
+                            }
+
+                        }
+
+                        for (int i = 0; i < collpnts.Count; i++)
+                        {
+                            Line line = Line.CreateBound(collpnts[i],
+                      collpnts[(i < collpnts.Count - 1) ? i + 1 : 0]);
+
+                            profile.Append(line);
+                        }
+                        collpnts.Clear();
+                        collpntsting.Clear();
+                        floorpnt.Clear();
+
+                        XYZ normal = XYZ.BasisZ;
+                        // FloorType floorType = new FilteredElementCollector(doc).OfClass(typeof(FloorType)).First<Element>(e => e.Name.Equals("Generic - 12\"")) as FloorType;
+                        List<FloorType> floorTypes = new List<FloorType>();
+                        List<FloorType> GenericfloorTypes = new List<FloorType>();
+                        floorTypes = collfloorTypes(doc);
+
+                        //foreach (FloorType wt in floorTypes) if (wt.Name.Contains("Generic")) GenericfloorTypes.Add(wt);
+                        foreach (FloorType wt in floorTypes) if (wt.FamilyName == family ) GenericfloorTypes.Add(wt);
+                        using (Transaction transaction = new Transaction(doc, "Place Floor"))
+                        {
+                            if (!transaction.HasStarted()) transaction.Start();
+                            FailureHandlingOptions options = transaction.GetFailureHandlingOptions();
+                            MyPreProcessor preproccessor = new MyPreProcessor();
+                            options.SetClearAfterRollback(true);
+                            options.SetFailuresPreprocessor(preproccessor);
+                            transaction.SetFailureHandlingOptions(options);
+                            try
+                            {
+                                if (profile.Size > 1)
+                                {
+                                    IList<Parameter> Thick = new List<Parameter>();
+                                    foreach (FloorType ft in floorTypes)
+                                    {
+                                        bool presentcolumn = true;
+                                        foreach (FloorType ftype in floorTypes)
+                                        {
+                                            Parameter Ftypewidth = ftype.LookupParameter("Default Thickness");
+                                            Double fw = Ftypewidth.AsDouble();
+                                            _floorTypeWid = Math.Round((Double)fw, 4);
+
+                                            Double w = Convert.ToDouble(width);
+                                            _Wid = Math.Round((Double)w, 4);
+
+                                            if (_Wid == _floorTypeWid)
+                                            {
+                                                Floor floorfmly = doc.Create.NewFloor(profile, ftype, level, true, normal);
+                                                Parameter Heightoffset = floorfmly.LookupParameter("Height Offset From Level");
+                                                Heightoffset.SetValueString(offSet);
+                                                presentcolumn = false;
+                                            }
+                                        }
+
+                                        if (presentcolumn)
+                                        {
+
+                                            if (_Wid != _floorTypeWid)
+                                            {
+
+                                                foreach (FloorType wtyp in GenericfloorTypes)
+                                                {
+                                                    FloorType newWallTyp = GenericfloorTypes[0].Duplicate("Custom FoorType" + Guid.NewGuid().ToString()) as FloorType;
+                                                    CompoundStructure cs = newWallTyp.GetCompoundStructure();
+                                                    int i = cs.GetFirstCoreLayerIndex();
+                                                    double thickness_to_set = Convert.ToDouble(width);
+                                                    cs.SetLayerWidth(i, thickness_to_set);
+                                                    newWallTyp.SetCompoundStructure(cs);
+
+                                                    Floor floorfmly = doc.Create.NewFloor(profile, newWallTyp, level, true, normal);
+                                                    Parameter Heightoffset = floorfmly.LookupParameter("Height Offset From Level");
+                                                    Heightoffset.SetValueString(offSet);
+                                                    floorTypes.Add(newWallTyp);
+                                                    break;
+
+                                                }
+
+                                            }
+                                        }
+                                        goto skip;
+                                    }
+                                skip:;
+                                    transaction.Commit();
+                                    profile.Clear();
+                                }
+
+                            }
+                            catch (Exception ex)
+                            {
+                                TaskDialog.Show("CapInfoc", ex.StackTrace.ToString());
+                                TaskDialog.Show("CapInfo", ex.Message);
+                            }
+
+                        }
+                    }
+
+                    TaskDialog.Show("2D-3D", "Floor Created");
+                }
+                #endregion Floor
+
+                #region Beams
+
+                if (rootElement.Element("CAP").Element("Beams") != null)
+                {
+                    //Run query
+                    var collBeams = rootElement.Element("CAP").Element("Beams").Elements().ToList();
+
+
+                    List<XYZ> beamcollpnt = new List<XYZ>();
+                    List<string[]> beampnt = new List<string[]>();
+                    CurveArray beamprofile = new CurveArray();
+
+                    foreach (var beamname in collBeams)
+                    {
+                        var lstle = beamname.Element("Level_Value");
+                        var lName = beamname.Element("Level_Name").Value.ToString();
+                        var lNo = beamname.Element("Level_Number").Value.ToString();
+                        var cPoints = beamname.Elements("cPoint");
+
+                        var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
+                        Level level = lvlcollection[0] as Level;
+
+                        foreach (string cPoint in cPoints)
+                        {
+                            string point = cPoint.Replace("<cPoint>", "").Replace("</cPoint>", "");
+                            myStrings = new[] { point };
+                            beampnt.Add(myStrings);
+                        }
+                        foreach (string[] star in beampnt)
+                        {
+                            string fltpnt = star[0].ToString();
+                            string[] point = fltpnt.Split(')');
+
+                            string Spoint = point[0].Replace("(", "");
+                            string Endpoint = point[1].Replace("(", "");
+                            var width = point[2].Replace("(", "");
+                            var height = point[3].Replace("(", "");
+                            var family = point[4].Replace("(", "");
+
+
+                            double _w = Convert.ToDouble(width);
+                            double _h = Convert.ToDouble(height);
+
+
+                            string[] start = Spoint.Split(',');
+                            string[] en = Endpoint.Split(',');
+                            double xa = Convert.ToDouble(start[0]);
+                            double ya = Convert.ToDouble(start[1]);
+                            double za = Convert.ToDouble(start[2]);
+
+
+                            double xb = Convert.ToDouble(en[0]);
+                            double yb = Convert.ToDouble(en[1]);
+                            double zb = Convert.ToDouble(en[2]);
+                            XYZ point_a = new XYZ(xa, ya, za);
+                            XYZ point_b = new XYZ(xb, yb, zb);
+
+                            Line line = Line.CreateBound(point_a, point_b);
+
+                            FilteredElementCollector beamcollector = new FilteredElementCollector(doc);
+                            beamcollector.OfClass(typeof(FamilySymbol)).OfCategory(BuiltInCategory.OST_StructuralFraming);
+                            bool presentcolumn = true;
+
+                            Autodesk.Revit.DB.Curve beamLine = Line.CreateBound(point_a, point_b);
+
+                            using (var transaction = new Transaction(doc))
+                            {
+                                transaction.Start("create Beam");
+
+                                FailureHandlingOptions options = transaction.GetFailureHandlingOptions();
+                                MyPreProcessor preproccessor = new MyPreProcessor();
+                                options.SetClearAfterRollback(true);
+                                options.SetFailuresPreprocessor(preproccessor);
+                                transaction.SetFailureHandlingOptions(options);
+
+                                foreach (FamilySymbol type in collector)
+                                {
+                                    FamilySymbol gotSymbol = type as FamilySymbol;
+
+                                    try
+                                    {
+                                        Element et = doc.GetElement(type.Id);
+                                        Parameter h = et.LookupParameter("h");
+                                        if (h == null) continue;
+                                        Parameter w = et.LookupParameter("b");
+
+                                        double hh = h.AsDouble();
+                                        double ww = w.AsDouble();
+
+                                        if (_h == hh && _w == ww)
+                                        {
+                                            type.Activate();
+
+                                            //FamilyInstance instance = null;
+                                            if (null != type)
+                                            {
+
+                                                if (!gotSymbol.IsActive)
+                                                {
+                                                    gotSymbol.Activate();
+                                                    doc.Regenerate();
+                                                }
+                                                Level beamlevel = (level) as Level;
+                                                instance = doc.Create.NewFamilyInstance(beamLine, gotSymbol, beamlevel, StructuralType.Beam);
+                                                presentcolumn = false;
+                                            }
+                                        }
+
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        TaskDialog.Show("CapInfo", ex.Message);
+                                    }
+                                }
+
+
+                                if (presentcolumn)
+                                {
+                                    string newFamilyName = Guid.NewGuid().ToString();
+
+                                    try
+                                    {
+                                        FamilySymbol Btype = new FilteredElementCollector(doc).OfClass(typeof(FamilySymbol)).OfCategory(BuiltInCategory.OST_StructuralFraming).Cast<FamilySymbol>().Where(x => x.FamilyName == family).FirstOrDefault(); // family type M_Concrete-Rectangular-Column
+                                        FamilySymbol beamType = Btype.Duplicate(newFamilyName) as FamilySymbol;
+                                        FamilySymbol gotSymbol = beamType as FamilySymbol;
+                                        Element e1 = doc.GetElement(beamType.Id);
+
+                                        Parameter h1 = e1.LookupParameter("h");
+                                        if (h1 != null)
+                                        {
+                                            h1.Set(_h);
+                                        }
+                                        Parameter w1 = e1.LookupParameter("b");
+                                        if (w1 != null)
+                                        {
+                                            w1.Set(_w);
+                                        }
+
+                                        beamType.Activate();
+
+                                        if (null != beamType)
+                                        {
+                                            if (!gotSymbol.IsActive)
+                                            {
+                                                gotSymbol.Activate();
+                                                doc.Regenerate();
+                                            }
+                                            Level beamlevel = (level) as Level;
+                                            instance = doc.Create.NewFamilyInstance(beamLine, gotSymbol, beamlevel, StructuralType.Beam);
+
+                                        }
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        TaskDialog.Show("CapInfo", ex.Message + ex.StackTrace);
+                                    }
+                                }
+                                transaction.Commit();
+                            }
+
+                        }
+
+                        Parameter RLevel = instance.LookupParameter("Reference Level");
+                        string RefLevel = RLevel.AsValueString();
+
+                        using (Transaction transaction = new Transaction(doc))
+                        {
+                            if (transaction.Start("Create") == TransactionStatus.Started)
+                            {
+                                FilteredElementCollector COLLFloor = new FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Floors).WhereElementIsNotElementType();
+                                foreach (Floor floorname in COLLFloor)
+                                {
+                                    Floor flr = (Floor)floorname;
+
+                                    Parameter width = floorname.get_Parameter(BuiltInParameter.STRUCTURAL_FLOOR_CORE_THICKNESS);
+                                    //string thickness = width.AsValueString();
+                                    double thickness = width.AsDouble();
+                                    //double feet = Convert.ToDouble(thickness);
+
+
+                                    string lvl = flr.LookupParameter("Level").AsValueString();
+                                    // string HightOffset = flr.LookupParameter("Height Offset From Level").AsValueString();
+                                    string HightOffset = "0";
+
+                                    Double Hgtoffset = Convert.ToDouble(HightOffset);
+                                    Double thick = Convert.ToDouble(thickness);
+
+                                    Double diffoffset = Hgtoffset - thick;
+
+                                    if (lvl.ToUpper() == RefLevel.ToString().ToUpper())
+                                    {
+
+                                        if (Hgtoffset == 0)
+                                        {
+                                            Parameter Startoffset = instance.LookupParameter("Start Level Offset");
+                                            Startoffset.Set(diffoffset);
+                                            Parameter Endoffset = instance.LookupParameter("End Level Offset");
+                                            Endoffset.Set(diffoffset);
+                                        }
+                                        else
+                                        {
+                                            Parameter Startoffset = instance.LookupParameter("Start Level Offset");
+                                            Startoffset.Set(diffoffset);
+                                            Parameter Endoffset = instance.LookupParameter("End Level Offset");
+                                            Endoffset.Set(diffoffset);
+                                        }
+
+
+                                    }
+                                }
+                                transaction.Commit();
+
+
+                            }
+                        }
+                    }
+
+                    TaskDialog.Show("2D-3D", "Beam Created");
+                }
+                #endregion Beams
+
+                #region Wall
+
+                if (rootElement.Element("CAP").Element("Walls") != null)
+                {
+                    //Run query
+                    var collWalls = rootElement.Element("CAP").Element("Walls").Elements().ToList();
+
+
+
+                    List<XYZ> wallcollpnt = new List<XYZ>();
+                    List<string[]> wallpnt = new List<string[]>();
+                    CurveArray wallprofile = new CurveArray();
+
+                    List<WallType> oWallTypes = new List<WallType>();
+                    List<WallType> newWallType = new List<WallType>();
+                    List<WallType> GenericWallTypes = new List<WallType>();
+                    oWallTypes = GetWallTypes(doc);
+                    //foreach (WallType wt in oWallTypes) if (wt.Name.Contains("Generic")) GenericWallTypes.Add(wt);
+
+                    foreach (var wallname in collWalls)
+                    {
+                        var lstle = wallname.Element("Level_Value");
+                        var lName = wallname.Element("Level_Name").Value.ToString();
+                        var lNo = wallname.Element("Level_Number").Value.ToString();
+                        var cPoints = wallname.Elements("cPoint");
+
+                        var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
+                        Level level = lvlcollection[0] as Level;
+
+                        foreach (string cPoint in cPoints)
+                        {
+                            string point = cPoint.Replace("<cPoint>", "").Replace("</cPoint>", "");
+                            myStrings = new[] { point };
+                            wallpnt.Add(myStrings);
+                        }
+                        foreach (string[] star in wallpnt)
+                        {
+                            string fltpnt = star[0].ToString();
+                            string[] point = fltpnt.Split(')');
+
+                            string Spoint = point[0].Replace("(", "");
+                            string Endpoint = point[1].Replace("(", ""); ;
+                            var height = point[2].Replace("(", "");
+                            var width = point[3].Replace("(", "");
+                            var walltype = point[4].Replace("(", "");
+
+
+                            foreach (WallType wt in oWallTypes) if (wt.Name.Contains(walltype)) GenericWallTypes.Add(wt);
+
+                            string[] start = Spoint.Split(',');
+                            string[] en = Endpoint.Split(',');
+                            double xa = Convert.ToDouble(start[0]);
+                            double ya = Convert.ToDouble(start[1]);
+                            double za = Convert.ToDouble(start[2]);
+
+
+                            double xb = Convert.ToDouble(en[0]);
+                            double yb = Convert.ToDouble(en[1]);
+                            double zb = Convert.ToDouble(en[2]);
+                            XYZ point_a = new XYZ(xa, ya, za);
+                            XYZ point_b = new XYZ(xb, yb, zb);
+
+                            Line line = Line.CreateBound(point_a, point_b);
+                            Wall wall;
+
+
+                            using (var transaction = new Transaction(doc))
+                            {
+                                transaction.Start("create walls");
+                                FailureHandlingOptions options = transaction.GetFailureHandlingOptions();
+                                MyPreProcessor preproccessor = new MyPreProcessor();
+                                options.SetClearAfterRollback(true);
+                                options.SetFailuresPreprocessor(preproccessor);
+                                transaction.SetFailureHandlingOptions(options);
+
+                                wall = Wall.Create(doc, line, level.Id, false);
+
+                                Parameter _area = wall.LookupParameter("Unconnected Height");
+                                _area.SetValueString(height);
+
+
+
+                                Element et = wall.Document.GetElement(wall.GetTypeId());
+
+                                Wall wallwidth = ((Wall)wall);
+
+
+                                foreach (WallType wt in oWallTypes)
+                                {
+
+                                    double nativeWitdh = wt.Width;
+                                    double milimeterWidth = UnitUtils.ConvertFromInternalUnits(nativeWitdh, UnitTypeId.Millimeters);
+
+                                    bool presentcolumn = true;
+                                    foreach (WallType wt1 in oWallTypes)
+                                    {
+
+                                        w = Convert.ToDouble(width);
+                                        _Wid = Math.Round((Double)w, 4);
+
+                                        _nativeWitdth = wt1.Width;
+                                        Double _wallTypeWid = Math.Round((Double)_nativeWitdth, 4);
+
+                                        if (_Wid == _wallTypeWid)
+                                        {
+                                            wall.ChangeTypeId(wt1.Id);
+                                            presentcolumn = false;
+                                        }
+                                    }
+
+                                    if (presentcolumn)
+                                    {
+
+                                        if (_Wid != milimeterWidth)
+                                        {
+
+                                            //foreach (WallType wtyp in GenericWallTypes)
+                                            //{
+
+                                            //    WallType newWallTyp = GenericWallTypes[0].Duplicate("Custom WallType" + Guid.NewGuid().ToString()) as WallType;
+                                            //    CompoundStructure cs = newWallTyp.GetCompoundStructure();
+                                            //    int i = cs.GetFirstCoreLayerIndex();
+
+                                            //    double thickness_to_set = Convert.ToDouble(width);
+
+                                            //    cs.SetLayerWidth(i, thickness_to_set);
+
+                                            //    newWallTyp.SetCompoundStructure(cs);
+
+                                            //    wall.ChangeTypeId(newWallTyp.Id);
+                                            //    oWallTypes.Add(newWallTyp);
+                                            //    break;
+                                            //}
+                                        }
+
+                                    }
+                                    goto skip;
+                                }
+                            skip:;
+
+                                doc.Regenerate();
+                                doc.AutoJoinElements();
+                                transaction.Commit();
+
+                            }
+                        }
+                        wallpnt.Clear();
+                    }
+
+                    TaskDialog.Show("2D-3D", "Wall Created");
+                }
+                #endregion Wall
+
+                #region Door
+
+                if (rootElement.Element("CAP").Element("Doors") != null)
+                {
+
+                    //var coldoor = rootElement.Element("CAP").Element("Doors").Elements().ToList();
 
 
 
 
+                    //List<string[]> doorspnt = new List<string[]>();
+
+                    //levelvalue = 1;
+                    //foreach (var doorname in coldoor)
+                    //{
+                    //    var lstle = doorname.Element("Level_Value");
+                    //    var lName = doorname.Element("Level_Name").Value.ToString();
+                    //    var lNo = doorname.Element("Level_Number").Value.ToString();
+                    //    var cPoints = doorname.Elements("cPoint");
+
+                    //    var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
+                    //    Level level = lvlcollection[0] as Level;
+
+                    //    Level levelname = (from lvl in new FilteredElementCollector(doc).OfClass(typeof(Level)).Cast<Level>() where (lvl.Name == level.Name) select lvl).First();
+
+                    //    foreach (string cPoint in cPoints)
+                    //    {
+                    //        string point = cPoint.Replace("<cPoint>", "").Replace("</cPoint>", "");
+                    //        myStrings = new[] { point };
+                    //        doorspnt.Add(myStrings);
+                    //    }
+
+                    //    foreach (string[] star in doorspnt)
+                    //    {
+                    //        string fltpnt = star[0].ToString();
+                    //        string[] point = fltpnt.Split(')');
+
+                    //        string location = point[0].Replace("(", "");
+                    //        var family = point[1].Replace("(", "");
+                    //        var type = point[2].Replace("(", "");
+
+                    //        FamilySymbol familySymbol = (from fs in new FilteredElementCollector(doc).OfClass(typeof(FamilySymbol)).Cast<FamilySymbol>()
+                    //                                     where (fs.Family.Name == family && fs.Name == type)
+                    //                                     select fs).First();
+
+
+                    //        FilteredElementCollector wallcollector = new FilteredElementCollector(doc);
+                    //        wallcollector.OfClass(typeof(Wall)); Wall wall = null;
+
+                    //        XYZ midpoint = null;
+
+                    //        foreach (Wall w in collector)
+                    //        {
+                    //            LocationCurve lc = w.Location as LocationCurve;
+                    //            Line line = lc.Curve as Line;
+                    //            XYZ p = line.GetEndPoint(0);
+                    //            XYZ q = line.GetEndPoint(1);
+                    //            XYZ v = q - p;
+                    //            midpoint = p + 0.5 * v;
+                    //            Parameter area = w.LookupParameter("Length");
+                    //            String length = area.AsValueString();
+                    //            //Parameter area = w.LookupParameter("Area");
+                    //            //double _area = area.AsDouble();
+                    //            //var _finalarea = string.Format("{0:0.00}", _area);
+                    //            //double finalarea = Convert.ToDouble(_finalarea);
+                    //            //if (finalarea == 45.06 || finalarea == 188.25)
+
+                    //            if (length == "26")
+                    //            {
+                    //                wall = w;
+                    //                using (Transaction t = new Transaction(doc, "Create Door"))
+                    //                {
+                    //                    t.Start();
+                    //                    if (!familySymbol.IsActive)
+                    //                    {
+                    //                        familySymbol.Activate();
+                    //                        doc.Regenerate();
+                    //                    }
+                    //                    FamilyInstance door = doc.Create.NewFamilyInstance(midpoint, familySymbol, wall, StructuralType.NonStructural);
+                    //                    t.Commit();
+                    //                }
+
+                    //            }
+
+                    //        }
+                    //    }
+                    //}
+                    //TaskDialog.Show("2D-3D", "Door Created");
+                }
+
+                #endregion Door
+
+                #region Window
+                if (rootElement.Element("CAP").Element("Windows") != null)
+                {
+                    var colWindows = rootElement.Element("CAP").Element("Windows").Elements().ToList();
+
+
+
+
+                    List<string[]> Windowspnt = new List<string[]>();
+
+                    levelvalue = 1;
+                    foreach (var Windowsname in colWindows)
+                    {
+                        var lstle = Windowsname.Element("Level_Value");
+                        var lName = Windowsname.Element("Level_Name").Value.ToString();
+                        var lNo = Windowsname.Element("Level_Number").Value.ToString();
+                        var cPoints = Windowsname.Elements("cPoint");
+
+                        var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
+                        Level level = lvlcollection[0] as Level;
+
+                        foreach (string cPoint in cPoints)
+                        {
+                            string point = cPoint.Replace("<cPoint>", "").Replace("</cPoint>", "");
+                            myStrings = new[] { point };
+                            Windowspnt.Add(myStrings);
+                        }
+
+                        foreach (string[] star in Windowspnt)
+                        {
+                            string fltpnt = star[0].ToString();
+                            string[] point = fltpnt.Split(')');
+
+                            string location = point[0].Replace("(", "");
+                            var family = point[1].Replace("(", "");
+                            var type = point[2].Replace("(", "");
+                            var offset = point[3].Replace("(", "");
+
+                            FamilySymbol familySymbol = (from fs in new FilteredElementCollector(doc).OfClass(typeof(FamilySymbol)).Cast<FamilySymbol>()
+                                                         where (fs.Family.Name == family && fs.Name == type)
+                                                         select fs).First();
+
+                            FilteredElementCollector wallcollector = new FilteredElementCollector(doc);
+                            wallcollector.OfClass(typeof(Wall)); Wall wall = null;
+
+                            XYZ midpoint = null;
+
+                            foreach (Wall w in wallcollector)
+                            {
+
+                                if (w.LevelId == level.Id)
+                                {
+                                    LocationCurve lc = w.Location as LocationCurve;
+                                    Line line = lc.Curve as Line;
+                                    XYZ p = line.GetEndPoint(0);
+                                    XYZ q = line.GetEndPoint(1);
+                                    XYZ v = q - p;
+                                    midpoint = p + 0.5 * v;
+
+                                    Parameter area = w.LookupParameter("Length");
+                                    String length = area.AsValueString();
+
+                                    //Parameter area = w.LookupParameter("Area");
+                                    //double _area = area.AsDouble();
+                                    //var _finalarea = string.Format("{0:0.00}", _area);
+                                    //double finalarea = Convert.ToDouble(_finalarea);
+
+
+                                    XYZ orgin = new XYZ(37.183281470, -0.470712638, -292.939016393);
+                                    if (length == "15")
+                                    {
+                                        wall = w;
+                                        using (Transaction t = new Transaction(doc, "Create Window"))
+                                        {
+                                            t.Start();
+                                            if (!familySymbol.IsActive)
+                                            {
+                                                familySymbol.Activate();
+                                                doc.Regenerate();
+                                            }
+                                            FamilyInstance Window = doc.Create.NewFamilyInstance(midpoint, familySymbol, wall, Autodesk.Revit.DB.Structure.StructuralType.NonStructural);
+
+                                            //Parameter sill = Window.LookupParameter("Sill Height");
+                                            //sill.SetValueString(offset);
+                                            t.Commit();
+
+                                        }
+                                        break;
+
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+
+                    TaskDialog.Show("2D-3D", "Window Created");
+                }
+                #endregion Window
+
+                #region Roofs
+                if (rootElement.Element("CAP").Element("Roofs") != null)
+                {
+                    var colroof = rootElement.Element("CAP").Element("Roofs").Elements().ToList();
+
+
+
+                    List<XYZ> collpnts = new List<XYZ>();
+                    List<string> collpntsting = new List<string>();
+                    List<string[]> roofpnt = new List<string[]>();
+                    CurveArray profile = new CurveArray();
+                    levelvalue = 1;
+                    foreach (var roofname in colroof)
+                    {
+                        var lstle = roofname.Element("Level_Value");
+                        var lName = roofname.Element("Level_Name").Value.ToString();
+                        var lNo = roofname.Element("Level_Number").Value.ToString();
+                        var cPoints = roofname.Elements("cPoint");
+                        var famly = roofname.Element("familyname").Value.ToString();
+                        var typ = roofname.Element("type").Value.ToString();
+                        var ange = roofname.Element("angle").Value.ToString();
+                        var ofst = roofname.Element("offset").Value.ToString();
+
+                        string family = famly.Replace("(", "").Replace(")", "");
+                        string type = typ.Replace("(", "").Replace(")", "");
+                        string angl = ange.Replace("(", "").Replace(")", "");
+                        string offset = ofst.Replace("(", "").Replace(")", "");
+
+
+                        Double angle = Convert.ToDouble(angl);
+
+                        var lvlcollection = colllevel.Where(_layer => _layer.Name == "Level " + lNo).Select(i => i).ToList();
+                        Level level = lvlcollection[0] as Level;
+
+                        foreach (string cPoint in cPoints)
+                        {
+                            string point = cPoint.Replace("<cPoint>", "").Replace("</cPoint>", "");
+                            myStrings = new[] { point };
+                            roofpnt.Add(myStrings);
+                        }
+
+                        foreach (string[] star in roofpnt)
+                        {
+                            string roof = star[0].ToString();
+                            string[] point = roof.Split(')');
+
+                            string pnt1 = point[0].Replace("(", "");
+                            string pnt2 = point[1].Replace("(", "");
+                            string pnt3 = point[2].Replace("(", "");
+                            string pnt4 = point[3].Replace("(", "");
+
+
+                            string[] points = roof.Split(')');
+
+                            foreach (string pnt in points)
+                            {
+                                string poits = pnt.Replace("(", "");
+                                collpntsting.Add(poits);
+
+                            }
+                            foreach (string pnt in collpntsting)
+                            {
+                                string[] p1 = pnt.Split(',');
+                                if (p1[0] != "")
+                                {
+                                    double a1 = Convert.ToDouble(p1[0]);
+                                    double b1 = Convert.ToDouble(p1[1]);
+                                    double c1 = Convert.ToDouble(p1[2]);
+                                    XYZ ptt1 = new XYZ(a1, b1, c1);
+
+                                    collpnts.Add(ptt1);
+                                }
+                            }
+
+
+
+                            for (int i = 0; i < collpnts.Count; i++)
+                            {
+                                Line line = Line.CreateBound(collpnts[i],
+                          collpnts[(i < collpnts.Count - 1) ? i + 1 : 0]);
+
+                                profile.Append(line);
+                            }
+
+
+
+                            RoofType rooft = new FilteredElementCollector(doc).OfClass(typeof(RoofType)).FirstOrDefault<Element>() as RoofType;
+
+
+                            Application application = doc.Application;
+                            CurveArray footprint = application.Create.NewCurveArray();
+
+                            FilteredElementCollector roofcollect = new FilteredElementCollector(doc);
+                            roofcollect = new FilteredElementCollector(doc);
+
+                            roofcollect.OfClass(typeof(RoofType));
+                            //RoofType roofTypee = roofcollect.Last() as RoofType;
+
+                            foreach (RoofType rt in roofcollect)
+                            {
+                                if (rt.FamilyName == family )
+                                {
+                                    RoofType rooftype = rt as RoofType;
+
+                                    ModelCurveArray footPrintToModelCurveMapping = new ModelCurveArray();
+
+                                    using (Transaction transaction = new Transaction(doc, "Place Roof"))
+                                    {
+                                        if (!transaction.HasStarted()) transaction.Start();
+
+                                        try
+                                        {
+                                            FootPrintRoof footprintRoof = doc.Create.NewFootPrintRoof(profile, level, rooftype, out footPrintToModelCurveMapping);
+
+                                            if (angle > 0)
+                                            {
+                                                foreach (ModelCurve curve in footPrintToModelCurveMapping)
+                                                {
+                                                    if (curve.GeometryCurve.Length > 25)
+                                                    {
+                                                        footprintRoof.set_DefinesSlope(curve, true);
+                                                        footprintRoof.set_SlopeAngle(curve, angle);
+                                                        Parameter BO = footprintRoof.LookupParameter("Base Offset From Level");
+                                                        BO.SetValueString(offset);
+                                                    }
+
+                                                }
+                                            }
+                                            else
+                                            {
+                                                foreach (ModelCurve curve in footPrintToModelCurveMapping)
+                                                {
+                                                    footprintRoof.set_DefinesSlope(curve, true);
+                                                    footprintRoof.set_SlopeAngle(curve, angle);
+                                                    Parameter BO = footprintRoof.LookupParameter("Base Offset From Level");
+                                                    BO.SetValueString(offset);
+
+                                                }
+
+                                            }
+
+                                        }
+                                        catch (Exception ex)
+                                        {
+
+                                        }
+                                        transaction.Commit();
+                                    }
+                                }
+                            }
+                            collpnts.Clear();
+                            collpntsting.Clear();
+                            profile.Clear();
+
+
+
+                        }
+                        roofpnt.Clear();
+                    }
+                    TaskDialog.Show("2D-3D", "Roof Created");
+                }
+                #endregion Roofs
+
+                // alternative(doc, colllevel, caplocation);
             }
 
             return Result.Succeeded;
         }
-
         public void alternative(Document doc, FilteredElementCollector colllevel, string caplocation)
         {
             Oldstartup oldstartup = new Oldstartup();
@@ -3391,7 +4478,7 @@ namespace ICAP
                 //}
 
             }
-            MessageBox.Show("Floor Placed", "2D-3D");
+            System.Windows.MessageBox.Show("Floor Placed", "2D-3D");
             #endregion Floor
 
             #region Beam
@@ -3424,7 +4511,7 @@ namespace ICAP
 
             }
             //wallgeomentry(doc);
-            MessageBox.Show("Wall Placed", "2D-3D");
+            // MessageBox.Show("Wall Placed", "2D-3D");
 
             #endregion Wall
             #region Roof
@@ -3642,7 +4729,7 @@ namespace ICAP
                     writetext.WriteLine(text);
                 }
             }
-            catch (Exception ex) { MessageBox.Show("ExportCap", "" + ex.Message + ex.StackTrace); }
+            catch (Exception ex) { System.Windows.MessageBox.Show("ExportCap", "" + ex.Message + ex.StackTrace); }
 
         }
         private static void DecFile(string filename)
@@ -3678,7 +4765,10 @@ namespace ICAP
                 }
 
             }
-            catch (Exception ex) { MessageBox.Show("ExportCap", "" + ex.Message + ex.StackTrace); }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ExportCap", "" + ex.Message + ex.StackTrace);
+            }
         }
         public static void deletelevel(Document document)
         {
@@ -3695,8 +4785,8 @@ namespace ICAP
                     elementsToBeDeleted.Add(element.Id);
                     deleted++;
                 }
-                //document.Delete(elementsToBeDeleted);
-                //transaction.Commit();
+                document.Delete(elementsToBeDeleted);
+                transaction.Commit();
             }
         }
         public class MyPreProcessor : IFailuresPreprocessor
